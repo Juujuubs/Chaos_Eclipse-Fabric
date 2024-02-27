@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "eclipse_do_caos",
+	"version": "${version}",
+	"name": "Eclipse do Caos",
+	"description": "Algumas coisas nunca deveriam ter saído de onde vieram.",
+	"authors": [
+		"Jubs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/eclipse_do_caos/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jubs.eclipsedocaos.EclipseDoCaos"
+		],
+		"client": [
+			"net.jubs.eclipsedocaos.EclipseDoCaosClient"
+		],
+		"fabric-datagen": [
+			"net.jubs.eclipsedocaos.EclipseDoCaosDataGenerator"
+		]
+	},
+	"mixins": [
+		"eclipse_do_caos.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

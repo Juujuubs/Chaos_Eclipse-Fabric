@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.jubs.eclipsedocaos.EclipseDoCaos"
+			"net.jubs.eclipse_do_caos.EclipseDoCaos"
 		],
 		"client": [
-			"net.jubs.eclipsedocaos.EclipseDoCaosClient"
+			"net.jubs.eclipse_do_caos.EclipseDoCaosClient"
 		],
 		"fabric-datagen": [
-			"net.jubs.eclipsedocaos.EclipseDoCaosDataGenerator"
+			"net.jubs.eclipse_do_caos.EclipseDoCaosDataGenerator"
 		]
 	},
 	"mixins": [

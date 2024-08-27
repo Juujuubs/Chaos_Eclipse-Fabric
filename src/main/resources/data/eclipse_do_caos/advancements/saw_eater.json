@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:saw_eater"
+    },
+    "title": "It Runs in the Family",
+    "description": "But What Even is a Family Anymore?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:artorias_despair",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:saw_eater"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

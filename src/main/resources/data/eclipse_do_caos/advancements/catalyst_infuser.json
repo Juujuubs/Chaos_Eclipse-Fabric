@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:catalyst_infuser"
+    },
+    "title": "In the End, She was the Last",
+    "description": "Try your ways through the Unknown",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:primordials",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "eclipse_do_caos:catalyst_infuser"
+      }
+    }
+  }
+}

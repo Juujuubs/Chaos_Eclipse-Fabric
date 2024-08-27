@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:eden_log"
+    },
+    "title": "Eden Entusiast",
+    "description": "So you like chopping Sacred Trees? Just like my old pal Vex",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:eden_log"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

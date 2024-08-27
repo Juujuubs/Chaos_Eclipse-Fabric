@@ -1,0 +1,6 @@
+{
+  "parent": "eclipse_do_caos:item/zora_bow",
+  "textures": {
+    "layer0": "eclipse_do_caos:item/zora_bow_pulling_0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "eclipse_do_caos:essence"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "minecraft:compass"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "ECE",
+    "#A#"
+  ],
+  "result": {
+    "item": "eclipse_do_caos:dels"
+  },
+  "show_notification": true
+}

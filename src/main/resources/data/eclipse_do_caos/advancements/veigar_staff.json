@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:veigar_staff"
+    },
+    "title": "Veigar Mercury?",
+    "description": "Weren't You a Warlock?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:frog",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:veigar_staff"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

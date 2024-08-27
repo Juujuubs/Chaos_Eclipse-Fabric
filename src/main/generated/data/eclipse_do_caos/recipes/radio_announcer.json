@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "eclipse_do_caos:essence"
+    },
+    "J": {
+      "item": "minecraft:jukebox"
+    }
+  },
+  "pattern": [
+    "###",
+    "#J#",
+    "###"
+  ],
+  "result": {
+    "item": "eclipse_do_caos:radio_announcer"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:eden_apple"
+    },
+    "title": "A Piece of Him",
+    "description": "The First One... without a purpose, it must have been cruel",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eclipse_do_caos:eden_log",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "eclipse_do_caos:eden_apple"
+          ]
+        }
+      }
+    }
+  }
+}

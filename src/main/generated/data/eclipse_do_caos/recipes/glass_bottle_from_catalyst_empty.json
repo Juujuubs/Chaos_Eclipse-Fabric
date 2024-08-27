@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eclipse_do_caos:catalyst_empty"
+    }
+  ],
+  "result": {
+    "count": 7,
+    "item": "minecraft:glass_bottle"
+  }
+}

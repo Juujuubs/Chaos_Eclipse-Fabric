@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eclipse_do_caos:block/radio_announcer"
+    },
+    "facing=south": {
+      "model": "eclipse_do_caos:block/radio_announcer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eclipse_do_caos:block/radio_announcer",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "eclipse_do_caos:block/radio_announcer",
+      "y": 90
+    }
+  }
+}

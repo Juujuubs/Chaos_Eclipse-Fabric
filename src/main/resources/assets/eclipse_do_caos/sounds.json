@@ -1,0 +1,375 @@
+{
+  "dels_found_essence": {
+    "subtitle": "sounds.eclipse_do_caos.dels_found_essence",
+    "sounds": [
+      "eclipse_do_caos:dels_found_essence"
+    ]
+  },
+  "eclipse_begins": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:eclipse_begins",
+        "stream": true
+      }
+    ]
+  },
+  "frog_use": {
+    "subtitle": "sounds.eclipse_do_caos.frog_use",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:frog_use"
+      }
+    ]
+  },
+"gust": {
+"subtitle": "sounds.eclipse_do_caos.gust",
+"sounds": [
+{
+"name": "eclipse_do_caos:gust"
+}
+]
+},
+  "fireball": {
+    "subtitle": "sounds.eclipse_do_caos.fireball",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:fireball"
+      }
+      ]
+},
+  "radio_sounds": {
+    "subtitle": "sounds.eclipse_do_caos.radio_sounds",
+    "sounds": [
+      "eclipse_do_caos:laugh1",
+      "eclipse_do_caos:laugh2",
+      "eclipse_do_caos:laugh3",
+      "eclipse_do_caos:laugh4",
+      "eclipse_do_caos:noise",
+      "eclipse_do_caos:anger",
+      "eclipse_do_caos:clapping"
+    ]
+  },
+  "invisible": {
+      "subtitle": "sounds.eclipse_do_caos.invisible",
+      "sounds": [
+        {
+          "name": "eclipse_do_caos:invisible"
+        }
+      ]
+  },
+  "defense": {
+    "subtitle": "sounds.eclipse_do_caos.defense",
+      "sounds": [
+    {
+      "name": "eclipse_do_caos:defense"
+      }
+    ]
+  },
+  "poison_bolt": {
+    "subtitle": "sounds.eclipse_do_caos.poison_bolt",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:poison_bolt"
+      }
+    ]
+  },
+  "lightning_strike": {
+    "subtitle": "sounds.eclipse_do_caos.lightning_strike",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:lightning_strike"
+      }
+    ]
+  },
+  "beans": {
+    "subtitle": "sounds.eclipse_do_caos.beans",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:beans"
+      }
+    ]
+  },
+  "rage": {
+    "subtitle": "sounds.eclipse_do_caos.rage",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:rage"
+      }
+    ]
+  },
+  "artorias_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:artorias_hit"
+      }
+    ]
+  },
+  "claws_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:claws_hit"
+      }
+    ]
+  },
+  "infuser_pot": {
+    "subtitle": "sounds.eclipse_do_caos.infuser_pot",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:infuser_pot"
+      }
+    ]
+  },
+  "quarterstaff_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:quarterstaff_hit"
+      }
+    ]
+  },
+  "helena_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:helena_hit"
+      }
+    ]
+  },
+  "scarlet_rampage": {
+    "subtitle": "sounds.eclipse_do_caos.scarlet_rampage",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:scarlet_rampage"
+      }
+    ]
+  },
+  "hilda_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:hilda_hit"
+      }
+    ]
+  },
+  "epicarp": {
+    "subtitle": "sounds.eclipse_do_caos.epicarp",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:epicarp"
+      }
+    ]
+  },
+  "diego_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:diego_hit"
+      }
+    ]
+  },
+  "adelante": {
+    "subtitle": "sounds.eclipse_do_caos.adelante",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:adelante"
+      }
+    ]
+  },
+  "akira_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:akira_hit"
+      }
+    ]
+  },
+  "torment": {
+    "subtitle": "sounds.eclipse_do_caos.torment",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:torment"
+      }
+    ]
+  },
+  "odin_dagger_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:odin_dagger_hit"
+      }
+    ]
+  },
+  "odin_vision": {
+    "subtitle": "sounds.eclipse_do_caos.odin_vision",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:odin_vision"
+      }
+    ]
+  },
+  "sai_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:sai_hit"
+      }
+    ]
+  },
+  "mishap": {
+    "subtitle": "sounds.eclipse_do_caos.mishap",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:mishap"
+      }
+    ]
+  },
+  "flow": {
+    "subtitle": "sounds.eclipse_do_caos.flow",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:flow"
+      }
+    ]
+  },
+  "vine_trap": {
+    "subtitle": "sounds.eclipse_do_caos.vine_trap",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:vine_trap"
+      }
+    ]
+  },
+  "possessed_chaos": {
+    "subtitle": "sounds.eclipse_do_caos.possessed_chaos",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:possessed_chaos"
+      }
+    ]
+  },
+  "soul_alteration": {
+    "subtitle": "sounds.eclipse_do_caos.soul_alteration",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:soul_alteration"
+      }
+    ]
+  },
+  "cannonball_blast": {
+    "subtitle": "sounds.eclipse_do_caos.cannonball_blast",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:cannonball_blast"
+      }
+    ]
+  },
+  "empty_cannon": {
+    "subtitle": "sounds.eclipse_do_caos.empty_cannon",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:empty_cannon"
+      }
+    ]
+  },
+  "empty_bean_sack": {
+    "subtitle": "sounds.eclipse_do_caos.empty_bean_sack",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:empty_bean_sack"
+      }
+    ]
+  },
+  "zora_bow_fire": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:zora_bow_shot"
+      }
+    ]
+  },
+  "saw_eater_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:saw_eater_hit"
+      }
+    ]
+  },
+  "saw_eater_slasher": {
+    "subtitle": "sounds.eclipse_do_caos.saw_eater_slasher",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:saw_eater_slasher"
+      }
+    ]
+  },
+  "samara_sounds": {
+    "subtitle": "sounds.eclipse_do_caos.samara_sounds",
+    "sounds": [
+      "eclipse_do_caos:samara_woof",
+      "eclipse_do_caos:samara_meow1",
+      "eclipse_do_caos:samara_meow2",
+      "eclipse_do_caos:samara_cute"
+    ]
+  },
+  "ladon_dragon_glaive_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:ladon_dragon_glaive_hit"
+      }
+    ]
+  },
+  "levitate": {
+    "subtitle": "sounds.eclipse_do_caos.levitate",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:levitate"
+      }
+    ]
+  },
+  "erak_battleaxe_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:erak_battleaxe_hit"
+      }
+    ]
+  },
+  "tremor": {
+    "subtitle": "sounds.eclipse_do_caos.tremor",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:tremor"
+      }
+    ]
+  },
+  "crossing_spell": {
+    "subtitle": "sounds.eclipse_do_caos.crossing_spell",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:crossing_spell"
+      }
+    ]
+  },
+  "gauntlet_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:gauntlet_hit"
+      }
+    ]
+  },
+  "gauntlet_power": {
+    "subtitle": "sounds.eclipse_do_caos.gauntlet_power",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:gauntlet_power"
+      }
+    ]
+  },
+  "norr_forr_hammer_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:norr_forr_hammer_hit"
+      }
+    ]
+  },
+  "accurse": {
+    "subtitle": "sounds.eclipse_do_caos.accurse",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:accurse"
+      }
+    ]
+  }
+}
+

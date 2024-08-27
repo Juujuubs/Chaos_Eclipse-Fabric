@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:gauntlet"
+    },
+    "title": "It Takes a Formidable Power",
+    "description": "Is This the Talking One?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eclipse_do_caos:catalyst",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:gauntlet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

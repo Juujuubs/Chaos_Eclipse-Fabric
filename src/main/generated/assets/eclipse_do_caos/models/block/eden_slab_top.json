@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "eclipse_do_caos:block/eden_planks",
+    "side": "eclipse_do_caos:block/eden_planks",
+    "top": "eclipse_do_caos:block/eden_planks"
+  }
+}

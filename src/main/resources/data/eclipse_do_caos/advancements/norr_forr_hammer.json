@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:norr_forr_hammer"
+    },
+    "title": "Melodram's Impostor",
+    "description": "If he Hadn't Run Away",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:novus_grimoire",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:norr_forr_hammer"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

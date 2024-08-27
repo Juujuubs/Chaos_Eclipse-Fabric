@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    {
+      "item": "minecraft:netherite_axe"
+    },
+    {
+      "item": "minecraft:netherite_shovel"
+    },
+    {
+      "item": "eclipse_do_caos:essence_block"
+    }
+  ],
+  "result": {
+    "item": "eclipse_do_caos:essence_paxel"
+  }
+}

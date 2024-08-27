@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:ladon_dragon_glaive"
+    },
+    "title": "The Dragon Hunter",
+    "description": "It Takes a Sip to Save a World",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:asgore_grimoire",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:ladon_dragon_glaive"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "eclipse_do_caos:block/eden_planks"
+  }
+}

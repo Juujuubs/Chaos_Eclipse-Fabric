@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "eclipse_do_caos:essence_ore_block",
+    "eclipse_do_caos:essence_block",
+    "eclipse_do_caos:radio_announcer",
+    "eclipse_do_caos:bromeliad",
+    "eclipse_do_caos:potted_bromeliad",
+    "eclipse_do_caos:eden_log",
+    "eclipse_do_caos:eden_wood",
+    "eclipse_do_caos:stripped_eden_log",
+    "eclipse_do_caos:stripped_eden_wood",
+    "eclipse_do_caos:samara_plushie",
+    "eclipse_do_caos:eden_sapling",
+    "eclipse_do_caos:potted_eden_sapling",
+    "eclipse_do_caos:catalyst_infuser"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "essence",
+  "ingredient": {
+    "item": "eclipse_do_caos:essence_ore_block"
+  },
+  "result": "eclipse_do_caos:essence"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "eclipse_do_caos:block/samara_plushie"
+    },
+    "facing=south": {
+      "model": "eclipse_do_caos:block/samara_plushie",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eclipse_do_caos:block/samara_plushie",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "eclipse_do_caos:block/samara_plushie",
+      "y": 90
+    }
+  }
+}

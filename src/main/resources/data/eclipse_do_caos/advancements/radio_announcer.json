@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:radio_announcer"
+    },
+    "title": "7 Days until the End",
+    "description": "Appreciate it while you Can",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "eclipse_do_caos:radio_announcer"
+      }
+    }
+  }
+}

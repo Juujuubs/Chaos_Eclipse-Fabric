@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:contract"
+    },
+    "title": "The Four Primordials",
+    "description": "The Devil's Advocate",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:goblin_eye"
+            ]
+          },
+          {
+            "items": [
+              "eclipse_do_caos:devil_horn"
+            ]
+          },
+          {
+            "items": [
+              "eclipse_do_caos:elf_ear"
+            ]
+          },
+          {
+            "items": [
+              "eclipse_do_caos:human_tooth"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

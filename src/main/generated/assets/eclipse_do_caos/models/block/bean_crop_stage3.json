@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "eclipse_do_caos:block/bean_crop_stage3"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:erak_battleaxe"
+    },
+    "title": "War Fugitive",
+    "description": "There is Still Time to Be in Peace",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:essence_block",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:erak_battleaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+I spent 7 months making this, it started just as a fun little project because i was interested in modelling things from my
+RPG, almost gave up because i clearly wasn't learning to code as much as i wish and i was stressing out, even it not
+being the hardest thing ever to make for many, for me it was really difficult to learn to code and resolve problems.
+But the Mod was only possible because of the Players from my RPG, my dearest friends, whom kept cheering me up.
+
+
+# Attributions:
+Kaupenjoe and his tutorials were the best place to learn, this was only possible because of his courses, thank you so much!
+I even bought the Courses to give you more support!
+Under the MIT License
+- https://www.youtube.com/@ModdingByKaupenjoe
+- https://www.youtube.com/playlist?list=PLKGarocXCE1EO43Dlf5JGh7Yk-kRAXUEJ
+
+I used as a Reference for the Beloria Painting, the Luphie Frogman Washington Painting from the Mod Cluttered by beelake
+Under the MIT License
+- https://modrinth.com/mod/cluttered
+
+Pallis' Shield and Zora's Bow were only made correctly because of Mekanism and RepsEverythingMod
+Under the MIT License
+- https://github.com/Mekanism-Fabric/Mekanism/blob/main/LICENSE
+- https://github.com/Repook/repseverythingmod-1.20.4/blob/master/LICENSE
+
+Most of the Sound Effects come from FreeSound and all of them come from the CC0 License
+Under the Creative Commons 0 License
+- https://creativecommons.org/publicdomain/zero/1.0/

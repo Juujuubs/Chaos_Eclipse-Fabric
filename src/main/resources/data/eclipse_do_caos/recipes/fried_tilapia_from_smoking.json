@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "fried_tilapia",
+  "ingredient": {
+    "item": "eclipse_do_caos:tilapia"
+  },
+  "result": "eclipse_do_caos:fried_tilapia"
+}

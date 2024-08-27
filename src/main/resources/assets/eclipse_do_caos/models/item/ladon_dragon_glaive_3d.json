@@ -1,0 +1,172 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "eclipse_do_caos:item/ladon_dragon_glaive_3d",
+		"particle": "eclipse_do_caos:item/ladon_dragon_glaive"
+	},
+	"elements": [
+		{
+			"name": "Lamina",
+			"from": [8, 14.9, 4.75],
+			"to": [8, 21.9, 11.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 14.9, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 3.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 3.25, 3.5], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 3.5], "texture": "#0"},
+				"west": {"uv": [0, 3.5, 3.25, 7], "texture": "#0"},
+				"up": {"uv": [0, 3.25, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 3.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Enfeite Topo",
+			"from": [7.4, 14.9, 7.4],
+			"to": [8.6, 15.4, 8.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 14.9, 7]},
+			"faces": {
+				"north": {"uv": [3, 7, 3.625, 7.25], "texture": "#0"},
+				"east": {"uv": [4, 7, 4.625, 7.25], "texture": "#0"},
+				"south": {"uv": [5, 7, 5.625, 7.25], "texture": "#0"},
+				"west": {"uv": [6, 7, 6.625, 7.25], "texture": "#0"},
+				"up": {"uv": [6.125, 6.625, 5.5, 6], "texture": "#0"},
+				"down": {"uv": [7.125, 0, 6.5, 0.625], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Enfeite Meio",
+			"from": [7.25, 11.15, 7.25],
+			"to": [8.75, 14.9, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 13.9, 7]},
+			"faces": {
+				"north": {"uv": [3.5, 5, 4.25, 6.875], "texture": "#0"},
+				"east": {"uv": [4.5, 5, 5.25, 6.875], "texture": "#0"},
+				"south": {"uv": [5.5, 0, 6.25, 1.875], "texture": "#0"},
+				"west": {"uv": [5.5, 2, 6.25, 3.875], "texture": "#0"},
+				"up": {"uv": [6.25, 4.75, 5.5, 4], "texture": "#0"},
+				"down": {"uv": [6.25, 5, 5.5, 5.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Enfeite Baixo",
+			"from": [7.4, 10.65, 7.4],
+			"to": [8.6, 11.15, 8.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 10.65, 7]},
+			"faces": {
+				"north": {"uv": [7, 7, 7.625, 7.25], "texture": "#0"},
+				"east": {"uv": [7.5, 0, 8.125, 0.25], "texture": "#0"},
+				"south": {"uv": [7.5, 0.5, 8.125, 0.75], "texture": "#0"},
+				"west": {"uv": [7.5, 1, 8.125, 1.25], "texture": "#0"},
+				"up": {"uv": [7.125, 1.625, 6.5, 1], "texture": "#0"},
+				"down": {"uv": [7.125, 2, 6.5, 2.625], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Separador",
+			"from": [7.55, 7.35, 7.55],
+			"to": [8.45, 7.65, 8.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 7.15, 7]},
+			"faces": {
+				"north": {"uv": [7.5, 2, 8, 2.125], "texture": "#0"},
+				"east": {"uv": [2.5, 7.5, 3, 7.625], "texture": "#0"},
+				"south": {"uv": [7.5, 2.5, 8, 2.625], "texture": "#0"},
+				"west": {"uv": [3, 7.5, 3.5, 7.625], "texture": "#0"},
+				"up": {"uv": [2.5, 7.5, 2, 7], "texture": "#0"},
+				"down": {"uv": [3, 7, 2.5, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Cabo",
+			"from": [7.65, 1.15, 7.65],
+			"to": [8.35, 10.65, 8.35],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 1.15, 7]},
+			"faces": {
+				"north": {"uv": [3.5, 0, 3.875, 4.75], "texture": "#0"},
+				"east": {"uv": [4, 0, 4.375, 4.75], "texture": "#0"},
+				"south": {"uv": [4.5, 0, 4.875, 4.75], "texture": "#0"},
+				"west": {"uv": [5, 0, 5.375, 4.75], "texture": "#0"},
+				"up": {"uv": [7.875, 1.875, 7.5, 1.5], "texture": "#0"},
+				"down": {"uv": [2.375, 7.5, 2, 7.875], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Ponta",
+			"from": [7.4, 0, 7.4],
+			"to": [8.6, 1.2, 8.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -0.15, 7]},
+			"faces": {
+				"north": {"uv": [6.5, 3, 7.125, 3.625], "texture": "#0"},
+				"east": {"uv": [6.5, 4, 7.125, 4.625], "texture": "#0"},
+				"south": {"uv": [6.5, 5, 7.125, 5.625], "texture": "#0"},
+				"west": {"uv": [6.5, 6, 7.125, 6.625], "texture": "#0"},
+				"up": {"uv": [0.625, 7.625, 0, 7], "texture": "#0"},
+				"down": {"uv": [1.625, 7, 1, 7.625], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, 1.75],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, 1.75],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [3, 32, 0],
+			"translation": [1.5, -0.5, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [3, 32, 0],
+			"translation": [1.5, -0.5, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"ground": {
+			"rotation": [-45, 0, 0],
+			"translation": [0, 4.5, 0]
+		},
+		"gui": {
+			"rotation": [-51, 36, 63],
+			"translation": [1.5, -1.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"rotation": [-66.5, 0, 0],
+			"translation": [0, 0, 30.75],
+			"scale": [3, 3, 3]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [0, -2.5, -0.75],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	},
+	"groups": [
+		{
+			"name": "Corpo",
+			"origin": [7, -0.15, 7],
+			"color": 0,
+			"nbt": "{}",
+			"children": [
+				0,
+				{
+					"name": "Enfeite",
+					"origin": [7, -0.15, 7],
+					"color": 0,
+					"nbt": "{}",
+					"children": [1, 2, 3]
+				},
+				{
+					"name": "Cabo Inteiro",
+					"origin": [7, -0.15, 7],
+					"color": 0,
+					"nbt": "{}",
+					"children": [4, 5, 6]
+				}
+			]
+		}
+	]
+}

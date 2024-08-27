@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dried_kelp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dried_kelp"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:sushi_tilapia"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tilapia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:tilapia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tilapia",
+      "has_dried_kelp",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:sushi_tilapia"
+    ]
+  },
+  "sends_telemetry_event": false
+}

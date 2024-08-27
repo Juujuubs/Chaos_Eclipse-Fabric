@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:eclipse_begins_music_disc"
+    },
+    "title": "Self-Titled",
+    "description": "It's in the Title",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:eclipse_begins_music_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

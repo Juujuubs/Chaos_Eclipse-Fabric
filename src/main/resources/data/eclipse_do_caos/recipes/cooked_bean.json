@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 350,
+  "experience": 0.15,
+  "group": "cooked_bean",
+  "ingredient": {
+    "item": "eclipse_do_caos:bean"
+  },
+  "result": "eclipse_do_caos:cooked_bean"
+}

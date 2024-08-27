@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:ticket_deluxe_arcanumrails"
+    },
+    "title": "Ride and Chill",
+    "description": "Didn't Belaios Ban You?",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eclipse_do_caos:vox",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:ticket_deluxe_arcanumrails"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "eclipse_do_caos:item/quarterstaff_3d",
+		"particle": "eclipse_do_caos:item/quarterstaff"
+	},
+	"elements": [
+		{
+			"name": "Haste",
+			"from": [7, 0, 7],
+			"to": [9, 32, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#0"},
+				"east": {"uv": [1, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [2, 0, 3, 16], "texture": "#0"},
+				"west": {"uv": [3, 0, 4, 16], "texture": "#0"},
+				"up": {"uv": [5, 7, 4, 6], "texture": "#0"},
+				"down": {"uv": [6, 6, 5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Anel Cima Superior",
+			"from": [6.7, 30, 6.7],
+			"to": [9.3, 31, 9.3],
+			"faces": {
+				"north": {"uv": [6, 6, 7.25, 6.5], "texture": "#0"},
+				"east": {"uv": [6, 6.5, 7.25, 7], "texture": "#0"},
+				"south": {"uv": [7, 0, 8.25, 0.5], "texture": "#0"},
+				"west": {"uv": [7, 0.5, 8.25, 1], "texture": "#0"},
+				"up": {"uv": [5.25, 1.25, 4, 0], "texture": "#0"},
+				"down": {"uv": [5.25, 1.5, 4, 2.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Anel Cima Inferior",
+			"from": [6.7, 28, 6.7],
+			"to": [9.3, 29, 9.3],
+			"faces": {
+				"north": {"uv": [7, 1, 8.25, 1.5], "texture": "#0"},
+				"east": {"uv": [7, 1.5, 8.25, 2], "texture": "#0"},
+				"south": {"uv": [7, 2, 8.25, 2.5], "texture": "#0"},
+				"west": {"uv": [7, 2.5, 8.25, 3], "texture": "#0"},
+				"up": {"uv": [5.25, 4.25, 4, 3], "texture": "#0"},
+				"down": {"uv": [5.25, 4.5, 4, 5.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Anel Baixo Superior",
+			"from": [6.7, 3, 6.7],
+			"to": [9.3, 4, 9.3],
+			"faces": {
+				"north": {"uv": [7, 4.5, 8.25, 5], "texture": "#0"},
+				"east": {"uv": [7, 5, 8.25, 5.5], "texture": "#0"},
+				"south": {"uv": [5.5, 7, 6.75, 7.5], "texture": "#0"},
+				"west": {"uv": [7, 5.5, 8.25, 6], "texture": "#0"},
+				"up": {"uv": [6.75, 4.25, 5.5, 3], "texture": "#0"},
+				"down": {"uv": [6.75, 4.5, 5.5, 5.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Anel Baixo Inferior",
+			"from": [6.7, 1, 6.7],
+			"to": [9.3, 2, 9.3],
+			"faces": {
+				"north": {"uv": [7, 3, 8.25, 3.5], "texture": "#0"},
+				"east": {"uv": [7, 3.5, 8.25, 4], "texture": "#0"},
+				"south": {"uv": [4, 7, 5.25, 7.5], "texture": "#0"},
+				"west": {"uv": [7, 4, 8.25, 4.5], "texture": "#0"},
+				"up": {"uv": [6.75, 1.25, 5.5, 0], "texture": "#0"},
+				"down": {"uv": [6.75, 1.5, 5.5, 2.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [68, 0, 0],
+			"translation": [0, -2, -5.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [65, 0, 0],
+			"translation": [0, -2, -5.25]
+		},
+		"firstperson_righthand": {
+			"translation": [2.5, -10, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.5, -10, 0]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [16, 180, 45],
+			"translation": [-3.6, -3.5, 0],
+			"scale": [1, 0.64, 1]
+		},
+		"head": {
+			"rotation": [0, 0, -90],
+			"translation": [-7, 8.25, 0]
+		},
+		"fixed": {
+			"translation": [0, -4.8, -0.5],
+			"scale": [1, 0.6, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "Corpo",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [
+				0,
+				{
+					"name": "Aneis",
+					"origin": [0, 0, 0],
+					"color": 0,
+					"children": [1, 2, 3, 4]
+				}
+			]
+		}
+	]
+}

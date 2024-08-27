@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "eclipse_do_caos:eden_planks"
+    }
+  ],
+  "result": {
+    "item": "eclipse_do_caos:eden_button"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "minecraft:beef"
+    },
+    "D": {
+      "item": "eclipse_do_caos:devil_horn"
+    },
+    "E": {
+      "item": "eclipse_do_caos:essence"
+    },
+    "G": {
+      "item": "eclipse_do_caos:goblin_eye"
+    },
+    "H": {
+      "item": "eclipse_do_caos:human_tooth"
+    },
+    "L": {
+      "item": "eclipse_do_caos:elf_ear"
+    }
+  },
+  "pattern": [
+    "EHE",
+    "LBG",
+    "EDE"
+  ],
+  "result": {
+    "item": "eclipse_do_caos:samara_plushie"
+  },
+  "show_notification": true
+}

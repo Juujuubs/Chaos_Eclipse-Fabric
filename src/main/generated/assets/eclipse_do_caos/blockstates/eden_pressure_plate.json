@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "eclipse_do_caos:block/eden_pressure_plate"
+    },
+    "powered=true": {
+      "model": "eclipse_do_caos:block/eden_pressure_plate_down"
+    }
+  }
+}

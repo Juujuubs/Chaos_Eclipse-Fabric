@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eclipse_do_caos:human_tooth"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone_meal"
+  }
+}

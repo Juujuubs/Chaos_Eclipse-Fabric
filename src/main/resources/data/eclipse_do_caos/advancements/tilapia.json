@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:tilapia"
+    },
+    "title": "Tur, give me Two Tilapias!",
+    "description": "Never ask for Two Tilapias in a row",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:tilapia"
+            ],
+            "count": 2
+          }
+        ]
+      }
+    }
+  }
+}

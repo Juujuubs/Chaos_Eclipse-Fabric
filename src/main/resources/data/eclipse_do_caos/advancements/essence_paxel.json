@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:essence_paxel"
+    },
+    "title": "Her Favorite",
+    "description": "That Dimension Has Its Favorites",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "eclipse_do_caos:essence_paxel"
+      }
+    }
+  }
+}

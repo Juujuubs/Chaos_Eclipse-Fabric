@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "eclipse_do_caos:quarterstaff",
+    "eclipse_do_caos:old_grimoire",
+    "eclipse_do_caos:grimoire",
+    "eclipse_do_caos:frog",
+    "eclipse_do_caos:catalyst",
+    "eclipse_do_caos:claws",
+    "eclipse_do_caos:pallis_shield",
+    "eclipse_do_caos:asgore_grimoire",
+    "eclipse_do_caos:beans_sack",
+    "eclipse_do_caos:artorias_despair",
+    "eclipse_do_caos:helena_baseball_bat",
+    "eclipse_do_caos:hilda_scythe",
+    "eclipse_do_caos:diego_rapier",
+    "eclipse_do_caos:akira_katana",
+    "eclipse_do_caos:odin_dagger",
+    "eclipse_do_caos:sai",
+    "eclipse_do_caos:veigar_staff",
+    "eclipse_do_caos:qraz_staff",
+    "eclipse_do_caos:sylveria_staff",
+    "eclipse_do_caos:novus_grimoire",
+    "eclipse_do_caos:carson_cannon",
+    "eclipse_do_caos:saw_eater",
+    "eclipse_do_caos:ladon_dragon_glaive",
+    "eclipse_do_caos:erak_battleaxe",
+    "eclipse_do_caos:belaios_wand",
+    "eclipse_do_caos:gauntlet",
+    "eclipse_do_caos:norr_forr_hammer",
+    "eclipse_do_caos:zora_bow"
+  ]
+}

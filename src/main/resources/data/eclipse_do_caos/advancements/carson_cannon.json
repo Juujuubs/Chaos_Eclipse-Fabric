@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:carson_cannon"
+    },
+    "title": "Bang! Bang! 20!",
+    "description": "What do you Mean you did a Grind in the Handrail with a Wheelchair?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:essence_block",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:carson_cannon"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

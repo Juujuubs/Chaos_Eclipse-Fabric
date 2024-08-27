@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:samara_plushie"
+    },
+    "title": "A Symbol of Love",
+    "description": "To Know What She is Capable Of, is To Let Her Go",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:quarterstaff",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "eclipse_do_caos:samara_plushie"
+      }
+    }
+  }
+}

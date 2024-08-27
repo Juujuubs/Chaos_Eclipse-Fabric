@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 175,
+  "experience": 0.10,
+  "group": "cooked_bean",
+  "ingredient": {
+    "item": "eclipse_do_caos:bean"
+  },
+  "result": "eclipse_do_caos:cooked_bean"
+}

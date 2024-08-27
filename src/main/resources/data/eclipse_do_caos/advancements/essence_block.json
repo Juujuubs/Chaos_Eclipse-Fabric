@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:essence_block"
+    },
+    "title": "Chaos' Favorite",
+    "description": "Never ask what he did to The Fright",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "eclipse_do_caos:essence_block"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "eclipse_do_caos:catalyst_empty"
+    },
+    "B": {
+      "item": "minecraft:chest"
+    },
+    "C": {
+      "item": "minecraft:cauldron"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "J": {
+      "item": "eclipse_do_caos:essence"
+    },
+    "L": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "G#C",
+    "BJP",
+    "SLS"
+  ],
+  "result": {
+    "item": "eclipse_do_caos:catalyst_infuser"
+  },
+  "show_notification": true
+}

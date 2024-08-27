@@ -1,0 +1,171 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "eclipse_do_caos:item/belaios_wand_3d",
+		"particle": "eclipse_do_caos:item/belaios_wand"
+	},
+	"elements": [
+		{
+			"name": "Cima",
+			"from": [7.5, 0.9, 1],
+			"to": [8.5, 1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -1, 6]},
+			"faces": {
+				"north": {"uv": [3, 0, 4, 0.25], "texture": "#0"},
+				"east": {"uv": [7, 8, 14, 8.25], "texture": "#0"},
+				"south": {"uv": [3, 1, 4, 1.25], "texture": "#0"},
+				"west": {"uv": [9, 1, 16, 1.25], "texture": "#0"},
+				"up": {"uv": [1, 7, 0, 0], "texture": "#0"},
+				"down": {"uv": [2, 0, 1, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Direita",
+			"from": [8.4, 0.1, 1],
+			"to": [8.5, 0.9, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.45, 0.4, 4.5]},
+			"faces": {
+				"north": {"uv": [5, 0, 5.25, 0.75], "texture": "#0"},
+				"east": {"uv": [7, 7, 14, 7.75], "texture": "#0"},
+				"south": {"uv": [5, 1, 5.25, 1.75], "texture": "#0"},
+				"west": {"uv": [8, 0, 15, 0.75], "texture": "#0"},
+				"up": {"uv": [2.25, 16, 2, 9], "texture": "#0"},
+				"down": {"uv": [3.25, 9, 3, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Esquerda",
+			"from": [7.5, 0.1, 1],
+			"to": [7.6, 0.9, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.55, 0.4, 4.5]},
+			"faces": {
+				"north": {"uv": [6, 0, 6.25, 0.75], "texture": "#0"},
+				"east": {"uv": [8, 5, 15, 5.75], "texture": "#0"},
+				"south": {"uv": [6, 1, 6.25, 1.75], "texture": "#0"},
+				"west": {"uv": [8, 6, 15, 6.75], "texture": "#0"},
+				"up": {"uv": [4.25, 16, 4, 9], "texture": "#0"},
+				"down": {"uv": [5.25, 9, 5, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Frente",
+			"from": [7.6, 0.1, 1],
+			"to": [8.4, 0.9, 1.075],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -1.65, 6]},
+			"faces": {
+				"north": {"uv": [2, 0, 2.75, 0.75], "texture": "#0"},
+				"east": {"uv": [9, 4, 9.25, 4.75], "texture": "#0"},
+				"south": {"uv": [2, 1, 2.75, 1.75], "texture": "#0"},
+				"west": {"uv": [6, 9, 6.25, 9.75], "texture": "#0"},
+				"up": {"uv": [7.75, 9.25, 7, 9], "texture": "#0"},
+				"down": {"uv": [8.75, 9, 8, 9.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Baixo",
+			"from": [7.5, 0, 1],
+			"to": [8.5, 0.1, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -1.9, 6]},
+			"faces": {
+				"north": {"uv": [4, 0, 5, 0.25], "texture": "#0"},
+				"east": {"uv": [9, 2, 16, 2.25], "texture": "#0"},
+				"south": {"uv": [4, 1, 5, 1.25], "texture": "#0"},
+				"west": {"uv": [9, 3, 16, 3.25], "texture": "#0"},
+				"up": {"uv": [1, 14, 0, 7], "texture": "#0"},
+				"down": {"uv": [2, 7, 1, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Cabo",
+			"from": [7.5, 0, 8],
+			"to": [8.5, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 0, 10]},
+			"faces": {
+				"north": {"uv": [7, 0, 8, 1], "texture": "#0"},
+				"east": {"uv": [2, 2, 6, 3], "texture": "#0"},
+				"south": {"uv": [7, 1, 8, 2], "texture": "#0"},
+				"west": {"uv": [2, 3, 6, 4], "texture": "#0"},
+				"up": {"uv": [3, 8, 2, 4], "texture": "#0"},
+				"down": {"uv": [4, 4, 3, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Dentro Cima",
+			"from": [7.675, 0.175, 2],
+			"to": [8.325, 0.825, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 0, 3]},
+			"faces": {
+				"north": {"uv": [3, 8, 3.75, 8.75], "texture": "#0"},
+				"east": {"uv": [6, 2, 9, 2.75], "texture": "#0"},
+				"south": {"uv": [8, 4, 8.75, 4.75], "texture": "#0"},
+				"west": {"uv": [6, 3, 9, 3.75], "texture": "#0"},
+				"up": {"uv": [6.75, 9, 6, 6], "texture": "#0"},
+				"down": {"uv": [7.75, 4, 7, 7], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 4, 11.25],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 4, 11.25],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"firstperson_righthand": {
+			"rotation": [82, 0, 0],
+			"translation": [2, 5.75, 9.25],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [82, 0, 0],
+			"translation": [2, 5.75, 9.25],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"ground": {
+			"rotation": [38, 0, 0],
+			"translation": [0, 8.25, 3.5],
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"gui": {
+			"rotation": [63, 35, -55],
+			"translation": [9.5, 6.25, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"head": {
+			"rotation": [45, 0, 0],
+			"translation": [0, 13.5, 2],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -2.5, 11],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	},
+	"groups": [
+		{
+			"name": "Corpo",
+			"origin": [7.5, 0, 10],
+			"color": 0,
+			"children": [
+				{
+					"name": "Vidro",
+					"origin": [8.45, 0.4, 4.5],
+					"color": 0,
+					"children": [0, 1, 2, 3, 4]
+				},
+				5,
+				{
+					"name": "Dentro do Vidro",
+					"origin": [7.5, 0, 6],
+					"color": 0,
+					"children": [6]
+				}
+			]
+		}
+	]
+}

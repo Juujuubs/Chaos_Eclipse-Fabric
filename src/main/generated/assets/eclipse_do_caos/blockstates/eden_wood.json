@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "eclipse_do_caos:block/eden_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "eclipse_do_caos:block/eden_wood"
+    },
+    "axis=z": {
+      "model": "eclipse_do_caos:block/eden_wood",
+      "x": 90
+    }
+  }
+}

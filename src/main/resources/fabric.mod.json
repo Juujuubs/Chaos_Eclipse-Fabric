@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "eclipse_do_caos",
 	"version": "${version}",
-	"name": "Eclipse do Caos",
-	"description": "Algumas coisas nunca deveriam ter saído de onde vieram.",
+	"name": "Chaos Eclipse",
+	"description": "Some things should never have left where they came from.",
 	"authors": [
 		"Jubs"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "ARR",
 	"icon": "assets/eclipse_do_caos/icon.png",
 	"environment": "*",
 	"entrypoints": {

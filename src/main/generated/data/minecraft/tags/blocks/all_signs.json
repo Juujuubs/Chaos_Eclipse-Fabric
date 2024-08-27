@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "eclipse_do_caos:eden_sign",
+    "eclipse_do_caos:eden_wall_sign",
+    "eclipse_do_caos:eden_hanging_sign",
+    "eclipse_do_caos:eden_hanging_wall_sign"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "eclipse_do_caos:block/eden_door_bottom",
+    "top": "eclipse_do_caos:block/eden_door_top"
+  }
+}

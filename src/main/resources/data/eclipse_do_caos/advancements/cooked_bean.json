@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:cooked_bean"
+    },
+    "title": "The First Fibonnacci's Show!",
+    "description": "Not again, can we please stop exploding people?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:chaos_eclipse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "equipment": {},
+          "effects": {
+            "minecraft:instant_damage": {
+              "amplifier": 10
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "eclipse_do_caos:cooked_bean"
+          ]
+        }
+      }
+    }
+  }
+}

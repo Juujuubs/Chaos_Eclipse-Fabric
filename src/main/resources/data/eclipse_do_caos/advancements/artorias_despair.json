@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:artorias_despair"
+    },
+    "title": "Elven Rage",
+    "description": "Be Thyself, he said, didn't he?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:odin_dagger",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:artorias_despair"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

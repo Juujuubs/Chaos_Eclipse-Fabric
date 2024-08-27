@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:belaios_wand"
+    },
+    "title": "Crossing Paths",
+    "description": "Don't Forget your Arm Behind a Wall",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:grimoire",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:belaios_wand"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

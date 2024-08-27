@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "eclipse_do_caos:essence_block",
+    "eclipse_do_caos:radio_announcer",
+    "eclipse_do_caos:catalyst_infuser"
+  ]
+}

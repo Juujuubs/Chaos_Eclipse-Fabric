@@ -1,6 +1,6 @@
-// 1.20.1	2024-08-27T18:30:00.5973166	Chaos Eclipse/Tags for minecraft:item
-503770a32549ee2e7879c39335c474cf54931d9f data\minecraft\tags\items\leaves.json
+// 1.20.1	2024-08-27T23:13:07.3652252	Chaos Eclipse/Tags for minecraft:item
 fc341d9a4af50ad6727a56dad41a792a2506315d data\minecraft\tags\items\saplings.json
+503770a32549ee2e7879c39335c474cf54931d9f data\minecraft\tags\items\leaves.json
 c04a75bc8ea566b3d222768d16bb2d4d139055f9 data\minecraft\tags\items\hanging_signs.json
 b684b1f9ac51c1ff657f921efc57c540231d883d data\minecraft\tags\items\stairs.json
 8933df4cf323b90e8224dbb864c76c3173a0bc58 data\minecraft\tags\items\axes.json
@@ -12,17 +12,17 @@ bee8d5c912a2312a766d3fc774eeba92918f6399 data\minecraft\tags\items\signs.json
 d99e5f09df24a84cba41cdc323613b2570c15df2 data\minecraft\tags\items\music_discs.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\items\slabs.json
 0e6dc1b1a66e8f6a9d4e23ef17910a0c600edbac data\eclipse_do_caos\tags\items\lost_weapons.json
-949f25773c455b81a15146d8ed82ee8e2dfd0ed9 data\minecraft\tags\items\chest_boats.json
 92500fc011172523e282acec6fa11134ad645406 data\eclipse_do_caos\tags\items\ranged_weapons.json
+949f25773c455b81a15146d8ed82ee8e2dfd0ed9 data\minecraft\tags\items\chest_boats.json
 7ad5f73c2953cef28939d44161f3aa0eec79012a data\minecraft\tags\items\planks.json
 49bbcbd8f45efbdb6386011360e678605df5a8e0 data\eclipse_do_caos\tags\items\shields.json
 e86bf12995f596f0bd12b497d05c66ac506fad78 data\minecraft\tags\items\fences.json
 f68ee0fd8c4d0e01daaf282b392810d26bfa005f data\minecraft\tags\items\tools.json
-1f7991f5fa7df8b53405a7810b17ac0de3a2039d data\minecraft\tags\items\shovels.json
 d4fa0e3c48d9d144fa85017932f70b9d63226fd4 data\minecraft\tags\items\fishes.json
-894cfe98d793ae2d723217f03bf440f5bb768844 data\minecraft\tags\items\buttons.json
+1f7991f5fa7df8b53405a7810b17ac0de3a2039d data\minecraft\tags\items\shovels.json
 43db1dfb0a3cef1a856260fe70354fc2ecbc69b9 data\eclipse_do_caos\tags\items\wands.json
 d99e5f09df24a84cba41cdc323613b2570c15df2 data\minecraft\tags\items\creeper_drop_music_discs.json
+894cfe98d793ae2d723217f03bf440f5bb768844 data\minecraft\tags\items\buttons.json
 894cfe98d793ae2d723217f03bf440f5bb768844 data\minecraft\tags\items\wooden_buttons.json
 b684b1f9ac51c1ff657f921efc57c540231d883d data\minecraft\tags\items\wooden_stairs.json
 f2511dc3cdb2967d4a95389a1fdebb4d54119115 data\minecraft\tags\items\wooden_doors.json

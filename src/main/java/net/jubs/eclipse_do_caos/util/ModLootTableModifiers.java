@@ -402,10 +402,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.HUMAN_TOOTH))
                         .with(ItemEntry.builder(ModItems.GOBLIN_EYE))
                         .with(ItemEntry.builder(ModItems.ELF_EAR))
-                        .with(ItemEntry.builder(ModItems.VOX))
-                        .with(ItemEntry.builder(ModItems.ECLIPSE_BEGINS_MUSIC_DISC))
                         .with(ItemEntry.builder(ModItems.CATALYST_EMPTY))
-                        .with(ItemEntry.builder(ModItems.TICKET_DELUXE_ARCANUMRAILS))
                         .with(ItemEntry.builder(ModItems.CANNONBALL))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -435,6 +432,17 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.GAUNTLET))
                         .with(ItemEntry.builder(ModItems.NORR_FORR_HAMMER))
                         .with(ItemEntry.builder(ModItems.DELS))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+            if(ANCIENT_CITY_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.35f))
+                        .with(ItemEntry.builder(ModItems.ECLIPSE_BEGINS_MUSIC_DISC))
+                        .with(ItemEntry.builder(ModItems.VOX))
+                        .with(ItemEntry.builder(ModItems.TICKET_DELUXE_ARCANUMRAILS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

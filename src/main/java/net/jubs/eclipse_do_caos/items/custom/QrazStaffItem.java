@@ -35,6 +35,12 @@ public class QrazStaffItem extends Item {
         Box box = user.getBoundingBox().expand(radius);
         world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && user.squaredDistanceTo(entity) <= radius * radius)
                 .forEach(entity -> {
+                    if (entity instanceof PlayerEntity) {
+                        PlayerEntity player = (PlayerEntity) entity;
+                        if (player.isCreative() || player.isSpectator()) {
+                            return; // Não prende jogadores no Criativo e nem no Espectador
+                        }
+                    }
                     for (int y = 0; y <= 2; y++) {
                         for (int x = -1; x <= 1; x++) {
                             for (int z = -1; z <= 1; z++) {

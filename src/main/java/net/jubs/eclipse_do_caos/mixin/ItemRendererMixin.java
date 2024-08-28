@@ -196,6 +196,7 @@ public abstract class ItemRendererMixin {
             if (player != null && player.isUsingItem() && player.getActiveItem() == stack) {
                 // Se o jogador estiver Usando o Arco, o modelo muda conforme o estado do item e o tempo usando
                 float pullProgress = (float)(stack.getMaxUseTime() - player.getItemUseTimeLeft()) / 20.0f;
+
                 if (pullProgress < 0.65f) {
                     return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier((EclipseDoCaos.MOD_ID), "zora_bow_3d_pulling_0", "inventory"));
                 } else if (pullProgress < 0.9f) {
@@ -253,7 +254,12 @@ public abstract class ItemRendererMixin {
     @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
     public BakedModel useGauntletModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
         if (stack.isOf(ModItems.GAUNTLET) && renderMode != ModelTransformationMode.GUI) {
-            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier((EclipseDoCaos.MOD_ID), "gauntlet_3d", "inventory"));
+            PlayerEntity player = MinecraftClient.getInstance().player;
+            if (player != null && leftHanded) {
+                return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier((EclipseDoCaos.MOD_ID), "gauntlet_left_3d", "inventory"));
+            } else {
+                return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier((EclipseDoCaos.MOD_ID), "gauntlet_3d", "inventory"));
+            }
         }
         return value;
     }

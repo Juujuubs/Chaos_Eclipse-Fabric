@@ -439,7 +439,7 @@ public static void modifyLootTables() {
             if(ANCIENT_CITY_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.35f))
+                        .conditionally(RandomChanceLootCondition.builder(0.3f))
                         .with(ItemEntry.builder(ModItems.ECLIPSE_BEGINS_MUSIC_DISC))
                         .with(ItemEntry.builder(ModItems.VOX))
                         .with(ItemEntry.builder(ModItems.TICKET_DELUXE_ARCANUMRAILS))

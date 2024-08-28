@@ -8,10 +8,10 @@
 		"Jubs"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://modrinth.com/mod/chaos-eclipse",
 		"sources": "https://github.com/Juujuubs/Chaos_Eclipse-Fabric"
 	},
-	"license": "ARR",
+	"license": "MIT",
 	"icon": "assets/eclipse_do_caos/icon.png",
 	"environment": "*",
 	"entrypoints": {

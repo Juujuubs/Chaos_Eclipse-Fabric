@@ -9,6 +9,6 @@ Now what remains is an **Eclipse** that changes everything (TBD) and Creatures f
 
 This Project is focused on adding tons of New Weapons and Tools, Some Blocks, More End-Game Stuff and Exploration. It's based on my own RPG, which i'm DMing for my friends, all the Features from it are References and Things that exist in the world i created.
 
-[![Modrinth](https://img.shields.io/modrinth/dt/MSLd8JEC?style=flat&logo=modrinth&label=Modrinth&labelColor=000000&color=00BF5D
+[![Modrinth](https://img.shields.io/modrinth/dt/MSLd8JEC?style=flat&logo=modrinth&label=Modrinth&labelColor=2D2D2D&color=00BF5D
 )](https://modrinth.com/mod/chaos-eclipse) [![CurseForge](https://cf.way2muchnoise.eu/1094831.svg)
 ](https://www.curseforge.com/minecraft/mc-mods/chaos-eclipse)

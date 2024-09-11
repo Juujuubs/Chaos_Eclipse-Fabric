@@ -1,4 +1,4 @@
-// 1.20.1	2024-08-27T23:13:07.3582285	Chaos Eclipse/Tags for minecraft:block
+// 1.20.1	2024-09-11T06:43:31.0732413	Chaos Eclipse/Tags for minecraft:block
 c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\all_signs.json
 87386fe7103d64b02e047cf831eb3666bb0cef0e data\fabric\tags\blocks\needs_tool_level_4.json
 6a9fcf8f56ddd2908349a7c195f448312ea5ecd2 data\minecraft\tags\blocks\mineable\axe.json
@@ -11,8 +11,8 @@ fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\blocks\small_flower
 e86bf12995f596f0bd12b497d05c66ac506fad78 data\minecraft\tags\blocks\fences.json
 b684b1f9ac51c1ff657f921efc57c540231d883d data\minecraft\tags\blocks\stairs.json
 8b54b4eab13c31ed00132bffec5cf19c0805c6ba data\eclipse_do_caos\tags\blocks\paxel\mineable.json
-c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\signs.json
 bee8d5c912a2312a766d3fc774eeba92918f6399 data\minecraft\tags\blocks\standing_signs.json
+c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\signs.json
 f2511dc3cdb2967d4a95389a1fdebb4d54119115 data\minecraft\tags\blocks\doors.json
 16e11f6e3dafcb0b2481515ca9a9829b878fd720 data\eclipse_do_caos\tags\blocks\saw_eater\mineable.json
 fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\blocks\flowers.json

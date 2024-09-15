@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.jubs.eclipse_do_caos.blocks.ModBlocks;
 import net.jubs.eclipse_do_caos.blocks.entity.ModBlocksEntities;
 import net.jubs.eclipse_do_caos.entity.ModBoats;
+import net.jubs.eclipse_do_caos.entity.custom.CannonballDispenserBehavior;
 import net.jubs.eclipse_do_caos.items.ModItemGroups;
 import net.jubs.eclipse_do_caos.items.ModItems;
 import net.jubs.eclipse_do_caos.painting.ModPaintings;
@@ -17,6 +18,7 @@ import net.jubs.eclipse_do_caos.world.gen.ModWorldGeneration;
 import net.jubs.eclipse_do_caos.world.tree.ModFoliagePlacerTypes;
 import net.jubs.eclipse_do_caos.world.tree.ModTrunkPlacerTypes;
 import net.minecraft.block.ComposterBlock;
+import net.minecraft.block.DispenserBlock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -47,6 +49,8 @@ public class EclipseDoCaos implements ModInitializer {
 
 		ModBlocksEntities.registerBlockEntities();
 		ModScreenHandlers.registerScreenHandlers();
+
+		DispenserBlock.registerBehavior(ModItems.CANNONBALL, new CannonballDispenserBehavior());
 
 		ModBoats.registarBoats();
 

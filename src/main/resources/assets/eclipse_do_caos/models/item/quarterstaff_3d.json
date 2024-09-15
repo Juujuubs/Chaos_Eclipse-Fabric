@@ -88,8 +88,8 @@
 			"translation": [2.5, -10, 0]
 		},
 		"ground": {
-			"translation": [0, 5.5, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"rotation": [-10.09, 0.14, -1.67],
+			"translation": [0, 5.5, 0]
 		},
 		"gui": {
 			"rotation": [16, 180, 45],
@@ -102,7 +102,7 @@
 		},
 		"fixed": {
 			"translation": [0, -4.8, -0.5],
-			"scale": [1, 0.6, 1]
+			"scale": [0.57617, 0.57617, 0.57617]
 		}
 	},
 	"groups": [

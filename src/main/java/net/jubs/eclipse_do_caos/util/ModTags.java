@@ -26,6 +26,9 @@ public class ModTags {
         public static final TagKey<Item> LOST_WEAPONS =
                 createTag("lost_weapons");
 
+        public static final TagKey<Item> NOT_FROM_THIS_WORLD =
+                createTag("not_from_this_world");
+
         public static final TagKey<Item> GRIMOIRES =
                 createTag("grimoires");
 

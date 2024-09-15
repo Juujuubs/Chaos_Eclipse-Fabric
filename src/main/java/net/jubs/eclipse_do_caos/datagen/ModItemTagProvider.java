@@ -163,6 +163,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.BELAIOS_WAND)
                 .add(ModItems.FROG);
 
+        getOrCreateTagBuilder(ModTags.Items.NOT_FROM_THIS_WORLD)
+                .add(ModItems.ASGORE_GRIMOIRE)
+                .add(ModItems.ARTORIAS_DESPAIR)
+                .add(ModItems.HELENA_BASEBALL_BAT)
+                .add(ModItems.HILDA_SCYTHE)
+                .add(ModItems.DIEGO_RAPIER)
+                .add(ModItems.ODIN_DAGGER)
+                .add(ModItems.CARSON_CANNON)
+                .add(ModItems.SAW_EATER)
+                .add(ModItems.LADON_DRAGON_GLAIVE)
+                .add(ModItems.ERAK_BATTLEAXE)
+                .add(ModItems.ZORA_BOW);
+
         getOrCreateTagBuilder(ModTags.Items.LOST_WEAPONS)
                 .add(ModItems.QUARTERSTAFF)
                 .add(ModItems.OLD_GRIMOIRE)

@@ -50,7 +50,7 @@ public class BelaiosWandItem extends Item {
                                 // Teleporta o jogador para o centro do bloco vazio encontrado
                                 user.teleport(nearestEmptyPos.getX() + 0.5, nearestEmptyPos.getY(), nearestEmptyPos.getZ() + 0.5);
                                 foundEmptySpace = true;
-                                break; // Sai do loop se encontrar um bloco vazio
+                                break; // Sai do loop de procurar blocos vazios se encontrar um bloco vazio
                             }
                         }
                     }

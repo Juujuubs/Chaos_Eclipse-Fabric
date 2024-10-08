@@ -370,6 +370,21 @@
         "name": "eclipse_do_caos:accurse"
       }
     ]
+  },
+  "chali_ii_lance_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:chali_ii_lance_hit"
+      }
+    ]
+  },
+  "chali_ii_spider_dash": {
+    "subtitle": "sounds.eclipse_do_caos.chali_ii_spider_dash",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:chali_ii_spider_dash"
+      }
+    ]
   }
 }
 

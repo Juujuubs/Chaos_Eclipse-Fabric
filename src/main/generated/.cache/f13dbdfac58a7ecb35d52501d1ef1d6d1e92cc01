@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-15T08:51:56.0072126	Chaos Eclipse/Model Definitions
+// 1.20.1	2024-10-08T02:12:49.284241	Chaos Eclipse/Model Definitions
 da515128148d8530dd6d982fcd1b7db9c1d484e7 assets\eclipse_do_caos\blockstates\eden_leaves.json
 b29413be434a215898dad9e886fb4e967683348b assets\eclipse_do_caos\blockstates\eden_slab.json
 0ca501ce54609594d2cabeddd668995491cb29a5 assets\eclipse_do_caos\models\item\pallis_shield.json
@@ -32,10 +32,12 @@ ed2d202cb20638d11699fd5c8416c54e5e82f681 assets\eclipse_do_caos\models\block\ede
 e67f7e982366ada7ef9dbd24f6b67064d09b5cea assets\eclipse_do_caos\models\item\eden_fence_gate.json
 99aa59903eb8b6b4c600abbfff36c88949fd0267 assets\eclipse_do_caos\models\item\cooked_bean.json
 054dd37845587df923032d99b3034bb2404892db assets\eclipse_do_caos\blockstates\potted_eden_sapling.json
+cfc7ab8ebfaf123debf0b55d81933a3d173fab33 assets\eclipse_do_caos\models\block\meat_block.json
 29b215654ab7e07f4ee06aefc0f0e3005d8f0bf0 assets\eclipse_do_caos\blockstates\bean_crop.json
 7d8ecd7dc19df7aa232607af1a81ca34a33dc4e8 assets\eclipse_do_caos\models\item\beans_sack.json
 1cb46212077ef7beb4483e397fd00dc9eafedbdf assets\eclipse_do_caos\models\block\stripped_eden_wood.json
 41771a308bcaf5cf0c0d197d204db2fdeee598a4 assets\eclipse_do_caos\models\block\eden_log_horizontal.json
+ff03e1a212cda52044447f79b8f48ecd502ab0ff assets\eclipse_do_caos\blockstates\meat_block.json
 f20cba63a3ab4422d3d4d10ad34b5a91abdd2d59 assets\eclipse_do_caos\models\item\essence.json
 93be4c5d5eb17a933f675ce004da59881af4947c assets\eclipse_do_caos\models\item\eden_log.json
 b62709deb31fd1e6250452980fff390c3440e7db assets\eclipse_do_caos\models\block\eden_button.json
@@ -68,6 +70,7 @@ d95f4169cd82c8ff65efd248299275625399dbff assets\eclipse_do_caos\models\item\eden
 b8bc0571c37d2bd190b4c2955201ba5f83133672 assets\eclipse_do_caos\models\block\eden_door_bottom_right_open.json
 b9496bd836146bb9f203aa5cc4fc8941f4e8d746 assets\eclipse_do_caos\models\item\eden_button.json
 f64e3994a01a76ff1ef5e5a72185ed791a5463ff assets\eclipse_do_caos\models\block\eden_door_top_right.json
+fd048fa4431060dc6ea1721cea84a311bd81d254 assets\eclipse_do_caos\models\item\chali_ii_lance.json
 c7fa7a87924cc1ad3e5579366815a71180690f3e assets\eclipse_do_caos\models\item\catalyst.json
 e04f48740bb80ea01f425b5770cde70a883493d0 assets\eclipse_do_caos\models\item\essence_ore_block.json
 56ac4dc8f5329679cd3f507c2546dd3b595af687 assets\eclipse_do_caos\models\item\eden_slab.json
@@ -94,6 +97,7 @@ ac90bb45e9433cd0b3f77cdafdcc54ac85b1dbae assets\eclipse_do_caos\models\block\ede
 0b4d2475b8ac0d3022cb73e4039c384b3e77a904 assets\eclipse_do_caos\blockstates\eden_log.json
 58dc1ad6bb1f0a8b68865cc7240e986cecb53e82 assets\eclipse_do_caos\models\item\tilapia.json
 012f8ec434cb0d1e39006a02e11c6bca949b104c assets\eclipse_do_caos\models\block\bean_crop_stage3.json
+ac8c84d40eab76df8921c75040e84979d27b41e8 assets\eclipse_do_caos\models\item\meat_block.json
 56d6c9f2361cb1913876f9b5c980569fc1317e03 assets\eclipse_do_caos\models\item\contract.json
 54fbf9ce5dcebc8cd7ec1d33344dec4725ec9e41 assets\eclipse_do_caos\models\block\eden_slab_top.json
 a8ef76965efad8797bfc83fc19cebcda84e811c5 assets\eclipse_do_caos\models\item\ticket_deluxe_arcanumrails.json

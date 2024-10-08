@@ -180,6 +180,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.EDEN_LOG), conditionsFromItem(ModBlocks.EDEN_LOG))
                 .offerTo(exporter, new Identifier((getRecipeName(ModBlocks.EDEN_WOOD))));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.TEETH_BLOCK, 1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.HUMAN_TOOTH)
+                .criterion(hasItem(ModItems.HUMAN_TOOTH), conditionsFromItem(ModItems.HUMAN_TOOTH))
+                .offerTo(exporter, new Identifier((getRecipeName(ModBlocks.TEETH_BLOCK))));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.HUMAN_TOOTH, 9).input(ModBlocks.TEETH_BLOCK).criterion(FabricRecipeProvider.hasItem(ModBlocks.TEETH_BLOCK),
+                FabricRecipeProvider.conditionsFromItem(ModBlocks.TEETH_BLOCK)).offerTo(exporter, new Identifier("eclipse_do_caos","human_tooth_from_teeth_block"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.EYE_BLOCK, 1)
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.GOBLIN_EYE)
+                .criterion(hasItem(ModItems.GOBLIN_EYE), conditionsFromItem(ModItems.GOBLIN_EYE))
+                .offerTo(exporter, new Identifier((getRecipeName(ModBlocks.EYE_BLOCK))));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.GOBLIN_EYE, 9).input(ModBlocks.EYE_BLOCK).criterion(FabricRecipeProvider.hasItem(ModBlocks.EYE_BLOCK),
+                FabricRecipeProvider.conditionsFromItem(ModBlocks.EYE_BLOCK)).offerTo(exporter, new Identifier("eclipse_do_caos","goblin_eye_from_eye_block"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.MEAT_BLOCK, 1)
+                .pattern("###")
+                .pattern("#E#")
+                .pattern("###")
+                .input('#', Items.ROTTEN_FLESH)
+                .input('E', ModItems.ELF_EAR)
+                .criterion(hasItem(ModItems.ELF_EAR), conditionsFromItem(ModItems.ELF_EAR))
+                .criterion(hasItem(Items.ROTTEN_FLESH), conditionsFromItem(Items.ROTTEN_FLESH))
+                .offerTo(exporter, new Identifier((getRecipeName(ModBlocks.MEAT_BLOCK))));
+
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.STRIPPED_EDEN_WOOD, 3)

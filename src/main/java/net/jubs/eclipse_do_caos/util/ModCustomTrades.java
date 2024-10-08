@@ -1,6 +1,7 @@
 package net.jubs.eclipse_do_caos.util;
 
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
+import net.jubs.eclipse_do_caos.blocks.ModBlocks;
 import net.jubs.eclipse_do_caos.items.ModItems;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -197,6 +198,24 @@ public class ModCustomTrades {
                             //Compra abaixo
                             new ItemStack(ModItems.HUMAN_TOOTH, 5),
                             4, 4, 0.5f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 27),
+                            //Compra abaixo
+                            new ItemStack(ModBlocks.MEAT_BLOCK, 4),
+                            4, 3, 0.7f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 13),
+                            //Compra abaixo
+                            new ItemStack(ModBlocks.EYE_BLOCK, 6),
+                            4, 3, 0.5f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 14),
+                            //Compra abaixo
+                            new ItemStack(ModBlocks.TEETH_BLOCK, 3),
+                            5, 4, 0.65f));
 
                     //Trocas Invertidas
 

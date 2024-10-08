@@ -31,14 +31,11 @@ public class ZoraBowItem extends BowItem {
             return;
         }
 
-        if (useTicks >= 18) {
-            if (!world.isClient()) {
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 180));
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 120));
-            world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.ZORA_BOW_FIRE, SoundCategory.PLAYERS, 2.0F, 1.0F);
-
+            if (useTicks >= 18) {
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 180));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 120));
+                world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.ZORA_BOW_FIRE, SoundCategory.PLAYERS, 2.0F, 1.0F);
             }
-        }
 
         super.onStoppedUsing(stack, world, user, remainingUseTicks);
     }

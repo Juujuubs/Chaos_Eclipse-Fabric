@@ -44,6 +44,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SAMARA_PLUSHIE);
                         entries.add(ModBlocks.CATALYST_INFUSER);
 
+                        entries.add(ModBlocks.EYE_BLOCK);
+                        entries.add(ModBlocks.MEAT_BLOCK);
+                        entries.add(ModBlocks.TEETH_BLOCK);
+
                         entries.add(ModBlocks.EDEN_LOG);
                         entries.add(ModBlocks.EDEN_WOOD);
                         entries.add(ModBlocks.STRIPPED_EDEN_LOG);
@@ -79,6 +83,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ERAK_BATTLEAXE);
                         entries.add(ModItems.ARTORIAS_DESPAIR);
                         entries.add(ModItems.SAW_EATER);
+                        entries.add(ModItems.CHALI_II_LANCE);
                         entries.add(ModItems.AKIRA_KATANA);
                         entries.add(ModItems.DIEGO_RAPIER);
                         entries.add(ModItems.CLAWS);

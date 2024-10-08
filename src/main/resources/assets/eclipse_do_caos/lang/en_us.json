@@ -51,6 +51,7 @@
     "item.eclipse_do_caos.belaios_wand": "§bTresspassing Wand§r",
     "item.eclipse_do_caos.gauntlet": "§6Juno's Gauntlet§r",
     "item.eclipse_do_caos.norr_forr_hammer": "§4Norr' Forr's Hammer§r",
+    "item.eclipse_do_caos.chali_ii_lance": "§4Chali II's Lance§r",
     "item.eclipse_do_caos.poison_bolt": "§2Poison Bolt§r",
     "item.eclipse_do_caos.lightning_strike": "§eLightning Strike§r",
     "item.eclipse_do_caos.cannonball": "Cannonball",
@@ -63,6 +64,10 @@
     "block.eclipse_do_caos.samara_plushie": "§4Samara§r Plushie",
     "block.eclipse_do_caos.bromeliad": "§4Bromeliad§r",
     "block.eclipse_do_caos.catalyst_infuser": "§4Catalyst Infuser§r",
+
+    "block.eclipse_do_caos.teeth_block": "Teeth Block",
+    "block.eclipse_do_caos.eye_block": "Eyes Block",
+    "block.eclipse_do_caos.meat_block": "Meat Block",
 
     "block.eclipse_do_caos.eden_log": "Eden Log",
     "block.eclipse_do_caos.eden_wood": "Eden Wood",
@@ -327,6 +332,15 @@
     "tooltip.eclipse_do_caos.norr_forr_hammer3.tooltip": "§oArea Effect:",
     "tooltip.eclipse_do_caos.norr_forr_hammereffect2.tooltip": "§cWither IV (00:10)",
 
+    "tooltip.eclipse_do_caos.chali_ii_lance.tooltip": "§oShe saw Herself Stomped to Death,",
+    "tooltip.eclipse_do_caos.chali_ii_lanceline2.tooltip": "§ojust Like the One she Killed.",
+    "tooltip.eclipse_do_caos.chali_ii_lance2.tooltip": "You can Right Click to §lDash§r like a §4§lSpider",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect1.tooltip": "§9Strength (00:15)",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect2.tooltip": "§cSlowness (00:15)",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect3.tooltip": "§cHunger III (00:10)",
+    "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oArea Effect:",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip": "§cWither (00:05)",
+
     "sounds.eclipse_do_caos.dels_found_essence": "Sound Emitter",
     "sounds.eclipse_do_caos.frog_use": "Frog Dikanza Sounds",
     "sounds.eclipse_do_caos.gust": "Wind Gust",
@@ -359,6 +373,7 @@
     "sounds.eclipse_do_caos.crossing_spell": "Crossing Spell",
     "sounds.eclipse_do_caos.gauntlet_power": "Power Unleashed",
     "sounds.eclipse_do_caos.accurse": "The Curse",
+    "sounds.eclipse_do_caos.chali_ii_spider_dash": "Spider Dash",
 
     "painting.eclipse_do_caos.godwelling.title": "Godwelling Continent",
     "painting.eclipse_do_caos.godwelling.author": "§4The Unknown§r",

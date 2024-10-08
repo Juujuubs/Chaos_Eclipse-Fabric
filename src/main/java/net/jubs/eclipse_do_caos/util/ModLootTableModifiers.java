@@ -431,6 +431,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.BELAIOS_WAND))
                         .with(ItemEntry.builder(ModItems.GAUNTLET))
                         .with(ItemEntry.builder(ModItems.NORR_FORR_HAMMER))
+                        .with(ItemEntry.builder(ModItems.CHALI_II_LANCE))
                         .with(ItemEntry.builder(ModItems.DELS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -488,6 +489,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.ERAK_BATTLEAXE))
                         .with(ItemEntry.builder(ModItems.BELAIOS_WAND))
                         .with(ItemEntry.builder(ModItems.NORR_FORR_HAMMER))
+                        .with(ItemEntry.builder(ModItems.CHALI_II_LANCE))
                         .with(ItemEntry.builder(ModItems.ESSENCE_PAXEL))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -608,6 +610,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.BELAIOS_WAND))
                         .with(ItemEntry.builder(ModItems.GAUNTLET))
                         .with(ItemEntry.builder(ModItems.NORR_FORR_HAMMER))
+                        .with(ItemEntry.builder(ModItems.CHALI_II_LANCE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -674,6 +677,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.LADON_DRAGON_GLAIVE))
                         .with(ItemEntry.builder(ModItems.GAUNTLET))
                         .with(ItemEntry.builder(ModItems.NORR_FORR_HAMMER))
+                        .with(ItemEntry.builder(ModItems.CHALI_II_LANCE))
                         .with(ItemEntry.builder(ModItems.DELS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -762,6 +766,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.PALLIS_SHIELD))
                         .with(ItemEntry.builder(ModItems.VEIGAR_STAFF))
                         .with(ItemEntry.builder(ModItems.NORR_FORR_HAMMER))
+                        .with(ItemEntry.builder(ModItems.CHALI_II_LANCE))
                         .with(ItemEntry.builder(ModItems.DELS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -802,6 +807,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.NOVUS_GRIMOIRE))
                         .with(ItemEntry.builder(ModItems.OLD_GRIMOIRE))
                         .with(ItemEntry.builder(ModItems.LADON_DRAGON_GLAIVE))
+                        .with(ItemEntry.builder(ModItems.CHALI_II_LANCE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

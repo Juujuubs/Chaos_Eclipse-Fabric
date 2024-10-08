@@ -44,6 +44,9 @@ public class ModItems {
     public static final Item HELENA_BASEBALL_BAT = registerItem("helena_baseball_bat",
             new HelenaBaseballBatItem(ModToolMaterial.ESSENCE, 4,-2.6f, new FabricItemSettings()));
 
+    public static final Item CHALI_II_LANCE = registerItem("chali_ii_lance",
+            new ChaliIILanceItem(ModToolMaterial.ESSENCE, 4,-2.6f, new FabricItemSettings()));
+
     public static final Item SAW_EATER = registerItem("saw_eater",
             new SawEaterItem(ModToolMaterial.ESSENCE, 10,-3.5f, new FabricItemSettings()));
     public static final Item ARTORIAS_DESPAIR = registerItem("artorias_despair",
@@ -172,6 +175,7 @@ public class ModItems {
         entries.add(BELAIOS_WAND);
         entries.add(GAUNTLET);
         entries.add(NORR_FORR_HAMMER);
+        entries.add(CHALI_II_LANCE);
         entries.add(ESSENCE_PAXEL);
     }
 

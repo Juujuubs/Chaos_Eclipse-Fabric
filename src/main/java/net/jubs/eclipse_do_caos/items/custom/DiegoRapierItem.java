@@ -42,7 +42,7 @@ public class DiegoRapierItem extends SwordItem {
                         1, 0, 0, 0, 0.1);
             }
 
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 20 * 20, 0));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.HERO_OF_THE_VILLAGE, 400, 0));
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 400, 0));
             world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.ADELANTE, SoundCategory.PLAYERS, 1F, 1.0F);
             user.getItemCooldownManager().set(this, 550);

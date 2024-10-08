@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eclipse_do_caos:teeth_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "eclipse_do_caos:human_tooth"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "E": {
+      "item": "eclipse_do_caos:elf_ear"
+    }
+  },
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "result": {
+    "item": "eclipse_do_caos:meat_block"
+  },
+  "show_notification": true
+}

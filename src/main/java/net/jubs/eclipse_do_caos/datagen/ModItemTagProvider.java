@@ -33,6 +33,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.ODIN_DAGGER)
                 .add(ModItems.SAW_EATER)
                 .add(ModItems.LADON_DRAGON_GLAIVE)
+                .add(ModItems.CHALI_II_LANCE)
                 .add(ModItems.SAI);
 
         getOrCreateTagBuilder(ItemTags.FISHES)
@@ -174,6 +175,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SAW_EATER)
                 .add(ModItems.LADON_DRAGON_GLAIVE)
                 .add(ModItems.ERAK_BATTLEAXE)
+                .add(ModItems.CHALI_II_LANCE)
                 .add(ModItems.ZORA_BOW);
 
         getOrCreateTagBuilder(ModTags.Items.LOST_WEAPONS)
@@ -204,6 +206,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.BELAIOS_WAND)
                 .add(ModItems.GAUNTLET)
                 .add(ModItems.NORR_FORR_HAMMER)
+                .add(ModItems.CHALI_II_LANCE)
                 .add(ModItems.ZORA_BOW);
     }
 

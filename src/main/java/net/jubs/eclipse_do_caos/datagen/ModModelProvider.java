@@ -5,9 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.jubs.eclipse_do_caos.blocks.ModBlocks;
 import net.jubs.eclipse_do_caos.blocks.custom.BeanCropBlock;
 import net.jubs.eclipse_do_caos.items.ModItems;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
 import net.minecraft.data.family.BlockFamilies;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -19,6 +17,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESSENCE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ESSENCE_ORE_BLOCK);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MEAT_BLOCK);
 
 
         blockStateModelGenerator.registerLog(ModBlocks.EDEN_LOG).log(ModBlocks.EDEN_LOG).wood(ModBlocks.EDEN_WOOD);
@@ -99,6 +99,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NORR_FORR_HAMMER, Models.GENERATED);
         itemModelGenerator.register(ModItems.EDEN_CHEST_BOAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.EDEN_BOAT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHALI_II_LANCE, Models.GENERATED);
         itemModelGenerator.register(ModItems.ESSENCE_PAXEL, Models.HANDHELD);
 
 

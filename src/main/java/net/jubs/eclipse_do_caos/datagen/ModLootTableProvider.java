@@ -36,6 +36,10 @@ addDrop(ModBlocks.RADIO_ANNOUNCER);
 addDrop(ModBlocks.SAMARA_PLUSHIE);
 addDrop(ModBlocks.CATALYST_INFUSER);
 
+addDrop(ModBlocks.TEETH_BLOCK);
+addDrop(ModBlocks.EYE_BLOCK);
+addDrop(ModBlocks.MEAT_BLOCK);
+
 addDrop(ModBlocks.BROMELIAD);
 addPottedPlantDrops(ModBlocks.POTTED_BROMELIAD);
 

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "eclipse_do_caos:chali_ii_lance"
+    },
+    "title": "A Family Web",
+    "description": "Why are you Crawling, little Spider?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "eclipse_do_caos:saw_eater",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:chali_ii_lance"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

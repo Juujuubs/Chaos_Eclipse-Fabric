@@ -56,6 +56,8 @@ public class ModSounds {
     public static final SoundEvent GAUNTLET_POWER = registerSoundEvent("gauntlet_power");
     public static final SoundEvent NORR_FORR_HAMMER_HIT = registerSoundEvent("norr_forr_hammer_hit");
     public static final SoundEvent ACCURSE = registerSoundEvent("accurse");
+    public static final SoundEvent CHALI_II_LANCE_HIT = registerSoundEvent("chali_ii_lance_hit");
+    public static final SoundEvent SPIDER_DASH = registerSoundEvent("chali_ii_spider_dash");
 
 
     public static final SoundEvent ECLIPSE_BEGINS = registerSoundEvent("eclipse_begins");

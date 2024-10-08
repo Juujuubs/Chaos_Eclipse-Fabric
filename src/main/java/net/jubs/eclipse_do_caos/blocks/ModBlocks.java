@@ -25,6 +25,14 @@ public class ModBlocks {
             new RadioAnnouncerBlock(FabricBlockSettings.copyOf(Blocks.COPPER_BLOCK).nonOpaque().sounds(BlockSoundGroup.COPPER)));
     public static final Block SAMARA_PLUSHIE = registerBlock("samara_plushie",
             new SamaraPlushieBlock(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).nonOpaque().sounds(BlockSoundGroup.SNOW)));
+
+    public static final Block TEETH_BLOCK = registerBlock("teeth_block",
+            new TeethBlock(FabricBlockSettings.copyOf(Blocks.BONE_BLOCK).sounds(BlockSoundGroup.BONE)));
+    public static final Block EYE_BLOCK = registerBlock("eye_block",
+            new EyeBlock(FabricBlockSettings.copyOf(Blocks.HONEYCOMB_BLOCK).sounds(BlockSoundGroup.WART_BLOCK)));
+    public static final Block MEAT_BLOCK = registerBlock("meat_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.HAY_BLOCK).sounds(BlockSoundGroup.SLIME)));
+
     public static final Block CATALYST_INFUSER = registerBlock("catalyst_infuser",
             new CatalystInfuserBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque().sounds(BlockSoundGroup.WOOD)));
     public static final Block BROMELIAD = registerBlock("bromeliad",

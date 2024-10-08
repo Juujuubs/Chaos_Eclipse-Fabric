@@ -70,7 +70,7 @@ public class CarsonCannonItem extends Item {
             world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.CANNONBALL_BLAST, SoundCategory.PLAYERS, 1.0F, 1.0F);
             user.getItemCooldownManager().set(this, 45);
 
-            // Consume uma Bola de Canhão do inventário do jogador se ele estiver no Criativo
+            // Consome uma Bola de Canhão do inventário do jogador se ele estiver no Criativo
             if (!user.isCreative()) {
                 cannonballStack.decrement(1);
             }

@@ -42,9 +42,9 @@ public class HelenaBaseballBatItem extends SwordItem {
                         1, 0, 0, 0, 0.1);
             }
 
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20 * 20, 0));
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 20 * 20, 1));
-            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20 * 20, 0));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 400, 0));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 400, 1));
+            user.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 400, 0));
             world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.SCARLET_RAMPAGE, SoundCategory.PLAYERS, 1F, 1.0F);
             user.getItemCooldownManager().set(this, 550);
 

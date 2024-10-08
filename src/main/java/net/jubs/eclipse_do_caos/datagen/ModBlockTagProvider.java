@@ -36,11 +36,13 @@ getOrCreateTagBuilder(ModTags.Blocks.DELS_UNKNOWN_BLOCKS)
 
 getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
         .add(ModBlocks.CATALYST_INFUSER)
+        .add(ModBlocks.EYE_BLOCK)
         .add(ModBlocks.SAMARA_PLUSHIE);
 
 getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
         .add(ModBlocks.ESSENCE_ORE_BLOCK)
         .add(ModBlocks.ESSENCE_BLOCK)
+        .add(ModBlocks.TEETH_BLOCK)
         .add(ModBlocks.RADIO_ANNOUNCER);
 
 getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE)

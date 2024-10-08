@@ -50,6 +50,7 @@
     "item.eclipse_do_caos.belaios_wand": "§bVarinha da Transpassagem§r",
     "item.eclipse_do_caos.gauntlet": "§6Manopla da Juno§r",
     "item.eclipse_do_caos.norr_forr_hammer": "§4Martelo do Norr' Forr'§r",
+    "item.eclipse_do_caos.chali_ii_lance": "§4Lança da Chali II§r",
     "item.eclipse_do_caos.poison_bolt": "§2Lampejo Venenoso§r",
     "item.eclipse_do_caos.lightning_strike": "§eRelâmpago§r",
     "item.eclipse_do_caos.cannonball": "Bola de Canhão",
@@ -63,6 +64,10 @@
     "block.eclipse_do_caos.samara_plushie": "Bichinho de Pelúcia da §4Samara§r",
     "block.eclipse_do_caos.bromeliad": "§4Bromélia§r",
     "block.eclipse_do_caos.catalyst_infuser": "§4Infusor do Catalisador§r",
+
+    "block.eclipse_do_caos.teeth_block": "Bloco de Dentes",
+    "block.eclipse_do_caos.eye_block": "Bloco de Olhos",
+    "block.eclipse_do_caos.meat_block": "Bloco de Carne",
 
     "block.eclipse_do_caos.eden_log": "Tronco de Éden",
     "block.eclipse_do_caos.eden_wood": "Madeira de Éden",
@@ -325,6 +330,15 @@
     "tooltip.eclipse_do_caos.norr_forr_hammer3.tooltip": "§oEfeito em Área:",
     "tooltip.eclipse_do_caos.norr_forr_hammereffect2.tooltip": "§cDecomposição IV (00:10)",
 
+    "tooltip.eclipse_do_caos.chali_ii_lance.tooltip": "§oEla se viu Pisoteada até a Morte,",
+    "tooltip.eclipse_do_caos.chali_ii_lanceline2.tooltip": "§oexatamente como Aquele que ela Matou.",
+    "tooltip.eclipse_do_caos.chali_ii_lance2.tooltip": "Clique com o Botão Direito para §lAvançar§r como uma §4§lAranha",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect1.tooltip": "§9Força (00:15)",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect2.tooltip": "§cLentidão (00:15)",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect3.tooltip": "§cFome III (00:10)",
+    "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oEfeito em Área:",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip": "§cDecomposição (00:05)",
+
 
     "sounds.eclipse_do_caos.dels_found_essence": "Emissor de Som",
     "sounds.eclipse_do_caos.frog_use": "Sons de Sapo Reco-reco",
@@ -358,6 +372,7 @@
     "sounds.eclipse_do_caos.crossing_spell": "Feitiço de Passagem",
     "sounds.eclipse_do_caos.gauntlet_power": "Poder Liberado",
     "sounds.eclipse_do_caos.accurse": "A Maldição",
+    "sounds.eclipse_do_caos.chali_ii_spider_dash": "Avanço Aracnídeo",
 
     "painting.eclipse_do_caos.godwelling.title": "Continente de Amapenates",
     "painting.eclipse_do_caos.godwelling.author": "§4O Desconhecido§r",

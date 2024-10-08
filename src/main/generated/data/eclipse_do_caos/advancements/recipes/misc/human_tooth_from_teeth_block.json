@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_teeth_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eclipse_do_caos:teeth_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "eclipse_do_caos:human_tooth_from_teeth_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_teeth_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "eclipse_do_caos:human_tooth_from_teeth_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

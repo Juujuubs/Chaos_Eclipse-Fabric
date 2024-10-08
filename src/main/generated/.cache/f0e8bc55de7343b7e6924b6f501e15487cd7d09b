@@ -1,12 +1,12 @@
-// 1.20.1	2024-09-15T08:51:56.0172054	Chaos Eclipse/Tags for minecraft:block
+// 1.20.1	2024-10-08T02:12:49.3302148	Chaos Eclipse/Tags for minecraft:block
 c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\all_signs.json
 87386fe7103d64b02e047cf831eb3666bb0cef0e data\fabric\tags\blocks\needs_tool_level_4.json
-6a9fcf8f56ddd2908349a7c195f448312ea5ecd2 data\minecraft\tags\blocks\mineable\axe.json
+630e5550498131bd58c1e9d1ad414fca5c67183a data\minecraft\tags\blocks\mineable\axe.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\blocks\slabs.json
 d0a6e94ccc99c08ce54fcee6a75b3e8256c8044c data\minecraft\tags\blocks\wall_post_override.json
 f2511dc3cdb2967d4a95389a1fdebb4d54119115 data\minecraft\tags\blocks\wooden_doors.json
 fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\blocks\small_flowers.json
-56e7f752fcf39acb9abe1d43f2b1e5e5ea4dab70 data\minecraft\tags\blocks\mineable\pickaxe.json
+54af9eb71a437f445f9402aacfbbf2b7f191c7f2 data\minecraft\tags\blocks\mineable\pickaxe.json
 503770a32549ee2e7879c39335c474cf54931d9f data\minecraft\tags\blocks\leaves.json
 e86bf12995f596f0bd12b497d05c66ac506fad78 data\minecraft\tags\blocks\fences.json
 b684b1f9ac51c1ff657f921efc57c540231d883d data\minecraft\tags\blocks\stairs.json

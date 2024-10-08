@@ -1,0 +1,8 @@
+{
+  "parent": "eclipse_do_caos:block/directions_blocks",
+  "textures": {
+    "bottom": "eclipse_do_caos:block/eye_bottom",
+    "top": "eclipse_do_caos:block/eye_top",
+    "side": "eclipse_do_caos:block/eye_side"
+  }
+}

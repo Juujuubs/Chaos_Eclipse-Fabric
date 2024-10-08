@@ -71,6 +71,7 @@ public class ChaliIILanceItem extends SwordItem {
             for (LivingEntity entity : entities) {
                 if (entity.getBoundingBox().intersects(box)) {
                     entity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 100, 0));
+                    entity.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 1));
                 }
             }
 
@@ -96,6 +97,7 @@ public class ChaliIILanceItem extends SwordItem {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lance3.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lanceeffect5.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

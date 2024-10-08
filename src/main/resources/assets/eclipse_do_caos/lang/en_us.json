@@ -340,6 +340,7 @@
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect3.tooltip": "§cHunger III (00:10)",
     "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oArea Effect:",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip": "§cWither (00:05)",
+    "tooltip.eclipse_do_caos.chali_ii_lanceeffect5.tooltip": "§cPoison II (00:10)",
 
     "sounds.eclipse_do_caos.dels_found_essence": "Sound Emitter",
     "sounds.eclipse_do_caos.frog_use": "Frog Dikanza Sounds",

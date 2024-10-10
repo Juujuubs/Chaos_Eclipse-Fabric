@@ -34,7 +34,7 @@ public class ModItems {
 
 
     public static final Item DELS = registerItem("dels",
-            new DelsItem(new FabricItemSettings().maxDamage(256)));
+            new DelsItem(new FabricItemSettings().maxDamage(512)));
 
 
     public static final Item QUARTERSTAFF = registerItem("quarterstaff",

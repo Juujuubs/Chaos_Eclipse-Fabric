@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-08T02:12:49.284241	Chaos Eclipse/Model Definitions
+// 1.20.1	2024-12-06T19:35:43.1924957	Chaos Eclipse/Model Definitions
 da515128148d8530dd6d982fcd1b7db9c1d484e7 assets\eclipse_do_caos\blockstates\eden_leaves.json
 b29413be434a215898dad9e886fb4e967683348b assets\eclipse_do_caos\blockstates\eden_slab.json
 0ca501ce54609594d2cabeddd668995491cb29a5 assets\eclipse_do_caos\models\item\pallis_shield.json
@@ -89,8 +89,8 @@ d4c7142993e2ef5000f9c209ded9d30d3c36150a assets\eclipse_do_caos\models\block\ede
 f3577d4ff2d5901100c0036218ad9321e9819037 assets\eclipse_do_caos\models\item\essence_paxel.json
 b778fe7215be1310efc2068a121e1f02d0f2b369 assets\eclipse_do_caos\models\item\eden_door.json
 4b1bc26ab251eec51d08365d4d344074df79966b assets\eclipse_do_caos\models\item\hilda_scythe.json
-616468b09739b252aea8bd71960660c98872ed6d assets\eclipse_do_caos\blockstates\eden_door.json
 62221ef6a2feda097452e661234ec1865b2dc8c6 assets\eclipse_do_caos\blockstates\eden_planks.json
+616468b09739b252aea8bd71960660c98872ed6d assets\eclipse_do_caos\blockstates\eden_door.json
 222ec395c0514ff24a02e1b65b1b4011dc8c092f assets\eclipse_do_caos\models\item\ladon_dragon_glaive.json
 8ea88da74745b73354eb9df993c9684104e8e705 assets\eclipse_do_caos\models\item\cannonball.json
 ac90bb45e9433cd0b3f77cdafdcc54ac85b1dbae assets\eclipse_do_caos\models\block\eden_leaves.json

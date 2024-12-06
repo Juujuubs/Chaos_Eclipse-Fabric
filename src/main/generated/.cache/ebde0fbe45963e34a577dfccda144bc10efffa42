@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-08T02:12:49.3462061	Chaos Eclipse/Block Loot Tables
+// 1.20.1	2024-12-06T19:35:43.2124833	Chaos Eclipse/Block Loot Tables
 cc8dd0a4ab6268b8027450556552b5958efba23d data\eclipse_do_caos\loot_tables\blocks\eden_stairs.json
 3093f14f849df0d4103c4157052a19f22030cf7f data\eclipse_do_caos\loot_tables\blocks\eden_pressure_plate.json
 101846eb8b28bb59faeffb47ec510b15de58a4d6 data\eclipse_do_caos\loot_tables\blocks\eden_leaves.json
@@ -16,9 +16,9 @@ ad886f57fe099bd555a5d181b76c8fc7a7157ed3 data\eclipse_do_caos\loot_tables\blocks
 c92dc3d5b2a777754c3987a029d42fe6a2eb072b data\eclipse_do_caos\loot_tables\blocks\eden_slab.json
 bffcd44a3e57176c72585bfb38b49111dfce18bd data\eclipse_do_caos\loot_tables\blocks\bean_crop.json
 840d5a4d41025524c3d6eead55bcfa57dadc244e data\eclipse_do_caos\loot_tables\blocks\essence_ore_block.json
+f56088b831f809fe629fce9e94d48f1129ee89bd data\eclipse_do_caos\loot_tables\blocks\eden_wood.json
 c02c0389d01b7f99cdc3de927c42a993c38d060d data\eclipse_do_caos\loot_tables\blocks\eden_fence.json
 e6faacff92d04ec0b14e9bf746200a2f75f899b5 data\eclipse_do_caos\loot_tables\blocks\stripped_eden_log.json
-f56088b831f809fe629fce9e94d48f1129ee89bd data\eclipse_do_caos\loot_tables\blocks\eden_wood.json
 f34fd727454580bb79689e6efbc90bc1605092a0 data\eclipse_do_caos\loot_tables\blocks\samara_plushie.json
 d06e35d21250cf372c4d38e25a756b3e679d5760 data\eclipse_do_caos\loot_tables\blocks\eden_sapling.json
 ea3697b18879ccb8a1204f5b2e4502619dd33915 data\eclipse_do_caos\loot_tables\blocks\eden_fence_gate.json

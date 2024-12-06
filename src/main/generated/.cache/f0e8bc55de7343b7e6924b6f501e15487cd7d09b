@@ -1,6 +1,6 @@
-// 1.20.1	2024-10-08T02:12:49.3302148	Chaos Eclipse/Tags for minecraft:block
-c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\all_signs.json
+// 1.20.1	2024-12-06T19:35:43.2064872	Chaos Eclipse/Tags for minecraft:block
 87386fe7103d64b02e047cf831eb3666bb0cef0e data\fabric\tags\blocks\needs_tool_level_4.json
+c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\all_signs.json
 630e5550498131bd58c1e9d1ad414fca5c67183a data\minecraft\tags\blocks\mineable\axe.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\blocks\slabs.json
 d0a6e94ccc99c08ce54fcee6a75b3e8256c8044c data\minecraft\tags\blocks\wall_post_override.json
@@ -28,8 +28,8 @@ bc62e4c937c4fa5ce682f7b56b2fa25837a3c0ac data\minecraft\tags\blocks\maintains_fa
 b11890fd9f4313d70c31077c300a07358cb5f53d data\minecraft\tags\blocks\logs.json
 b11890fd9f4313d70c31077c300a07358cb5f53d data\minecraft\tags\blocks\logs_that_burn.json
 b37e4cf25bb07b199474d20687252b59c986413d data\minecraft\tags\blocks\fence_gates.json
-de8ab8f8a7fb0207e4d09ca89b584ea3b26f47ae data\eclipse_do_caos\tags\blocks\dels_unknown_blocks.json
 894cfe98d793ae2d723217f03bf440f5bb768844 data\minecraft\tags\blocks\buttons.json
+de8ab8f8a7fb0207e4d09ca89b584ea3b26f47ae data\eclipse_do_caos\tags\blocks\dels_unknown_blocks.json
 71aed398087bc39a1a344559bac1e63d9801b8e8 data\minecraft\tags\blocks\wall_hanging_signs.json
 1c1cb4843397c2c6028de625e33602d0be441ec4 data\minecraft\tags\blocks\trapdoors.json
 7aa7a401a50a08b13b050bb9b1875760d5ad91ec data\minecraft\tags\blocks\wooden_pressure_plates.json

@@ -33,7 +33,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 0.7f, 100,"essence");
 
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ESSENCE,RecipeCategory.DECORATIONS,
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.ESSENCE,RecipeCategory.BUILDING_BLOCKS,
                 ModBlocks.ESSENCE_BLOCK);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.DELS, 1)

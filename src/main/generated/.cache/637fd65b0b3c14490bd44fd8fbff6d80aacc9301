@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-06T19:35:43.199492	Chaos Eclipse/Recipes
+// 1.20.1	2024-12-08T19:43:43.3390952	Chaos Eclipse/Recipes
 eb827288c3f3673137f14c01914158991d0694f6 data\eclipse_do_caos\advancements\recipes\decorations\eden_hanging_sign.json
 c2b780b6246f52519bbe7bd1df5204a80ec22838 data\eclipse_do_caos\advancements\recipes\decorations\meat_block.json
 1e185a9097c25963477998bc6d3883ebed46e3e1 data\eclipse_do_caos\recipes\essence_from_smelting_essence_ore_block.json
@@ -74,7 +74,7 @@ d1309457b2d2c057127b5e79cc1e9fb8ef5b7875 data\eclipse_do_caos\advancements\recip
 612e9ee75a41141b39443b58381b2f81125acbcb data\eclipse_do_caos\recipes\essence_from_blasting_essence_ore_block.json
 338792016876824fa5950ad15231fe17ea148322 data\eclipse_do_caos\advancements\recipes\misc\catalyst_empty.json
 40a6b14f8cb4dfda9f3a732dad3baee18c3cbb6e data\eclipse_do_caos\advancements\recipes\misc\human_tooth_from_teeth_block.json
-9018f7b1f1b53935a1683cddf7a8adfed239f21f data\eclipse_do_caos\advancements\recipes\tools\dels.json
+59b61435cd5a500a320dd25d0b12876b930a17c8 data\eclipse_do_caos\advancements\recipes\tools\dels.json
 55ec836014f74ff2b2745517288ab1a331a92569 data\eclipse_do_caos\recipes\eden_planks_from_stripped_wood.json
 da677ea790980d6b85be953449aee143c3811364 data\eclipse_do_caos\advancements\recipes\building_blocks\eden_stairs.json
 3e7c6b347eefd2bf62de1393eaedd455d24eab37 data\eclipse_do_caos\advancements\recipes\tools\essence_paxel.json

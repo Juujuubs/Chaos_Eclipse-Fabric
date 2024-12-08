@@ -1,6 +1,30 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
+    "has_amethyst_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "has_echo_shard": {
       "conditions": {
         "items": [
@@ -36,6 +60,8 @@
     [
       "has_echo_shard",
       "has_essence",
+      "has_amethyst_shard",
+      "has_compass",
       "has_the_recipe"
     ]
   ],

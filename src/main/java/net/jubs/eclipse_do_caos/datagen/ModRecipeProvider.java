@@ -46,6 +46,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('C', Items.COMPASS)
                 .criterion(hasItem(Items.ECHO_SHARD), conditionsFromItem(Items.ECHO_SHARD))
                 .criterion(hasItem(ModItems.ESSENCE), conditionsFromItem(ModItems.ESSENCE))
+                .criterion(hasItem(Items.AMETHYST_SHARD), conditionsFromItem(Items.AMETHYST_SHARD))
+                .criterion(hasItem(Items.COMPASS), conditionsFromItem(Items.COMPASS))
                 .offerTo(exporter, new Identifier((getRecipeName(ModItems.DELS))));
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.TOOLS,ModItems.ESSENCE_PAXEL, 1)

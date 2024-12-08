@@ -211,6 +211,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ELF_EAR), conditionsFromItem(ModItems.ELF_EAR))
                 .criterion(hasItem(Items.ROTTEN_FLESH), conditionsFromItem(Items.ROTTEN_FLESH))
                 .offerTo(exporter, new Identifier((getRecipeName(ModBlocks.MEAT_BLOCK))));
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC,ModItems.ELF_EAR, 1).input(ModBlocks.MEAT_BLOCK).criterion(FabricRecipeProvider.hasItem(ModBlocks.MEAT_BLOCK),
+                FabricRecipeProvider.conditionsFromItem(ModBlocks.MEAT_BLOCK)).offerTo(exporter, new Identifier("eclipse_do_caos","elf_ear_from_meat_block"));
 
 
 

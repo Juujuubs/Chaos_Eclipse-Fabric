@@ -35,7 +35,6 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 300, 10), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.INVISIBILITY, 300, 10), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 300, 10), 1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 300, 10), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 300, 10), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 300, 10), 1.0f)
             .statusEffect(new StatusEffectInstance(StatusEffects.CONDUIT_POWER, 300, 10), 1.0f)

@@ -11,6 +11,8 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> DELS_UNKNOWN_BLOCKS =
                 createTag("dels_unknown_blocks");
+        public static final TagKey<Block> NEEDS_ESSENCE_TOOL =
+                createTag("needs_essence_tool");
         public static final TagKey<Block> PAXEL_MINEABLE =
                 createTag("paxel/mineable");
 

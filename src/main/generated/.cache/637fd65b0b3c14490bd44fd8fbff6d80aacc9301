@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-16T03:16:52.2706689	Chaos Eclipse/Recipes
+// 1.20.1	2024-12-18T23:12:34.8180641	Chaos Eclipse/Recipes
 eb827288c3f3673137f14c01914158991d0694f6 data\eclipse_do_caos\advancements\recipes\decorations\eden_hanging_sign.json
 c2b780b6246f52519bbe7bd1df5204a80ec22838 data\eclipse_do_caos\advancements\recipes\decorations\meat_block.json
 761121bd1e7a31eb7ab6fc0523a8fb347fb29bc0 data\eclipse_do_caos\advancements\recipes\misc\elf_ear_from_meat_block.json
@@ -29,8 +29,8 @@ c615965326e671278d72efe42c87fbef3ecae18c data\eclipse_do_caos\recipes\eden_door.
 0652987bf9147e5b30a6c0fd89af62e054abce1c data\eclipse_do_caos\advancements\recipes\transportation\eden_boat.json
 c15d57b6f885aae02b47a005a8a64cc5f1fcba16 data\eclipse_do_caos\advancements\recipes\transportation\eden_chest_boat.json
 d4c0b05e0c4c8de777486ac37ae411308d252618 data\eclipse_do_caos\advancements\recipes\decorations\eden_fence.json
-b3a6c0415cb0b6746143084ff0e9e4f603f46374 data\eclipse_do_caos\advancements\recipes\building_blocks\samara_plushie.json
 623f9c3e2680c933182035db80841daae0822605 data\eclipse_do_caos\recipes\samara_plushie.json
+b3a6c0415cb0b6746143084ff0e9e4f603f46374 data\eclipse_do_caos\advancements\recipes\building_blocks\samara_plushie.json
 0e2e64668954b72ea55cbbf8faf9eb57fb3b269f data\eclipse_do_caos\recipes\eden_chest_boat.json
 19c73e8fb80ed45e4c83597734c864fed39be481 data\eclipse_do_caos\advancements\recipes\redstone\eden_trapdoor.json
 46e21341c992b5f5b06598094534375a92d614cc data\eclipse_do_caos\advancements\recipes\misc\bromeliad.json

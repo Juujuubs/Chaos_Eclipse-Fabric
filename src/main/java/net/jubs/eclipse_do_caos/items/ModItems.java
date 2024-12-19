@@ -45,7 +45,7 @@ public class ModItems {
             new HelenaBaseballBatItem(ModToolMaterial.ESSENCE, 4,-2.6f, new FabricItemSettings()));
 
     public static final Item CHALI_II_LANCE = registerItem("chali_ii_lance",
-            new ChaliIILanceItem(ModToolMaterial.ESSENCE, 4,-2.6f, new FabricItemSettings()));
+            new ChaliIILanceItem(ModToolMaterial.ESSENCE, 5,-2.75f, new FabricItemSettings()));
 
     public static final Item SAW_EATER = registerItem("saw_eater",
             new SawEaterItem(ModToolMaterial.ESSENCE, 10,-3.5f, new FabricItemSettings()));

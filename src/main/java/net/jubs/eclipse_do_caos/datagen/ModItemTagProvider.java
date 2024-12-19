@@ -48,7 +48,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModTags.Items.STAFFS)
                 .add(ModItems.VEIGAR_STAFF)
                 .add(ModItems.QRAZ_STAFF)
-                .add(ModItems.SYLVERIA_STAFF);
+                .add(ModItems.SYLVERIA_STAFF)
+                .add(ModItems.QUARTERSTAFF);
 
         getOrCreateTagBuilder(ModTags.Items.WANDS)
                 .add(ModItems.BELAIOS_WAND);

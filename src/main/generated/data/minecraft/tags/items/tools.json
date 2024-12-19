@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "eclipse_do_caos:essence_paxel",
-    "eclipse_do_caos:dels"
+    "eclipse_do_caos:dels",
+    "eclipse_do_caos:artorias_despair",
+    "eclipse_do_caos:saw_eater",
+    "eclipse_do_caos:norr_forr_hammer",
+    "eclipse_do_caos:erak_battleaxe"
   ]
 }

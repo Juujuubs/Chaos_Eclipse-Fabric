@@ -121,6 +121,9 @@ public class ModItems {
         entries.add(DELS);
         entries.add(ESSENCE_PAXEL);
         entries.add(SAW_EATER);
+        entries.add(ARTORIAS_DESPAIR);
+        entries.add(NORR_FORR_HAMMER);
+        entries.add(ERAK_BATTLEAXE);
     }
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

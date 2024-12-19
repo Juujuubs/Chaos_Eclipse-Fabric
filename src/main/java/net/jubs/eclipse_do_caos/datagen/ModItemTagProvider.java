@@ -69,7 +69,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.TOOLS)
                 .add(ModItems.ESSENCE_PAXEL)
-                .add(ModItems.DELS);
+                .add(ModItems.DELS)
+                .add(ModItems.ARTORIAS_DESPAIR)
+                .add(ModItems.SAW_EATER)
+                .add(ModItems.NORR_FORR_HAMMER)
+                .add(ModItems.ERAK_BATTLEAXE);
 
         getOrCreateTagBuilder(ModTags.Items.SHIELDS)
                 .add(ModItems.PALLIS_SHIELD);

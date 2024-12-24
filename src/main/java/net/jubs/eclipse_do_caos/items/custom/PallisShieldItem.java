@@ -58,7 +58,7 @@ public class PallisShieldItem extends ShieldItem {
                 }
 
             } else {
-                user.sendMessage(Text.of("Cooldown remaining: " + useCooldown /2), false);
+                user.sendMessage(Text.of("Cooldown remaining: " + useCooldown /2 + " seconds"), true);
             }
         }
 

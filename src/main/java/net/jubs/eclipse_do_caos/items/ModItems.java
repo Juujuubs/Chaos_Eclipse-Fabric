@@ -14,6 +14,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import static net.jubs.eclipse_do_caos.blocks.ModBlocks.*;
+
 
 public class ModItems {
     public static final Item CONTRACT = registerItem("contract", new Item(new FabricItemSettings().maxCount(1)));
@@ -201,6 +203,9 @@ public class ModItems {
 
         entries.add(EDEN_SIGN);
         entries.add(EDEN_HANGING_SIGN);
+        entries.add(CATALYST_INFUSER);
+        entries.add(RADIO_ANNOUNCER);
+        entries.add(SAMARA_PLUSHIE);
     }
     private static void addItemsToOperatorItemGroup(FabricItemGroupEntries entries) {
 

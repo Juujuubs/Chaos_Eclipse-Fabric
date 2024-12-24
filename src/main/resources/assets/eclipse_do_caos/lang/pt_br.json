@@ -93,6 +93,9 @@
     "item.eclipse_do_caos.eden_boat": "Bote de Éden",
     "item.eclipse_do_caos.eden_chest_boat": "Bote de Éden com Baú",
 
+    "entity.eclipse_do_caos.eden_boat": "Bote de Éden",
+    "entity.eclipse_do_caos.eden_chest_boat": "Bote de Éden com Baú",
+
     "tooltip.eclipse_do_caos.space.tooltip": " ",
 
     "tooltip.eclipse_do_caos.dels.tooltip": "Detectar, Estudar, Calcular e Selar.",

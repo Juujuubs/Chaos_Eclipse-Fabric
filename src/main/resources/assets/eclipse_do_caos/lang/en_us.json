@@ -86,6 +86,9 @@
     "item.eclipse_do_caos.eden_boat": "Eden Boat",
     "item.eclipse_do_caos.eden_chest_boat": "Eden Chest Boat",
 
+    "entity.eclipse_do_caos.eden_boat": "Eden Boat",
+    "entity.eclipse_do_caos.eden_chest_boat": "Eden Chest Boat",
+
     "block.eclipse_do_caos.eden_stairs": "Eden Stairs",
     "block.eclipse_do_caos.eden_slab": "Eden Slab",
     "block.eclipse_do_caos.eden_button": "Eden Button",

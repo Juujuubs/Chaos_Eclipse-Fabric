@@ -116,11 +116,10 @@ protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
                 player.openHandledScreen(screenHandlerFactory);
 
 
-
                 return ActionResult.success(world.isClient);
             }
         }
-        if (!world.isClient) {
+        if (world.isClient) {
             world.playSound(player, pos, ModSounds.INFUSER_POT, SoundCategory.BLOCKS, 1f, 1f);
         }
         return ActionResult.SUCCESS;

@@ -100,7 +100,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.EDEN_CHEST_BOAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.EDEN_BOAT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHALI_II_LANCE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.ESSENCE_PAXEL, Models.HANDHELD);
 
 
         itemModelGenerator.register(ModItems.ECLIPSE_BEGINS_MUSIC_DISC, Models.GENERATED);

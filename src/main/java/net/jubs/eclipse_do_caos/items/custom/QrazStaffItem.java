@@ -1,5 +1,6 @@
 package net.jubs.eclipse_do_caos.items.custom;
 
+import net.jubs.eclipse_do_caos.items.ModItems;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.item.TooltipContext;
@@ -31,6 +32,7 @@ public class QrazStaffItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        ItemStack stack = user.getStackInHand(hand);
         double radius = 6.0D;
         Box box = user.getBoundingBox().expand(radius);
         world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && user.squaredDistanceTo(entity) <= radius * radius)
@@ -70,6 +72,9 @@ public class QrazStaffItem extends Item {
 
             world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.VINE_TRAP, SoundCategory.PLAYERS, 4.0F, 1.0F);
             user.getItemCooldownManager().set(this, 850);
+
+            stack.damage(1, user, (player) -> player.sendToolBreakStatus(hand));
+
             return super.use(world, user, hand);
         }
 
@@ -93,4 +98,8 @@ public class QrazStaffItem extends Item {
         super.appendTooltip(stack, world, tooltip, context);
     }
 
+    @Override
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.isOf(ModItems.ESSENCE) || super.canRepair(stack, ingredient);
+    }
 }

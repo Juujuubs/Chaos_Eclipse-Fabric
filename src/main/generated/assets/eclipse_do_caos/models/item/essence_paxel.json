@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "eclipse_do_caos:item/essence_paxel"
-  }
-}

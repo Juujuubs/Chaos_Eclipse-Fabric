@@ -1,16 +1,21 @@
 package net.jubs.eclipse_do_caos.items.custom;
 
+import net.jubs.eclipse_do_caos.items.ModItems;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
+import net.minecraft.block.DispenserBlock;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ShieldItem;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
@@ -28,6 +33,7 @@ public class PallisShieldItem extends ShieldItem {
 
     public PallisShieldItem(Settings settings) {
         super(settings);
+        DispenserBlock.registerBehavior(this, ArmorItem.DISPENSER_BEHAVIOR);
     }
 
     @Override
@@ -95,4 +101,9 @@ public class PallisShieldItem extends ShieldItem {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.pallis_shieldeffect4.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
     }
+    @Override
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.isOf(ModItems.ESSENCE) || super.canRepair(stack, ingredient);
+    }
+
 }

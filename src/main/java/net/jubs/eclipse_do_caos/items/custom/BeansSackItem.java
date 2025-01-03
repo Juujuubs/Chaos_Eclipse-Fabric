@@ -28,6 +28,7 @@ public class BeansSackItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        ItemStack stack = user.getStackInHand(hand);
         ItemStack beanStack = findBean(user);
         if (beanStack.isEmpty()) {
             // Se o jogador não tem um Feijão no inventário, aplica esse efeito
@@ -70,6 +71,8 @@ public class BeansSackItem extends Item {
             world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.BEANS, SoundCategory.PLAYERS, 1.0F, 1.0F);
             user.getItemCooldownManager().set(this, 45);
 
+            stack.damage(1, user, (player) -> player.sendToolBreakStatus(hand));
+
             if (!user.isCreative()) {
                 beanStack.decrement(1);
             }
@@ -98,5 +101,10 @@ public class BeansSackItem extends Item {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.beans_sackclick.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.beans_sackeffect.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
+    }
+
+    @Override
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.isOf(ModItems.ESSENCE) || super.canRepair(stack, ingredient);
     }
 }

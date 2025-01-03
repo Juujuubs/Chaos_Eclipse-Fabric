@@ -8,6 +8,7 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.mob.PhantomEntity;
+import net.minecraft.entity.mob.ShulkerEntity;
 import net.minecraft.entity.mob.SlimeEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -41,7 +42,7 @@ public class SaiItem extends SwordItem {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         double radius = 8.0D;
         Box box = user.getBoundingBox().expand(radius);
-        List<Class<? extends LivingEntity>> hostileClasses = Arrays.asList(HostileEntity.class, SlimeEntity.class, PhantomEntity.class);
+        List<Class<? extends LivingEntity>> hostileClasses = Arrays.asList(HostileEntity.class, SlimeEntity.class, PhantomEntity.class, ShulkerEntity.class);
         world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && user.squaredDistanceTo(entity) <= radius * radius)
                 .forEach(entity -> {
                     boolean isHostile = hostileClasses.stream().anyMatch(clazz -> clazz.isInstance(entity));

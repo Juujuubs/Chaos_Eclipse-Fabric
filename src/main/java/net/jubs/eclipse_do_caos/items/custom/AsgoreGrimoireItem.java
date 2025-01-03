@@ -49,6 +49,9 @@ public class AsgoreGrimoireItem extends Item {
 
 
             user.getItemCooldownManager().set(this, 85);
+
+            stack.damage(1, user, (player) -> player.sendToolBreakStatus(hand));
+
         }
 
         return TypedActionResult.consume(stack);
@@ -63,5 +66,10 @@ public class AsgoreGrimoireItem extends Item {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.asgore_grimoireeffect.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
+    }
+
+    @Override
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.isOf(ModItems.ESSENCE) || super.canRepair(stack, ingredient);
     }
 }

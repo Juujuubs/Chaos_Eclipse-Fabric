@@ -73,19 +73,19 @@ public class ModItems {
             new SaiItem(ModToolMaterial.ESSENCE, -2,1.5f, new FabricItemSettings()));
     public static final Item DIEGO_RAPIER = registerItem("diego_rapier",
             new DiegoRapierItem(ModToolMaterial.ESSENCE, 1,-1f, new FabricItemSettings()));
-    public static final Item GRIMOIRE = registerItem("grimoire", new GrimoireItem(new FabricItemSettings().maxCount(1)));
-    public static final Item BELAIOS_WAND = registerItem("belaios_wand", new BelaiosWandItem(new FabricItemSettings().maxCount(1)));
-    public static final Item OLD_GRIMOIRE = registerItem("old_grimoire", new OldGrimoireItem(new FabricItemSettings().maxCount(1)));
-    public static final Item ASGORE_GRIMOIRE = registerItem("asgore_grimoire", new AsgoreGrimoireItem(new FabricItemSettings().maxCount(1)));
-    public static final Item NOVUS_GRIMOIRE = registerItem("novus_grimoire", new NovusGrimoireItem(new FabricItemSettings().maxCount(1)));
-    public static final Item BEANS_SACK = registerItem("beans_sack", new BeansSackItem(new FabricItemSettings().maxCount(1)));
-    public static final Item FROG = registerItem("frog", new FrogItem(new FabricItemSettings().maxCount(1)));
-    public static final Item VEIGAR_STAFF = registerItem("veigar_staff", new VeigarStaffItem(new FabricItemSettings().maxCount(1)));
-    public static final Item QRAZ_STAFF = registerItem("qraz_staff", new QrazStaffItem(new FabricItemSettings().maxCount(1)));
-    public static final Item SYLVERIA_STAFF = registerItem("sylveria_staff", new SylveriaStaffItem(new FabricItemSettings().maxCount(1)));
+    public static final Item GRIMOIRE = registerItem("grimoire", new GrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item BELAIOS_WAND = registerItem("belaios_wand", new BelaiosWandItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item OLD_GRIMOIRE = registerItem("old_grimoire", new OldGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item ASGORE_GRIMOIRE = registerItem("asgore_grimoire", new AsgoreGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item NOVUS_GRIMOIRE = registerItem("novus_grimoire", new NovusGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item BEANS_SACK = registerItem("beans_sack", new BeansSackItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item FROG = registerItem("frog", new FrogItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item VEIGAR_STAFF = registerItem("veigar_staff", new VeigarStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item QRAZ_STAFF = registerItem("qraz_staff", new QrazStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item SYLVERIA_STAFF = registerItem("sylveria_staff", new SylveriaStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item CATALYST = registerItem("catalyst", new CatalystItem(new FabricItemSettings().maxCount(3)));
     public static final Item CATALYST_EMPTY = registerItem("catalyst_empty", new Item(new FabricItemSettings().maxCount(64)));
-    public static final Item CARSON_CANNON = registerItem("carson_cannon", new CarsonCannonItem(new FabricItemSettings().maxCount(1)));
+    public static final Item CARSON_CANNON = registerItem("carson_cannon", new CarsonCannonItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item ZORA_BOW = registerItem("zora_bow", new ZoraBowItem(new FabricItemSettings().maxDamage(3000)));
     public static final Item PALLIS_SHIELD = registerItem("pallis_shield",
             new PallisShieldItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));

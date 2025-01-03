@@ -1,5 +1,6 @@
 package net.jubs.eclipse_do_caos.items.custom;
 
+import net.jubs.eclipse_do_caos.items.ModItems;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
@@ -30,6 +31,7 @@ public class FrogItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        ItemStack stack = user.getStackInHand(hand);
         double radius = 8.0D;
         Box box = user.getBoundingBox().expand(radius);
         world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && user.squaredDistanceTo(entity) <= radius * radius)
@@ -52,6 +54,9 @@ public class FrogItem extends Item {
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 200, 0));
             world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.FROG_USE, SoundCategory.PLAYERS, 1.0F, 1.0F);
             user.getItemCooldownManager().set(this, 350);
+
+            stack.damage(1, user, (player) -> player.sendToolBreakStatus(hand));
+
         }
 
             return new TypedActionResult<>(ActionResult.CONSUME, user.getStackInHand(hand));
@@ -73,6 +78,10 @@ public class FrogItem extends Item {
         super.appendTooltip(stack, world, tooltip, context);
     }
 
+    @Override
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.isOf(ModItems.ESSENCE) || super.canRepair(stack, ingredient);
+    }
 }
 
 

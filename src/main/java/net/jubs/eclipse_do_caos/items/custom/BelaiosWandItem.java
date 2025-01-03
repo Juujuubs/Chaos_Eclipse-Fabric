@@ -1,5 +1,6 @@
 package net.jubs.eclipse_do_caos.items.custom;
 
+import net.jubs.eclipse_do_caos.items.ModItems;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -29,6 +30,7 @@ public class BelaiosWandItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        ItemStack stack = user.getStackInHand(hand);
         if (!world.isClient()) {
 
             Vec3d lookVector = user.getRotationVector();
@@ -75,6 +77,9 @@ public class BelaiosWandItem extends Item {
                 user.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, 300, 0));
                 world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.CROSSING_SPELL, SoundCategory.PLAYERS, 1.0F, 1.0F);
                 user.getItemCooldownManager().set(this, 300);
+
+                stack.damage(1, user, (player) -> player.sendToolBreakStatus(hand));
+
             } else {
                 // Caso não haja um bloco vazio, toca um som para indicar que o item não pôde ser ativado
                 user.getItemCooldownManager().set(this, 40);
@@ -94,5 +99,10 @@ public class BelaiosWandItem extends Item {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.belaios_wandeffect2.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.belaios_wandeffect.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
+    }
+
+    @Override
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.isOf(ModItems.ESSENCE) || super.canRepair(stack, ingredient);
     }
 }

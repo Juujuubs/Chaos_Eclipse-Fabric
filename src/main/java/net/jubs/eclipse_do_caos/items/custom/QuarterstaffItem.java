@@ -1,5 +1,6 @@
 package net.jubs.eclipse_do_caos.items.custom;
 
+import net.jubs.eclipse_do_caos.items.ModItems;
 import net.jubs.eclipse_do_caos.items.ModToolMaterial;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
 import net.minecraft.client.item.TooltipContext;
@@ -31,6 +32,7 @@ public class QuarterstaffItem extends SwordItem {
     }
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        ItemStack stack = user.getStackInHand(hand);
         if (!world.isClient()) {
 
             for (int i = 0; i < 50; i++) {
@@ -47,6 +49,7 @@ public class QuarterstaffItem extends SwordItem {
             world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.GUST, SoundCategory.PLAYERS, 9F, 1.0F);
             user.getItemCooldownManager().set(this, 650);
 
+            stack.damage(1, user, (player) -> player.sendToolBreakStatus(hand));
 
         }
 
@@ -65,6 +68,11 @@ public class QuarterstaffItem extends SwordItem {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.quarterstaffffect1.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.quarterstaffffect2.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
+    }
+
+    @Override
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.isOf(ModItems.ESSENCE) || super.canRepair(stack, ingredient);
     }
 }
 

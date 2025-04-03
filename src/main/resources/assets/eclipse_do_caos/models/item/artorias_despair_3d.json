@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
 		"0": "eclipse_do_caos:item/artorias_despair_3d",
+		"1": "eclipse_do_caos:item/despair_saw_3d",
 		"particle": "eclipse_do_caos:item/artorias_despair"
 	},
 	"elements": [
@@ -86,6 +86,20 @@
 			}
 		},
 		{
+			"name": "Serras",
+			"from": [8, 3, 3.75],
+			"to": [8, 13, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 11, 3]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 10], "texture": "#1"},
+				"east": {"uv": [0, 0, 1.25, 10], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 10], "texture": "#1"},
+				"west": {"uv": [2, 0, 3.25, 10], "texture": "#1"},
+				"up": {"uv": [0, 1.25, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 0, 1.25], "texture": "#1"}
+			}
+		},
+		{
 			"name": "Ponta Lamina",
 			"from": [7.7, 13.25, 4.75],
 			"to": [8.3, 13.5, 7.5],
@@ -145,28 +159,24 @@
 			"name": "Corpo",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"nbt": "{}",
 			"children": [
 				{
 					"name": "Segurador",
 					"origin": [10, 8.75, 6.5],
 					"color": 0,
-					"nbt": "{}",
 					"children": [0, 1, 2]
 				},
 				{
 					"name": "Rotacao",
 					"origin": [0, 0, 0],
 					"color": 0,
-					"nbt": "{}",
 					"children": [3, 4]
 				},
 				{
 					"name": "Lamina Grande",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"nbt": "{}",
-					"children": [5, 6]
+					"children": [5, 6, 7]
 				}
 			]
 		}

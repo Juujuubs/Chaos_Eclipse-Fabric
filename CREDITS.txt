@@ -3,22 +3,31 @@ RPG, almost gave up because i clearly wasn't learning to code as much as i wish 
 being the hardest thing ever to make for many, for me it was really difficult to learn to code and solve the problems.
 But the Mod was only possible because of the Players from my RPG, my dearest friends, whom kept cheering me up, i love you all.
 
+And now i been trying to do the Forge Port work as intended, and it's hard.
+
 
 # Attributions:
 Kaupenjoe and his tutorials were the best place to learn, this was only possible because of his courses, thank you so much!
 I even bought the Courses to give you more support!
 Under the MIT License
 - https://www.youtube.com/@ModdingByKaupenjoe
-- https://www.youtube.com/playlist?list=PLKGarocXCE1EO43Dlf5JGh7Yk-kRAXUEJ
+- https://www.youtube.com/playlist?list=PLKGarocXCE1H9Y21-pxjt5Pt8bW14twa-
+
+I could only fix the Hardcoding on the Paxel, thanks to the Mod Paxels for Dummies by GamingEinstein
+Under the MIT License
+- https://github.com/GamingEinstein/PaxelsForDummies/blob/mc1.20.1-forge/LICENSE
+
+I was only able to set the Pallis' Shield Animation in the Fabric Version correctly, and learned to make the Zora's Bow work because of the Mod RepsEverythingMod by Repook
+Under the MIT License
+- https://github.com/Repook/repseverythingmod-1.20.4/blob/master/LICENSE
+
+Pallis' Shield in the Fabric Version was only made correctly because of the Mod Mekanism by Aidan C. Brady
+Under the MIT License
+- https://github.com/Mekanism-Fabric/Mekanism/blob/main/LICENSE
 
 I used as a Reference for the Beloria Painting, the Luphie Frogman Washington Painting from the Mod Cluttered by beelake
 Under the MIT License
 - https://modrinth.com/mod/cluttered
-
-Pallis' Shield and Zora's Bow were only made correctly because of Mekanism and RepsEverythingMod
-Under the MIT License
-- https://github.com/Mekanism-Fabric/Mekanism/blob/main/LICENSE
-- https://github.com/Repook/repseverythingmod-1.20.4/blob/master/LICENSE
 
 Most of the Sound Effects come from FreeSound and all of them come from the CC0 License
 Under the Creative Commons 0 License

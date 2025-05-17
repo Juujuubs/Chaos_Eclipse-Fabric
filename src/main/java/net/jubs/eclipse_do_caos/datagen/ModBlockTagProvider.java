@@ -80,6 +80,9 @@ getOrCreateTagBuilder(BlockTags.LOGS)
         .add(ModBlocks.STRIPPED_EDEN_LOG)
         .add(ModBlocks.STRIPPED_EDEN_WOOD);
 
+        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
+                .add(ModBlocks.ESSENCE_BLOCK);
+
 getOrCreateTagBuilder(BlockTags.PLANKS)
         .add(ModBlocks.EDEN_PLANKS);
 

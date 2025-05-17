@@ -36,59 +36,59 @@ public class ModItems {
 
 
     public static final Item DELS = registerItem("dels",
-            new DelsItem(new FabricItemSettings().maxDamage(512)));
+            new DelsItem(new FabricItemSettings().maxDamage(512).fireproof()));
 
 
     public static final Item QUARTERSTAFF = registerItem("quarterstaff",
             new QuarterstaffItem(ModToolMaterial.ESSENCE, 6,-2.8f, new FabricItemSettings()));
     public static final Item LADON_DRAGON_GLAIVE = registerItem("ladon_dragon_glaive",
-            new LadonDragonGlaiveItem(ModToolMaterial.ESSENCE, 7,-3.2f, new FabricItemSettings()));
+            new LadonDragonGlaiveItem(ModToolMaterial.ESSENCE, 7,-3.2f, new FabricItemSettings().fireproof()));
     public static final Item HELENA_BASEBALL_BAT = registerItem("helena_baseball_bat",
             new HelenaBaseballBatItem(ModToolMaterial.ESSENCE, 4,-2.6f, new FabricItemSettings()));
 
     public static final Item CHALI_II_LANCE = registerItem("chali_ii_lance",
-            new ChaliIILanceItem(ModToolMaterial.ESSENCE, 5,-2.75f, new FabricItemSettings()));
+            new ChaliIILanceItem(ModToolMaterial.ESSENCE, 5,-2.75f, new FabricItemSettings().fireproof()));
 
     public static final Item SAW_EATER = registerItem("saw_eater",
-            new SawEaterItem(ModToolMaterial.ESSENCE, 10,-3.5f, new FabricItemSettings()));
+            new SawEaterItem(ModToolMaterial.ESSENCE, 10,-3.5f, new FabricItemSettings().fireproof()));
     public static final Item ARTORIAS_DESPAIR = registerItem("artorias_despair",
-            new ArtoriasDespairItem(ModToolMaterial.ESSENCE, 12,-3.75f, new FabricItemSettings()));
+            new ArtoriasDespairItem(ModToolMaterial.ESSENCE, 12,-3.75f, new FabricItemSettings().fireproof()));
 
     public static final Item GAUNTLET = registerItem("gauntlet",
             new GauntletItem(ModToolMaterial.ESSENCE, 2,-1.5f, new FabricItemSettings()));
 
     public static final Item ERAK_BATTLEAXE = registerItem("erak_battleaxe",
-            new ErakBattleaxeItem(ModToolMaterial.ESSENCE, 16,-3.85f, new FabricItemSettings()));
+            new ErakBattleaxeItem(ModToolMaterial.ESSENCE, 16,-3.85f, new FabricItemSettings().fireproof()));
     public static final Item NORR_FORR_HAMMER = registerItem("norr_forr_hammer",
-            new NorrForrHammerItem(ModToolMaterial.ESSENCE, 11,-3.65f, new FabricItemSettings()));
+            new NorrForrHammerItem(ModToolMaterial.ESSENCE, 11,-3.65f, new FabricItemSettings().fireproof()));
     public static final Item CLAWS = registerItem("claws",
-            new ClawsItem(ModToolMaterial.ESSENCE, -3,2f, new FabricItemSettings()));
+            new ClawsItem(ModToolMaterial.ESSENCE, -3,2f, new FabricItemSettings().fireproof()));
     public static final Item AKIRA_KATANA = registerItem("akira_katana",
-            new AkiraKatanaItem(ModToolMaterial.ESSENCE, 8,-2.2f, new FabricItemSettings()));
+            new AkiraKatanaItem(ModToolMaterial.ESSENCE, 8,-2.2f, new FabricItemSettings().fireproof()));
     public static final Item ODIN_DAGGER = registerItem("odin_dagger",
-            new OdinDaggerItem(ModToolMaterial.ESSENCE, -1,1f, new FabricItemSettings()));
+            new OdinDaggerItem(ModToolMaterial.ESSENCE, -1,1f, new FabricItemSettings().fireproof()));
     public static final Item HILDA_SCYTHE = registerItem("hilda_scythe",
             new HildaScytheItem(ModToolMaterial.ESSENCE, 0,0.5f, new FabricItemSettings()));
     public static final Item SAI = registerItem("sai",
-            new SaiItem(ModToolMaterial.ESSENCE, -2,1.5f, new FabricItemSettings()));
+            new SaiItem(ModToolMaterial.ESSENCE, -2,1.5f, new FabricItemSettings().fireproof()));
     public static final Item DIEGO_RAPIER = registerItem("diego_rapier",
-            new DiegoRapierItem(ModToolMaterial.ESSENCE, 1,-1f, new FabricItemSettings()));
+            new DiegoRapierItem(ModToolMaterial.ESSENCE, 1,-1f, new FabricItemSettings().fireproof()));
     public static final Item GRIMOIRE = registerItem("grimoire", new GrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item BELAIOS_WAND = registerItem("belaios_wand", new BelaiosWandItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item OLD_GRIMOIRE = registerItem("old_grimoire", new OldGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item ASGORE_GRIMOIRE = registerItem("asgore_grimoire", new AsgoreGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
-    public static final Item NOVUS_GRIMOIRE = registerItem("novus_grimoire", new NovusGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item NOVUS_GRIMOIRE = registerItem("novus_grimoire", new NovusGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000).fireproof()));
     public static final Item BEANS_SACK = registerItem("beans_sack", new BeansSackItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item FROG = registerItem("frog", new FrogItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
-    public static final Item VEIGAR_STAFF = registerItem("veigar_staff", new VeigarStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item VEIGAR_STAFF = registerItem("veigar_staff", new VeigarStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000).fireproof()));
     public static final Item QRAZ_STAFF = registerItem("qraz_staff", new QrazStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
-    public static final Item SYLVERIA_STAFF = registerItem("sylveria_staff", new SylveriaStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
-    public static final Item CATALYST = registerItem("catalyst", new CatalystItem(new FabricItemSettings().maxCount(3)));
+    public static final Item SYLVERIA_STAFF = registerItem("sylveria_staff", new SylveriaStaffItem(new FabricItemSettings().maxCount(1).maxDamage(3000).fireproof()));
+    public static final Item CATALYST = registerItem("catalyst", new CatalystItem(new FabricItemSettings().maxCount(3).fireproof()));
     public static final Item CATALYST_EMPTY = registerItem("catalyst_empty", new Item(new FabricItemSettings().maxCount(64)));
-    public static final Item CARSON_CANNON = registerItem("carson_cannon", new CarsonCannonItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+    public static final Item CARSON_CANNON = registerItem("carson_cannon", new CarsonCannonItem(new FabricItemSettings().maxCount(1).maxDamage(3000).fireproof()));
     public static final Item ZORA_BOW = registerItem("zora_bow", new ZoraBowItem(new FabricItemSettings().maxDamage(3000)));
     public static final Item PALLIS_SHIELD = registerItem("pallis_shield",
-            new PallisShieldItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
+            new PallisShieldItem(new FabricItemSettings().maxCount(1).maxDamage(3000).fireproof()));
 
     public static final Item EDEN_SIGN = registerItem("eden_sign",
             new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.EDEN_SIGN, ModBlocks.EDEN_WALL_SIGN));
@@ -96,7 +96,7 @@ public class ModItems {
             new HangingSignItem(ModBlocks.EDEN_HANGING_SIGN, ModBlocks.EDEN_HANGING_WALL_SIGN, new FabricItemSettings().maxCount(16)));
 
     public static final Item ESSENCE_PAXEL = registerItem("essence_paxel",
-            new PaxelItem(ModToolMaterial.ESSENCE, 1.5f,-2.9f, new FabricItemSettings()));
+            new PaxelItem(ModToolMaterial.ESSENCE, 1.5f,-2.9f, new FabricItemSettings().fireproof()));
 
 
     public static final Item EDEN_BOAT = TerraformBoatItemHelper.registerBoatItem(ModBoats.EDEN_BOAT_ID, ModBoats.EDEN_BOAT_KEY, false);

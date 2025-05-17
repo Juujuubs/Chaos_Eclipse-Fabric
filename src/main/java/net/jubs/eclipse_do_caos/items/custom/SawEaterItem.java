@@ -1,7 +1,5 @@
 package net.jubs.eclipse_do_caos.items.custom;
 
-import com.google.common.collect.ImmutableMap;
-import net.jubs.eclipse_do_caos.blocks.ModBlocks;
 import net.jubs.eclipse_do_caos.items.ModToolMaterial;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
 import net.jubs.eclipse_do_caos.util.ModTags;
@@ -12,10 +10,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.HoneycombItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUsageContext;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
@@ -32,25 +27,12 @@ import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 public class SawEaterItem extends SwordItem {
     public SawEaterItem(ModToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
-    protected static final Map<Block, Block> STRIPPED_BLOCKS = new ImmutableMap.Builder<Block, Block>().put(Blocks.OAK_WOOD, Blocks.STRIPPED_OAK_WOOD)
-            .put(Blocks.OAK_LOG, Blocks.STRIPPED_OAK_LOG).put(Blocks.DARK_OAK_WOOD, Blocks.STRIPPED_DARK_OAK_WOOD)
-            .put(Blocks.DARK_OAK_LOG, Blocks.STRIPPED_DARK_OAK_LOG).put(Blocks.ACACIA_WOOD, Blocks.STRIPPED_ACACIA_WOOD)
-            .put(Blocks.ACACIA_LOG, Blocks.STRIPPED_ACACIA_LOG).put(Blocks.CHERRY_WOOD, Blocks.STRIPPED_CHERRY_WOOD)
-            .put(Blocks.CHERRY_LOG, Blocks.STRIPPED_CHERRY_LOG).put(Blocks.BIRCH_WOOD, Blocks.STRIPPED_BIRCH_WOOD)
-            .put(Blocks.BIRCH_LOG, Blocks.STRIPPED_BIRCH_LOG).put(Blocks.JUNGLE_WOOD, Blocks.STRIPPED_JUNGLE_WOOD)
-            .put(Blocks.JUNGLE_LOG, Blocks.STRIPPED_JUNGLE_LOG).put(Blocks.SPRUCE_WOOD, Blocks.STRIPPED_SPRUCE_WOOD)
-            .put(Blocks.SPRUCE_LOG, Blocks.STRIPPED_SPRUCE_LOG).put(Blocks.WARPED_STEM, Blocks.STRIPPED_WARPED_STEM)
-            .put(Blocks.WARPED_HYPHAE, Blocks.STRIPPED_WARPED_HYPHAE).put(Blocks.CRIMSON_STEM, Blocks.STRIPPED_CRIMSON_STEM)
-            .put(Blocks.CRIMSON_HYPHAE, Blocks.STRIPPED_CRIMSON_HYPHAE).put(Blocks.MANGROVE_WOOD, Blocks.STRIPPED_MANGROVE_WOOD)
-            .put(Blocks.MANGROVE_LOG, Blocks.STRIPPED_MANGROVE_LOG).put(Blocks.BAMBOO_BLOCK, Blocks.STRIPPED_BAMBOO_BLOCK)
-            .put(ModBlocks.EDEN_LOG, ModBlocks.STRIPPED_EDEN_LOG).put(ModBlocks.EDEN_WOOD, ModBlocks.STRIPPED_EDEN_WOOD).build();
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
@@ -58,10 +40,12 @@ public class SawEaterItem extends SwordItem {
         attacker.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 20, 0));
 
 
-        // Chance de 50% de aplicar esses efeitos nos ataques
-        if (new java.util.Random().nextFloat() < 0.5) {
+        // Chance de 20% de aplicar esses efeitos nos ataques
+        if (new java.util.Random().nextFloat() < 0.2) {
             target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 20, 1));
             target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20, 1));
+
+            attacker.getWorld().playSoundFromEntity(null, target, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, SoundCategory.BLOCKS, 1, 1);
         }
 
         return super.postHit(stack, target, attacker);
@@ -106,7 +90,7 @@ public class SawEaterItem extends SwordItem {
         return ActionResult.PASS;
     }
     private Optional<BlockState> getStrippedState(BlockState state) {
-        return Optional.ofNullable(STRIPPED_BLOCKS.get(state.getBlock())).map(block -> (BlockState)block.getDefaultState().with(PillarBlock.AXIS, state.get(PillarBlock.AXIS)));
+        return Optional.ofNullable(AxeItem.STRIPPED_BLOCKS.get(state.getBlock())).map(block -> (BlockState)block.getDefaultState().with(PillarBlock.AXIS, state.get(PillarBlock.AXIS)));
     }
 
     @Override

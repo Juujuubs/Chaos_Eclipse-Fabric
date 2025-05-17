@@ -1,4 +1,4 @@
-// 1.20.1	2024-12-18T23:20:38.5503961	Chaos Eclipse/Model Definitions
+// 1.20.1	2025-05-17T20:54:21.2504695	Chaos Eclipse/Model Definitions
 da515128148d8530dd6d982fcd1b7db9c1d484e7 assets\eclipse_do_caos\blockstates\eden_leaves.json
 b29413be434a215898dad9e886fb4e967683348b assets\eclipse_do_caos\blockstates\eden_slab.json
 0ca501ce54609594d2cabeddd668995491cb29a5 assets\eclipse_do_caos\models\item\pallis_shield.json
@@ -86,7 +86,6 @@ f94bbc1355a2e4af295a5b0f66754d0f830ec155 assets\eclipse_do_caos\models\item\brom
 452f988d61a86d5ba5e076cf83e247c852e90a10 assets\eclipse_do_caos\blockstates\stripped_eden_log.json
 d4c7142993e2ef5000f9c209ded9d30d3c36150a assets\eclipse_do_caos\models\block\eden_door_top_left_open.json
 0c4bb05323419a7b2fe2fc723fa1eff7d649dac1 assets\eclipse_do_caos\models\block\eden_fence_gate_open.json
-f3577d4ff2d5901100c0036218ad9321e9819037 assets\eclipse_do_caos\models\item\essence_paxel.json
 b778fe7215be1310efc2068a121e1f02d0f2b369 assets\eclipse_do_caos\models\item\eden_door.json
 865170b269a87c15ca9d465035cff760f8390f8c assets\eclipse_do_caos\models\item\hilda_scythe.json
 62221ef6a2feda097452e661234ec1865b2dc8c6 assets\eclipse_do_caos\blockstates\eden_planks.json
@@ -116,8 +115,8 @@ b157f7313e7e031075d673bb37696ae6741fad47 assets\eclipse_do_caos\models\item\gobl
 847fd961cb46505d94d9d970d050ed6792454471 assets\eclipse_do_caos\models\item\essence_block.json
 a80a476bd2f27807bdbe1d05e6c741e58a2d5863 assets\eclipse_do_caos\models\block\eden_fence_inventory.json
 cf0e4664734e5b682db6533e5d034b68b51b901c assets\eclipse_do_caos\models\item\eden_tree_apple.json
-550a7c90d35e5e2b4efcfe1dfa698aa701f72f84 assets\eclipse_do_caos\blockstates\eden_wood.json
 e5ba98a69f02ac4fec1706599f063bd08ec57a1c assets\eclipse_do_caos\blockstates\eden_pressure_plate.json
+550a7c90d35e5e2b4efcfe1dfa698aa701f72f84 assets\eclipse_do_caos\blockstates\eden_wood.json
 05ebe1307b3d3bf2434950887ef91e97964625fa assets\eclipse_do_caos\models\item\ticket_arcanumrails.json
 edef73e168d5b9578f2eebb3f5d2aac1376cb166 assets\eclipse_do_caos\models\item\elf_ear.json
 c4e0b7cc4c15091478e74251cb5353ab6e37027b assets\eclipse_do_caos\models\block\stripped_eden_log.json

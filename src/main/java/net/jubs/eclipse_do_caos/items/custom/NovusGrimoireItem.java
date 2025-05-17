@@ -86,6 +86,7 @@ public class NovusGrimoireItem extends Item {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.novus_grimoire.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.novus_grimoire2.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.novus_grimoirepeaceful.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.novus_grimoireeffect.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.novus_grimoireeffect2.tooltip"));

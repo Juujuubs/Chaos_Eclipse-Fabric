@@ -2,6 +2,7 @@ package net.jubs.eclipse_do_caos;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.jubs.eclipse_do_caos.blocks.ModBlocks;
 import net.jubs.eclipse_do_caos.blocks.entity.ModBlocksEntities;
@@ -71,5 +72,11 @@ public class EclipseDoCaos implements ModInitializer {
 		ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModBlocks.EDEN_SAPLING, 0.45f);
 		ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModBlocks.BROMELIAD, 0.65f);
 		ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModBlocks.EDEN_LEAVES, 0.4f);
+
+		FuelRegistry.INSTANCE.add(ModItems.QUARTERSTAFF, 6400);
+		FuelRegistry.INSTANCE.add(ModItems.ZORA_BOW, 6400);
+		FuelRegistry.INSTANCE.add(ModItems.HELENA_BASEBALL_BAT, 6400);
+		FuelRegistry.INSTANCE.add(ModItems.FROG, 6400);
+		FuelRegistry.INSTANCE.add(ModItems.BELAIOS_WAND, 6400);
 	}
 }

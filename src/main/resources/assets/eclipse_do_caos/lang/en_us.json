@@ -269,6 +269,7 @@
 
     "tooltip.eclipse_do_caos.novus_grimoire.tooltip": "§oHe just wanted to make the Difference.",
     "tooltip.eclipse_do_caos.novus_grimoire2.tooltip": "You can Right Click to §lCast§r a §4§lSoul Alteration",
+    "tooltip.eclipse_do_caos.novus_grimoirepeaceful.tooltip": "§8§oIt doesn't Work on §lPeaceful",
     "tooltip.eclipse_do_caos.novus_grimoireeffect.tooltip": "§9Invokes 4 Zombies (00:30)",
     "tooltip.eclipse_do_caos.novus_grimoireeffect2.tooltip": "§cWeakness III (00:40)",
 
@@ -293,7 +294,7 @@
     "tooltip.eclipse_do_caos.saw_eater3.tooltip": "§oOn Hit Effects:",
     "tooltip.eclipse_do_caos.saw_eaterself.tooltip": "§8Self",
     "tooltip.eclipse_do_caos.saw_eatereffect3.tooltip": "§9Saturation",
-    "tooltip.eclipse_do_caos.saw_eaterentities.tooltip": "§8Target, 50% Chance",
+    "tooltip.eclipse_do_caos.saw_eaterentities.tooltip": "§8Target, 20% Chance",
     "tooltip.eclipse_do_caos.saw_eatereffect4.tooltip": "§cWeakness",
     "tooltip.eclipse_do_caos.saw_eatereffect5.tooltip": "§cSlowness",
 

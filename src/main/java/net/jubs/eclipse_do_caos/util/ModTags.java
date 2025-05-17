@@ -52,6 +52,9 @@ public class ModTags {
         public static final TagKey<Item> GUNS =
                 createTag("guns");
 
+        public static final TagKey<Item> BOSS_WEAPONS =
+                createTag("boss_weapons");
+
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, new Identifier(EclipseDoCaos.MOD_ID, name));

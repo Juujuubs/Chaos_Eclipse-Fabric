@@ -1,6 +1,6 @@
-// 1.20.1	2024-12-18T23:20:38.5723847	Chaos Eclipse/Tags for minecraft:block
-c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\all_signs.json
+// 1.20.1	2025-05-17T20:54:21.3074377	Chaos Eclipse/Tags for minecraft:block
 87386fe7103d64b02e047cf831eb3666bb0cef0e data\fabric\tags\blocks\needs_tool_level_4.json
+c354c688c10a2a2704865a8287801c22b6a06abe data\minecraft\tags\blocks\all_signs.json
 630e5550498131bd58c1e9d1ad414fca5c67183a data\minecraft\tags\blocks\mineable\axe.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\blocks\slabs.json
 d0a6e94ccc99c08ce54fcee6a75b3e8256c8044c data\minecraft\tags\blocks\wall_post_override.json
@@ -20,6 +20,7 @@ fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\blocks\flowers.json
 7ad5f73c2953cef28939d44161f3aa0eec79012a data\minecraft\tags\blocks\planks.json
 bc62e4c937c4fa5ce682f7b56b2fa25837a3c0ac data\minecraft\tags\blocks\crops.json
 11f0d42fb18f05698af2e4ca31dd14cec2403cf4 data\minecraft\tags\blocks\all_hanging_signs.json
+d1db5eb2d8abf8ca2e1ab61b85d356e1eeff61f8 data\minecraft\tags\blocks\beacon_base_blocks.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\blocks\wooden_slabs.json
 f42de978c91ac82dace6c187fd779e97843c0c09 data\minecraft\tags\blocks\wall_signs.json
 11f0d42fb18f05698af2e4ca31dd14cec2403cf4 data\minecraft\tags\blocks\ceiling_hanging_signs.json

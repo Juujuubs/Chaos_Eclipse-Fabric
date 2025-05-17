@@ -81,7 +81,29 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.ZORA_BOW);
         getOrCreateTagBuilder(ModTags.Items.GUNS)
                 .add(ModItems.CARSON_CANNON);
+        getOrCreateTagBuilder(ModTags.Items.BOSS_WEAPONS)
+                .add(ModItems.DIEGO_RAPIER)
+                .add(ModItems.AKIRA_KATANA);
 
+        getOrCreateTagBuilder(ItemTags.PIGLIN_LOVED)
+                .add(ModItems.GRIMOIRE)
+                .add(ModItems.ASGORE_GRIMOIRE)
+                .add(ModItems.OLD_GRIMOIRE)
+                .add(ModItems.CARSON_CANNON)
+                .add(ModItems.ODIN_DAGGER);
+
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
+                .add(ModItems.ESSENCE);
+
+        getOrCreateTagBuilder(ItemTags.BOOKSHELF_BOOKS)
+                .add(ModItems.GRIMOIRE)
+                .add(ModItems.ASGORE_GRIMOIRE)
+                .add(ModItems.OLD_GRIMOIRE)
+                .add(ModItems.NOVUS_GRIMOIRE)
+                .add(ModItems.VOX);
+
+        getOrCreateTagBuilder(ItemTags.VILLAGER_PLANTABLE_SEEDS)
+                .add(ModItems.BEAN);
 
 
         getOrCreateTagBuilder(ItemTags.PLANKS)

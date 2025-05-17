@@ -1,8 +1,9 @@
-// 1.20.1	2024-12-18T23:20:38.6103617	Chaos Eclipse/Tags for minecraft:item
+// 1.20.1	2025-05-17T20:54:21.3344221	Chaos Eclipse/Tags for minecraft:item
 503770a32549ee2e7879c39335c474cf54931d9f data\minecraft\tags\items\leaves.json
 fc341d9a4af50ad6727a56dad41a792a2506315d data\minecraft\tags\items\saplings.json
 c04a75bc8ea566b3d222768d16bb2d4d139055f9 data\minecraft\tags\items\hanging_signs.json
 b684b1f9ac51c1ff657f921efc57c540231d883d data\minecraft\tags\items\stairs.json
+df1b774ab4509170889b1aa3f90253a232061b77 data\minecraft\tags\items\beacon_payment_items.json
 8933df4cf323b90e8224dbb864c76c3173a0bc58 data\minecraft\tags\items\axes.json
 fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\items\small_flowers.json
 0fec44668b480dd01c71644eb54468e9e20e4c69 data\eclipse_do_caos\tags\items\guns.json
@@ -11,6 +12,7 @@ e86bf12995f596f0bd12b497d05c66ac506fad78 data\minecraft\tags\items\wooden_fences
 bee8d5c912a2312a766d3fc774eeba92918f6399 data\minecraft\tags\items\signs.json
 d99e5f09df24a84cba41cdc323613b2570c15df2 data\minecraft\tags\items\music_discs.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\items\slabs.json
+4e12e8f6c4468da46c15685a1db6f07af32d4cb5 data\minecraft\tags\items\bookshelf_books.json
 201a021bfe43473357aad1ea5171db44177e8f44 data\eclipse_do_caos\tags\items\lost_weapons.json
 949f25773c455b81a15146d8ed82ee8e2dfd0ed9 data\minecraft\tags\items\chest_boats.json
 92500fc011172523e282acec6fa11134ad645406 data\eclipse_do_caos\tags\items\ranged_weapons.json
@@ -37,7 +39,10 @@ fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\items\flowers.json
 329645707e24600cc275dfef298f9997f83547a9 data\eclipse_do_caos\tags\items\staffs.json
 2c144d15a203b2f818b1ef59fb1a96d2dca12560 data\eclipse_do_caos\tags\items\grimoires.json
 f2511dc3cdb2967d4a95389a1fdebb4d54119115 data\minecraft\tags\items\doors.json
+8e2d578183374fb8e2504a8162f7a870d49ba09c data\minecraft\tags\items\villager_plantable_seeds.json
 b00c273134e196f74e1c5bf15399f2cf3d9ec894 data\minecraft\tags\items\swords.json
 b37e4cf25bb07b199474d20687252b59c986413d data\minecraft\tags\items\fence_gates.json
+3b07f612956ce62e06374f44b366fe29209d869d data\minecraft\tags\items\piglin_loved.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\items\wooden_slabs.json
+763b0996a38b6a0bbe87998f593077e62b9a7320 data\eclipse_do_caos\tags\items\boss_weapons.json
 8ead87a1c4022e3146533f88306e8b0edef18629 data\minecraft\tags\items\boats.json

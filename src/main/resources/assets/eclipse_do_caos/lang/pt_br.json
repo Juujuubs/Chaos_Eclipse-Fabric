@@ -267,6 +267,7 @@
 
     "tooltip.eclipse_do_caos.novus_grimoire.tooltip": "§oEle só queria fazer a Diferença.",
     "tooltip.eclipse_do_caos.novus_grimoire2.tooltip": "Clique com o Botão Direito para §lLançar§r uma §4§lAlteração de Alma",
+    "tooltip.eclipse_do_caos.novus_grimoirepeaceful.tooltip": "§8§oNão Funciona no §lPacífico",
     "tooltip.eclipse_do_caos.novus_grimoireeffect.tooltip": "§9Invoca 4 Zumbis (00:30)",
     "tooltip.eclipse_do_caos.novus_grimoireeffect2.tooltip": "§cFraqueza III (00:40)",
 
@@ -291,7 +292,7 @@
     "tooltip.eclipse_do_caos.saw_eater3.tooltip": "§oEfeitos no Acerto:",
     "tooltip.eclipse_do_caos.saw_eaterself.tooltip": "§8Em si Mesmo",
     "tooltip.eclipse_do_caos.saw_eatereffect3.tooltip": "§9Saturação",
-    "tooltip.eclipse_do_caos.saw_eaterentities.tooltip": "§8Alvo, 50% de Chance",
+    "tooltip.eclipse_do_caos.saw_eaterentities.tooltip": "§8Alvo, 20% de Chance",
     "tooltip.eclipse_do_caos.saw_eatereffect4.tooltip": "§cFraqueza",
     "tooltip.eclipse_do_caos.saw_eatereffect5.tooltip": "§cLentidão",
 

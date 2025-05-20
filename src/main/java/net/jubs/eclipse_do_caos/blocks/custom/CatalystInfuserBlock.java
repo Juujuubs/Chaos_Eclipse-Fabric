@@ -111,16 +111,16 @@ protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient) {
+            world.playSound(null, pos, ModSounds.INFUSER_POT, SoundCategory.BLOCKS, 1f, 1f);
+
             NamedScreenHandlerFactory screenHandlerFactory = ((CatalystInfuserBlockEntity) world.getBlockEntity(pos));
             if (screenHandlerFactory != null) {
                 player.openHandledScreen(screenHandlerFactory);
 
 
-                return ActionResult.success(world.isClient);
+
             }
-        }
-        if (world.isClient) {
-            world.playSound(player, pos, ModSounds.INFUSER_POT, SoundCategory.BLOCKS, 1f, 1f);
+            return ActionResult.SUCCESS;
         }
         return ActionResult.SUCCESS;
     }

@@ -32,7 +32,7 @@ public class NorrForrHammerItem extends AxeItem {
     }
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        attacker.getWorld().playSoundFromEntity(null, target, ModSounds.NORR_FORR_HAMMER_HIT, SoundCategory.PLAYERS, 1, 1);
+        attacker.getWorld().playSoundFromEntity(null, target, ModSounds.NORR_FORR_HAMMER_HIT, SoundCategory.PLAYERS, 2, 1);
         return super.postHit(stack, target, attacker);
     }
 

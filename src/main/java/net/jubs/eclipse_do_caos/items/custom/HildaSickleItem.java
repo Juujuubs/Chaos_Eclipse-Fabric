@@ -20,8 +20,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class HildaScytheItem extends SwordItem {
-    public HildaScytheItem(ModToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+public class HildaSickleItem extends SwordItem {
+    public HildaSickleItem(ModToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
         super(material, attackDamage, attackSpeed, settings);
     }
     @Override
@@ -57,13 +57,13 @@ public class HildaScytheItem extends SwordItem {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_scythe.tooltip"));
-        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_scytheline2.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_sickle.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_sickleline2.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
-        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_scythe2.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_sickle2.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
-        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_scytheeffect.tooltip"));
-        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_scytheeffect2.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_sickleeffect.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.hilda_sickleeffect2.tooltip"));
         super.appendTooltip(stack, world, tooltip, context);
     }
 }

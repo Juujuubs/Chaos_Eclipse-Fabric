@@ -88,7 +88,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DIEGO_RAPIER);
                         entries.add(ModItems.CLAWS);
                         entries.add(ModItems.SAI);
-                        entries.add(ModItems.HILDA_SCYTHE);
+                        entries.add(ModItems.HILDA_SICKLE);
                         entries.add(ModItems.ODIN_DAGGER);
                         entries.add(ModItems.GAUNTLET);
                         entries.add(ModItems.BEANS_SACK);

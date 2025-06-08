@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "eclipse_do_caos:item/hilda_scythe"
+    "layer0": "eclipse_do_caos:item/hilda_sickle"
   }
 }

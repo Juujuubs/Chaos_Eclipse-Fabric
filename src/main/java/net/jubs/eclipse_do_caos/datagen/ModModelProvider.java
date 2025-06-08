@@ -78,7 +78,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COOKED_BEAN, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARTORIAS_DESPAIR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.HELENA_BASEBALL_BAT, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.HILDA_SCYTHE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.HILDA_SICKLE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DIEGO_RAPIER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AKIRA_KATANA, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ODIN_DAGGER, Models.HANDHELD);

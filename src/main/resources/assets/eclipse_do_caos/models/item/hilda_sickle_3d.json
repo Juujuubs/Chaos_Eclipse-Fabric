@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "eclipse_do_caos:item/hilda_scythe_3d",
-		"particle": "eclipse_do_caos:item/hilda_scythe"
+		"0": "eclipse_do_caos:item/hilda_sickle_3d",
+		"particle": "eclipse_do_caos:item/hilda_sickle"
 	},
 	"elements": [
 		{

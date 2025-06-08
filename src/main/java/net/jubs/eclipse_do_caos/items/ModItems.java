@@ -67,8 +67,8 @@ public class ModItems {
             new AkiraKatanaItem(ModToolMaterial.ESSENCE, 8,-2.2f, new FabricItemSettings().fireproof()));
     public static final Item ODIN_DAGGER = registerItem("odin_dagger",
             new OdinDaggerItem(ModToolMaterial.ESSENCE, -1,1f, new FabricItemSettings().fireproof()));
-    public static final Item HILDA_SCYTHE = registerItem("hilda_scythe",
-            new HildaScytheItem(ModToolMaterial.ESSENCE, 0,0.5f, new FabricItemSettings()));
+    public static final Item HILDA_SICKLE = registerItem("hilda_sickle",
+            new HildaSickleItem(ModToolMaterial.ESSENCE, 0,0.5f, new FabricItemSettings()));
     public static final Item SAI = registerItem("sai",
             new SaiItem(ModToolMaterial.ESSENCE, -2,1.5f, new FabricItemSettings().fireproof()));
     public static final Item DIEGO_RAPIER = registerItem("diego_rapier",
@@ -162,7 +162,7 @@ public class ModItems {
         entries.add(BEANS_SACK);
         entries.add(ARTORIAS_DESPAIR);
         entries.add(HELENA_BASEBALL_BAT);
-        entries.add(HILDA_SCYTHE);
+        entries.add(HILDA_SICKLE);
         entries.add(DIEGO_RAPIER);
         entries.add(AKIRA_KATANA);
         entries.add(ODIN_DAGGER);

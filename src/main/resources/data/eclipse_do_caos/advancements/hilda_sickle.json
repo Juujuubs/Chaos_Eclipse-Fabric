@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "eclipse_do_caos:hilda_scythe"
+      "item": "eclipse_do_caos:hilda_sickle"
     },
     "title": "Glitch Out of Existence",
     "description": "Regain her Life",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "eclipse_do_caos:hilda_scythe"
+              "eclipse_do_caos:hilda_sickle"
             ]
           }
         ]

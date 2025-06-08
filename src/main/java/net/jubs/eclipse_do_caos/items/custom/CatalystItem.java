@@ -66,7 +66,7 @@ public class CatalystItem extends HoneyBottleItem {
             StatusEffect randomEffect = possibleEffects[new Random().nextInt(possibleEffects.length)];
 
             // Aplica o efeito selecionado
-            user.addStatusEffect(new StatusEffectInstance(randomEffect, 600, 3));
+            user.addStatusEffect(new StatusEffectInstance(randomEffect, 1200, 3));
 
             for (int i = 0; i < 50; i++) {
                 double offsetX = Math.random() * 0.5;

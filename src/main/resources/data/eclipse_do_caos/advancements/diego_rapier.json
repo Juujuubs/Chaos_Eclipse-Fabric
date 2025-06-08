@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "eclipse_do_caos:hilda_scythe",
+  "parent": "eclipse_do_caos:hilda_sickle",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

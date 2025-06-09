@@ -120,7 +120,7 @@
     "tooltip.eclipse_do_caos.frogline2.tooltip": "§omas a Zombaria está ficando mais alta.",
     "tooltip.eclipse_do_caos.frog2.tooltip": "Clique com o Botão Direito para §lTocar§r o §6§lSapo Reco-reco",
     "tooltip.eclipse_do_caos.frogeffect.tooltip": "§9Regeneração (00:10)",
-    "tooltip.eclipse_do_caos.frog3.tooltip": "§oArea Effects:",
+    "tooltip.eclipse_do_caos.frog3.tooltip": "§oEfeitos em Área:",
     "tooltip.eclipse_do_caos.frogeffect2.tooltip": "§cLentidão III (00:10)",
     "tooltip.eclipse_do_caos.frogeffect3.tooltip": "§cCegueira II (00:10)",
 
@@ -301,7 +301,7 @@
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveline2.tooltip": "§omas esqueceu de Envenenar uma Pequena Aranha.",
     "tooltip.eclipse_do_caos.ladon_dragon_glaive2.tooltip": "Clique com o Botão Direito para §lFazer§r os outros §9§lLevitarem",
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveeffect.tooltip": "§9Absorção (00:17)",
-    "tooltip.eclipse_do_caos.ladon_dragon_glaive3.tooltip": "§oEfeito em Área:",
+    "tooltip.eclipse_do_caos.ladon_dragon_glaive3.tooltip": "§oEfeitos em Área:",
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveeffect2.tooltip": "§cLevitação (00:10)",
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveeffect3.tooltip": "§cFraqueza (00:10)",
 
@@ -310,7 +310,7 @@
     "tooltip.eclipse_do_caos.erak_battleaxeline3.tooltip": "§obem longe das Lutas",
     "tooltip.eclipse_do_caos.erak_battleaxe2.tooltip": "Clique com o Botão Direito para §lComeçar§r um §6§lTremor",
     "tooltip.eclipse_do_caos.erak_battleaxeeffect.tooltip": "§9Resistência (00:20)",
-    "tooltip.eclipse_do_caos.erak_battleaxe3.tooltip": "§oEfeito em Área:",
+    "tooltip.eclipse_do_caos.erak_battleaxe3.tooltip": "§oEfeitos em Área:",
     "tooltip.eclipse_do_caos.erak_battleaxeeffect2.tooltip": "§cDano Instantâneo",
     "tooltip.eclipse_do_caos.erak_battleaxeeffect3.tooltip": "§cLevitação",
 
@@ -338,10 +338,11 @@
     "tooltip.eclipse_do_caos.chali_ii_lance.tooltip": "§oEla se viu Pisoteada até a Morte,",
     "tooltip.eclipse_do_caos.chali_ii_lanceline2.tooltip": "§oexatamente como Aquele que ela Matou.",
     "tooltip.eclipse_do_caos.chali_ii_lance2.tooltip": "Clique com o Botão Direito para §lAvançar§r como uma §4§lAranha",
+    "tooltip.eclipse_do_caos.chali_ii_lancemount.tooltip": "§8§oVocê pode utilizar o §lAvanço§r§8§o enquanto estiver em uma §lMontaria",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect1.tooltip": "§9Força (00:15)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect2.tooltip": "§cLentidão (00:15)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect3.tooltip": "§cFome III (00:10)",
-    "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oEfeito em Área:",
+    "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oEfeitos em Área:",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip": "§cDecomposição (00:05)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect5.tooltip": "§cVeneno II (00:10)",
 

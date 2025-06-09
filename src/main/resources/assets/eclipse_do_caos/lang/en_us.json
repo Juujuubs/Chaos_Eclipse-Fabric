@@ -302,7 +302,7 @@
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveline2.tooltip": "§obut forgot to Poison a Little Spider.",
     "tooltip.eclipse_do_caos.ladon_dragon_glaive2.tooltip": "You can Right Click to §lMake§r others §9§lLevitate",
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveeffect.tooltip": "§9Absorption (00:17)",
-    "tooltip.eclipse_do_caos.ladon_dragon_glaive3.tooltip": "§oArea Effect:",
+    "tooltip.eclipse_do_caos.ladon_dragon_glaive3.tooltip": "§oArea Effects:",
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveeffect2.tooltip": "§cLevitation (00:10)",
     "tooltip.eclipse_do_caos.ladon_dragon_glaiveeffect3.tooltip": "§cWeakness (00:10)",
 
@@ -339,10 +339,11 @@
     "tooltip.eclipse_do_caos.chali_ii_lance.tooltip": "§oShe saw Herself Stomped to Death,",
     "tooltip.eclipse_do_caos.chali_ii_lanceline2.tooltip": "§ojust Like the One she Killed.",
     "tooltip.eclipse_do_caos.chali_ii_lance2.tooltip": "You can Right Click to §lDash§r like a §4§lSpider",
+    "tooltip.eclipse_do_caos.chali_ii_lancemount.tooltip": "§8§oYou can §lDash§r§8§o while you're on a §lMount",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect1.tooltip": "§9Strength (00:15)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect2.tooltip": "§cSlowness (00:15)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect3.tooltip": "§cHunger III (00:10)",
-    "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oArea Effect:",
+    "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oArea Effects:",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip": "§cWither (00:05)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect5.tooltip": "§cPoison II (00:10)",
 

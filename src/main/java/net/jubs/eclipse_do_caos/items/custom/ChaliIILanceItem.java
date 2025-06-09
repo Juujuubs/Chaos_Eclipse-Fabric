@@ -3,6 +3,7 @@ package net.jubs.eclipse_do_caos.items.custom;
 import net.jubs.eclipse_do_caos.items.ModToolMaterial;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -38,14 +39,25 @@ public class ChaliIILanceItem extends SwordItem {
             double dashDistance = 12.0;
             double directionX = -Math.sin(Math.toRadians(user.getYaw())) * dashDistance;
             double directionZ = Math.cos(Math.toRadians(user.getYaw())) * dashDistance;
-            if (user.isOnGround()) {
-                user.setVelocity(directionX, user.getVelocity().y, directionZ);
+            double airResistance = 0.15;
+            Entity vehicle = user.getVehicle();
+            if (vehicle != null) {
+                // Caso o jogador esteja em uma montaria, o spider dash também ocorre
+                if (vehicle.isOnGround()) {
+                    vehicle.setVelocity(directionX, vehicle.getVelocity().y, directionZ);
+                } else {
+                    vehicle.setVelocity(directionX * airResistance, vehicle.getVelocity().y, directionZ * airResistance);
+                }
+                vehicle.velocityModified = true;
             } else {
-
-                double airResistance = 0.15;
-                user.setVelocity(directionX * airResistance, user.getVelocity().y, directionZ * airResistance);
+                if (user.isOnGround()) {
+                    user.setVelocity(directionX, user.getVelocity().y, directionZ);
+                } else {
+                    user.setVelocity(directionX * airResistance, user.getVelocity().y, directionZ * airResistance);
+                }
+                user.velocityModified = true;
             }
-            user.velocityModified = true;
+
 
 
             for (int i = 0; i < 50; i++) {
@@ -66,7 +78,8 @@ public class ChaliIILanceItem extends SwordItem {
             Vec3d startPos = user.getPos();
             Vec3d endPos = startPos.add(user.getRotationVec(1.0F).multiply(8));
             Box box = new Box(startPos, endPos).expand(1.0, 1.0, 1.0);
-            List<LivingEntity> entities = world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user);
+            List<LivingEntity> entities = world.getEntitiesByClass(LivingEntity.class, box, entity ->
+                    entity != user && entity != user.getVehicle());
 
             for (LivingEntity entity : entities) {
                 if (entity.getBoundingBox().intersects(box)) {
@@ -90,6 +103,7 @@ public class ChaliIILanceItem extends SwordItem {
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lanceline2.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lance2.tooltip"));
+        tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lancemount.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.space.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lanceeffect1.tooltip"));
         tooltip.add(Text.translatable("tooltip.eclipse_do_caos.chali_ii_lanceeffect2.tooltip"));

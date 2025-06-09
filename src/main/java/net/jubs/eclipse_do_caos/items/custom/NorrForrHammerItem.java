@@ -41,7 +41,7 @@ public class NorrForrHammerItem extends AxeItem {
         double radius = 8.0D;
         Box box = user.getBoundingBox().expand(radius);
         List<Class<? extends LivingEntity>> hostileClasses = Arrays.asList(HostileEntity.class, SlimeEntity.class, PhantomEntity.class, ShulkerEntity.class);
-        world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && user.squaredDistanceTo(entity) <= radius * radius)
+        world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && entity != user.getVehicle() && user.squaredDistanceTo(entity) <= radius * radius)
                 .forEach(entity -> {
                     boolean isHostile = hostileClasses.stream().anyMatch(clazz -> clazz.isInstance(entity));
                     if (isHostile) {

@@ -35,7 +35,7 @@ public class QrazStaffItem extends Item {
         ItemStack stack = user.getStackInHand(hand);
         double radius = 6.0D;
         Box box = user.getBoundingBox().expand(radius);
-        world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && user.squaredDistanceTo(entity) <= radius * radius)
+        world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && entity != user.getVehicle() && user.squaredDistanceTo(entity) <= radius * radius)
                 .forEach(entity -> {
                     if (entity instanceof PlayerEntity) {
                         PlayerEntity player = (PlayerEntity) entity;

@@ -34,7 +34,7 @@ public class FrogItem extends Item {
         ItemStack stack = user.getStackInHand(hand);
         double radius = 8.0D;
         Box box = user.getBoundingBox().expand(radius);
-        world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && user.squaredDistanceTo(entity) <= radius * radius)
+        world.getEntitiesByClass(LivingEntity.class, box, entity -> entity != user && entity != user.getVehicle() && user.squaredDistanceTo(entity) <= radius * radius)
                 .forEach(entity -> {
                     entity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 2));
                     entity.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 200, 1));

@@ -16,6 +16,7 @@ public class ModPaintings {
     public static final PaintingVariant RAVEN = registerPainting("raven", new PaintingVariant(16, 16));
     public static final PaintingVariant VEIGAR = registerPainting("veigar", new PaintingVariant(16, 16));
     public static final PaintingVariant VEX = registerPainting("vex", new PaintingVariant(16, 16));
+    public static final PaintingVariant REUS = registerPainting("reus", new PaintingVariant(16, 16));
     public static final PaintingVariant BELORIA_BONISSIMO = registerPainting("beloria_bonissimo", new PaintingVariant(16, 32));
 private static PaintingVariant registerPainting(String name, PaintingVariant paintingVariant) {
     return Registry.register(Registries.PAINTING_VARIANT, new Identifier(EclipseDoCaos.MOD_ID, name), paintingVariant);

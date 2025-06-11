@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "eclipse_do_caos:beans_sack"
+      "item": "eclipse_do_caos:agatha_bonesaw"
     },
-    "title": "Almost Like Soldier",
-    "description": "The Beast is Calling through the Algae",
+    "title": "The Queen of the Pirates",
+    "description": "The Beast can't return to Sinners' Bay",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "eclipse_do_caos:qraz_staff",
+  "parent": "eclipse_do_caos:essence_block",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
         "items": [
           {
             "items": [
-              "eclipse_do_caos:beans_sack"
+              "eclipse_do_caos:agatha_bonesaw"
             ]
           }
         ]

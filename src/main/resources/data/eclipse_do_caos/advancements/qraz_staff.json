@@ -4,13 +4,13 @@
       "item": "eclipse_do_caos:qraz_staff"
     },
     "title": "The Moss Qrazilla",
-    "description": "Called By a Portal, Stayed for the Giggles",
+    "description": "Called By a Portal, Far away from his Isle",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "eclipse_do_caos:essence_block",
+  "parent": "eclipse_do_caos:agatha_bonesaw",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

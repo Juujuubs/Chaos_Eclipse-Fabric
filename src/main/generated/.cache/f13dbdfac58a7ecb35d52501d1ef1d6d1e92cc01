@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-08T15:44:36.3006949	Chaos Eclipse/Model Definitions
+// 1.20.1	2025-06-10T23:02:08.4150045	Chaos Eclipse/Model Definitions
 da515128148d8530dd6d982fcd1b7db9c1d484e7 assets\eclipse_do_caos\blockstates\eden_leaves.json
 b29413be434a215898dad9e886fb4e967683348b assets\eclipse_do_caos\blockstates\eden_slab.json
 0ca501ce54609594d2cabeddd668995491cb29a5 assets\eclipse_do_caos\models\item\pallis_shield.json
@@ -71,6 +71,7 @@ b8bc0571c37d2bd190b4c2955201ba5f83133672 assets\eclipse_do_caos\models\block\ede
 b9496bd836146bb9f203aa5cc4fc8941f4e8d746 assets\eclipse_do_caos\models\item\eden_button.json
 f64e3994a01a76ff1ef5e5a72185ed791a5463ff assets\eclipse_do_caos\models\block\eden_door_top_right.json
 510e206b88ad6a282bdd98d2b8ee35780449cdb5 assets\eclipse_do_caos\models\item\chali_ii_lance.json
+d4c66200748089ba480d62a4ec0e27cb8eb1e541 assets\eclipse_do_caos\models\item\agatha_bonesaw.json
 c7fa7a87924cc1ad3e5579366815a71180690f3e assets\eclipse_do_caos\models\item\catalyst.json
 e04f48740bb80ea01f425b5770cde70a883493d0 assets\eclipse_do_caos\models\item\essence_ore_block.json
 56ac4dc8f5329679cd3f507c2546dd3b595af687 assets\eclipse_do_caos\models\item\eden_slab.json

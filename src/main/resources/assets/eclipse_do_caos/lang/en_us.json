@@ -52,6 +52,7 @@
     "item.eclipse_do_caos.gauntlet": "§6Juno's Gauntlet§r",
     "item.eclipse_do_caos.norr_forr_hammer": "§4Norr' Forr's Hammer§r",
     "item.eclipse_do_caos.chali_ii_lance": "§4Chali II's Lance§r",
+    "item.eclipse_do_caos.agatha_bonesaw": "§6Agatha's Bonesaw§r",
     "item.eclipse_do_caos.poison_bolt": "§2Poison Bolt§r",
     "item.eclipse_do_caos.lightning_strike": "§eLightning Strike§r",
     "item.eclipse_do_caos.cannonball": "Cannonball",
@@ -171,7 +172,7 @@
     "tooltip.eclipse_do_caos.beans_sack.tooltip": "§oThe Ocean kept dragging him down,",
     "tooltip.eclipse_do_caos.beans_sackline2.tooltip": "§ono matter how High he screamed.",
     "tooltip.eclipse_do_caos.beans_sack2.tooltip": "You can Right Click to §lThrow§r a §2§lBean",
-    "tooltip.eclipse_do_caos.beans_sack3.tooltip": "§8Requires §nBeans§r§8 as Ammo",
+    "tooltip.eclipse_do_caos.beans_sack3.tooltip": "§8§oRequires §nBeans§r§8§o as Ammo",
     "tooltip.eclipse_do_caos.beans_sackclick.tooltip": "§2§oWhen Right Clicked §nWithout§r§2 Ammo:",
     "tooltip.eclipse_do_caos.beans_sackeffect.tooltip": "§9Slow Falling (00:20)",
 
@@ -276,7 +277,7 @@
     "tooltip.eclipse_do_caos.carson_cannon.tooltip": "§oGoing after his Partner, Johnny, made him turn",
     "tooltip.eclipse_do_caos.carson_cannonline2.tooltip":"§ointo one of the Monsters that they hunted.",
     "tooltip.eclipse_do_caos.carson_cannon2.tooltip": "You can Right Click to §lFire§r a §6§lCannonball Blast",
-    "tooltip.eclipse_do_caos.carson_cannon3.tooltip": "§8Requires §nCannonballs§r§8 as Ammo",
+    "tooltip.eclipse_do_caos.carson_cannon3.tooltip": "§8§oRequires §nCannonballs§r§8§o as Ammo",
     "tooltip.eclipse_do_caos.carson_cannonclick.tooltip": "§6§oWhen Right Clicked §nWithout§r§6 Ammo:",
     "tooltip.eclipse_do_caos.carson_cannoneffect.tooltip": "§9Luck (00:17)",
 
@@ -318,7 +319,7 @@
     "tooltip.eclipse_do_caos.belaios_wand.tooltip": "§oFound in a Giant Worm's Stomach,",
     "tooltip.eclipse_do_caos.belaios_wandline2.tooltip": "§ohe Wasn't able to Get Out.",
     "tooltip.eclipse_do_caos.belaios_wand2.tooltip": "You can Right Click to §lCast§r a §b§lCrossing Spell",
-    "tooltip.eclipse_do_caos.belaios_wand3.tooltip": "§8Can make you §nTeleport§r§8 and §nPass Through Walls§r§8",
+    "tooltip.eclipse_do_caos.belaios_wand3.tooltip": "§8§oCan make you §nTeleport§r§8§o and §nPass Through Walls§r§8",
     "tooltip.eclipse_do_caos.belaios_wandeffect.tooltip": "§cSlowness II (00:10)",
     "tooltip.eclipse_do_caos.belaios_wandeffect2.tooltip": "§9Haste (00:15)",
 
@@ -346,6 +347,20 @@
     "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oArea Effects:",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip": "§cWither (00:05)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect5.tooltip": "§cPoison II (00:10)",
+
+    "tooltip.eclipse_do_caos.agatha_bonesaw.tooltip": "§oShe remembered the Beast who took her Crew.",
+    "tooltip.eclipse_do_caos.agatha_bonesaw2.tooltip": "You can Right Click to §lReach§r the §6§lDeep Sea",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect.tooltip": "§9Water Breathing (01:00)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect2.tooltip": "§9Absorption (00:30)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect3.tooltip": "§9Strength II (00:20)",
+    "tooltip.eclipse_do_caos.agatha_bonesaw3.tooltip": "§oOn Hit Effect:",
+    "tooltip.eclipse_do_caos.agatha_bonesawentities.tooltip": "§8Target",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect4.tooltip": "§cWeakness",
+    "tooltip.eclipse_do_caos.agatha_bonesaw4.tooltip": "§oArea Effects:",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect5.tooltip": "§cSlowness II (00:20)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect8.tooltip": "§cDarkness (00:20)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect6.tooltip": "§cWeakness II (00:10)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect7.tooltip": "§cMining Fatigue II (00:10)",
 
     "sounds.eclipse_do_caos.dels_found_essence": "Sound Emitter",
     "sounds.eclipse_do_caos.frog_use": "Frog Dikanza Sounds",
@@ -380,6 +395,7 @@
     "sounds.eclipse_do_caos.gauntlet_power": "Power Unleashed",
     "sounds.eclipse_do_caos.accurse": "The Curse",
     "sounds.eclipse_do_caos.chali_ii_spider_dash": "Spider Dash",
+    "sounds.eclipse_do_caos.deep_sea": "Deep Sea Reached",
 
     "painting.eclipse_do_caos.godwelling.title": "Godwelling Continent",
     "painting.eclipse_do_caos.godwelling.author": "§4The Unknown§r",

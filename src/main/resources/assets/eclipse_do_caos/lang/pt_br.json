@@ -52,6 +52,7 @@
     "item.eclipse_do_caos.gauntlet": "§6Manopla da Juno§r",
     "item.eclipse_do_caos.norr_forr_hammer": "§4Martelo do Norr' Forr'§r",
     "item.eclipse_do_caos.chali_ii_lance": "§4Lança da Chali II§r",
+    "item.eclipse_do_caos.agatha_bonesaw": "§6Serra de Osso da Ágata B.§r",
     "item.eclipse_do_caos.poison_bolt": "§2Lampejo Venenoso§r",
     "item.eclipse_do_caos.lightning_strike": "§eRelâmpago§r",
     "item.eclipse_do_caos.cannonball": "Bola de Canhão",
@@ -170,7 +171,7 @@
     "tooltip.eclipse_do_caos.beans_sack.tooltip": "§oO Oceano continuou puxando ele para baixo, §r ",
     "tooltip.eclipse_do_caos.beans_sackline2.tooltip": "§onão importava o Quanto ele gritava.",
     "tooltip.eclipse_do_caos.beans_sack2.tooltip": "Clique com o Botão Direito para §lJogar§r um §2§lFeijão Verde",
-    "tooltip.eclipse_do_caos.beans_sack3.tooltip": "§8Precisa de §nFeijões Verdes§r§8 como Munição",
+    "tooltip.eclipse_do_caos.beans_sack3.tooltip": "§8§oPrecisa de §nFeijões Verdes§r§8§o como Munição",
     "tooltip.eclipse_do_caos.beans_sackclick.tooltip": "§2§oAo Clicar com o Direito §nSem§r§2 Munição:",
     "tooltip.eclipse_do_caos.beans_sackeffect.tooltip": "§9Queda Lenta (00:20)",
 
@@ -275,7 +276,7 @@
     "tooltip.eclipse_do_caos.carson_cannon.tooltip": "§oIr atrás de seu Parceiro, Johnny,",
     "tooltip.eclipse_do_caos.carson_cannonline2.tooltip":"§otornou ele no tipo de Monstro que eles caçavam.",
     "tooltip.eclipse_do_caos.carson_cannon2.tooltip": "Clique com o Botão Direito para §lDisparar§r uma §6§lBola de Canhão",
-    "tooltip.eclipse_do_caos.carson_cannon3.tooltip": "§8Precisa de §nBolas de Canhão§r§8 como Munição",
+    "tooltip.eclipse_do_caos.carson_cannon3.tooltip": "§8§oPrecisa de §nBolas de Canhão§r§8§o como Munição",
     "tooltip.eclipse_do_caos.carson_cannonclick.tooltip": "§6§oAo Clicar com o Direito §nSem§r§6 Munição:",
     "tooltip.eclipse_do_caos.carson_cannoneffect.tooltip": "§9Sorte (00:17)",
 
@@ -317,7 +318,7 @@
     "tooltip.eclipse_do_caos.belaios_wand.tooltip": "§oEncontrada no Estômago de um Verme Gigante,",
     "tooltip.eclipse_do_caos.belaios_wandline2.tooltip": "§oele não Conseguiu Sair a Tempo.",
     "tooltip.eclipse_do_caos.belaios_wand2.tooltip": "Clique com o Botão Direito para §lLançar§r um §b§lFeitiço de Passagem",
-    "tooltip.eclipse_do_caos.belaios_wand3.tooltip": "§8Pode fazer você §nTeleportar§r§8 e §nAtravessar Paredes§r§8",
+    "tooltip.eclipse_do_caos.belaios_wand3.tooltip": "§8§oPode fazer você §nTeleportar§r§8§o e §nAtravessar Paredes§r§8",
     "tooltip.eclipse_do_caos.belaios_wandeffect.tooltip": "§cLentidão II (00:10)",
     "tooltip.eclipse_do_caos.belaios_wandeffect2.tooltip": "§9Pressa (00:15)",
 
@@ -345,6 +346,20 @@
     "tooltip.eclipse_do_caos.chali_ii_lance3.tooltip": "§oEfeitos em Área:",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect4.tooltip": "§cDecomposição (00:05)",
     "tooltip.eclipse_do_caos.chali_ii_lanceeffect5.tooltip": "§cVeneno II (00:10)",
+
+    "tooltip.eclipse_do_caos.agatha_bonesaw.tooltip": "§oEla se lembrou da Criatura que destruiu sua Tripulação.",
+    "tooltip.eclipse_do_caos.agatha_bonesaw2.tooltip": "Clique com o Botão Direito para §lAlcançar§r as §6§lProfundezas",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect.tooltip": "§9Respiração Aquática (01:00)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect2.tooltip": "§9Absorção (00:30)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect3.tooltip": "§9Força II (00:20)",
+    "tooltip.eclipse_do_caos.agatha_bonesaw3.tooltip": "§oEfeito no Acerto:",
+    "tooltip.eclipse_do_caos.agatha_bonesawentities.tooltip": "§8Alvo",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect4.tooltip": "§cFraqueza",
+    "tooltip.eclipse_do_caos.agatha_bonesaw4.tooltip": "§oEfeitos em Área:",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect5.tooltip": "§cLentidão II (00:20)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect8.tooltip": "§cEscuridão (00:20)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect6.tooltip": "§cFraqueza II (00:10)",
+    "tooltip.eclipse_do_caos.agatha_bonesaweffect7.tooltip": "§cExaustão II (00:10)",
 
 
     "sounds.eclipse_do_caos.dels_found_essence": "Emissor de Som",
@@ -380,6 +395,7 @@
     "sounds.eclipse_do_caos.gauntlet_power": "Poder Liberado",
     "sounds.eclipse_do_caos.accurse": "A Maldição",
     "sounds.eclipse_do_caos.chali_ii_spider_dash": "Avanço Aracnídeo",
+    "sounds.eclipse_do_caos.deep_sea": "Profundezas Alcançadas",
 
     "painting.eclipse_do_caos.godwelling.title": "Continente de Amapenates",
     "painting.eclipse_do_caos.godwelling.author": "§4O Desconhecido§r",

@@ -58,6 +58,8 @@ public class ModSounds {
     public static final SoundEvent ACCURSE = registerSoundEvent("accurse");
     public static final SoundEvent CHALI_II_LANCE_HIT = registerSoundEvent("chali_ii_lance_hit");
     public static final SoundEvent SPIDER_DASH = registerSoundEvent("chali_ii_spider_dash");
+    public static final SoundEvent BONESAW_HIT = registerSoundEvent("bonesaw_hit");
+    public static final SoundEvent DEEP_SEA = registerSoundEvent("deep_sea");
 
 
     public static final SoundEvent ECLIPSE_BEGINS = registerSoundEvent("eclipse_begins");

@@ -385,6 +385,21 @@
         "name": "eclipse_do_caos:chali_ii_spider_dash"
       }
     ]
+  },
+  "bonesaw_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:bonesaw_hit"
+      }
+    ]
+  },
+  "deep_sea": {
+    "subtitle": "sounds.eclipse_do_caos.deep_sea",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:deep_sea"
+      }
+    ]
   }
 }
 

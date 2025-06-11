@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "eclipse_do_caos:diego_rapier",
+    "eclipse_do_caos:chali_ii_lance",
+    "eclipse_do_caos:agatha_bonesaw",
     "eclipse_do_caos:akira_katana"
   ]
 }

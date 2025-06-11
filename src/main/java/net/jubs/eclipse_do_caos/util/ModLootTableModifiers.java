@@ -364,6 +364,8 @@ public static void modifyLootTables() {
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(0.05f))
                         .with(ItemEntry.builder(ModItems.FROG))
+                        .with(ItemEntry.builder(ModItems.BEANS_SACK))
+                        .with(ItemEntry.builder(ModItems.AGATHA_BONESAW))
                         .with(ItemEntry.builder(ModItems.ESSENCE))
                         .with(ItemEntry.builder(ModItems.CATALYST_EMPTY))
                         .with(ItemEntry.builder(ModItems.TICKET_DELUXE_ARCANUMRAILS))
@@ -611,6 +613,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.GAUNTLET))
                         .with(ItemEntry.builder(ModItems.NORR_FORR_HAMMER))
                         .with(ItemEntry.builder(ModItems.CHALI_II_LANCE))
+                        .with(ItemEntry.builder(ModItems.AGATHA_BONESAW))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -836,6 +839,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.QRAZ_STAFF))
                         .with(ItemEntry.builder(ModItems.CLAWS))
                         .with(ItemEntry.builder(ModItems.ERAK_BATTLEAXE))
+                        .with(ItemEntry.builder(ModItems.AGATHA_BONESAW))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -864,6 +868,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.QRAZ_STAFF))
                         .with(ItemEntry.builder(ModItems.CLAWS))
                         .with(ItemEntry.builder(ModItems.ERAK_BATTLEAXE))
+                        .with(ItemEntry.builder(ModItems.AGATHA_BONESAW))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -892,6 +897,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.QRAZ_STAFF))
                         .with(ItemEntry.builder(ModItems.CLAWS))
                         .with(ItemEntry.builder(ModItems.ERAK_BATTLEAXE))
+                        .with(ItemEntry.builder(ModItems.AGATHA_BONESAW))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -919,6 +925,7 @@ public static void modifyLootTables() {
                         .with(ItemEntry.builder(ModItems.CLAWS))
                         .with(ItemEntry.builder(ModItems.ERAK_BATTLEAXE))
                         .with(ItemEntry.builder(ModItems.BELAIOS_WAND))
+                        .with(ItemEntry.builder(ModItems.AGATHA_BONESAW))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

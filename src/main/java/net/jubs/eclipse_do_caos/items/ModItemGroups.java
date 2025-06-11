@@ -81,6 +81,7 @@ public class ModItemGroups {
                         entries.add(ModItems.LADON_DRAGON_GLAIVE);
                         entries.add(ModItems.NORR_FORR_HAMMER);
                         entries.add(ModItems.ERAK_BATTLEAXE);
+                        entries.add(ModItems.AGATHA_BONESAW);
                         entries.add(ModItems.ARTORIAS_DESPAIR);
                         entries.add(ModItems.SAW_EATER);
                         entries.add(ModItems.CHALI_II_LANCE);

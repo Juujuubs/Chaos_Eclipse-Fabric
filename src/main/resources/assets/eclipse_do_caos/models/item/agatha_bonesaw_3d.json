@@ -1,0 +1,139 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "eclipse_do_caos:item/agatha_bonesaw_3d",
+		"particle": "eclipse_do_caos:item/agatha_bonesaw"
+	},
+	"elements": [
+		{
+			"name": "Serra",
+			"from": [8, 5.5, 6.5],
+			"to": [8, 17, 8.75],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 11, 6.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 5.75], "texture": "#0"},
+				"east": {"uv": [3, 0, 4.125, 5.75], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 5.75], "texture": "#0"},
+				"west": {"uv": [4.5, 0, 5.625, 5.75], "texture": "#0"},
+				"up": {"uv": [0, 1.125, 0, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 1.125], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Tronco",
+			"from": [7.75, 5.5, 8.75],
+			"to": [8.25, 17, 11.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 15, 9]},
+			"faces": {
+				"north": {"uv": [0.5, 6, 0.75, 11.75], "texture": "#0"},
+				"east": {"uv": [0, 0, 1.25, 5.75], "texture": "#0"},
+				"south": {"uv": [1, 6, 1.25, 11.75], "texture": "#0"},
+				"west": {"uv": [1.5, 0, 2.75, 5.75], "texture": "#0"},
+				"up": {"uv": [3.75, 7.25, 3.5, 6], "texture": "#0"},
+				"down": {"uv": [4.25, 6, 4, 7.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Topo",
+			"from": [7.725, 17, 8.75],
+			"to": [8.275, 17.25, 11.675],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 17, 10]},
+			"faces": {
+				"north": {"uv": [6.5, 2.5, 6.75, 2.625], "texture": "#0"},
+				"east": {"uv": [4.5, 6, 6, 6.125], "texture": "#0"},
+				"south": {"uv": [6.5, 3, 6.75, 3.125], "texture": "#0"},
+				"west": {"uv": [6.5, 0, 8, 0.125], "texture": "#0"},
+				"up": {"uv": [2.75, 7.5, 2.5, 6], "texture": "#0"},
+				"down": {"uv": [3.25, 6, 3, 7.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Haste",
+			"from": [7.825, 0.75, 11.25],
+			"to": [8.175, 17, 11.675],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 0, 11]},
+			"faces": {
+				"north": {"uv": [1.5, 6, 1.625, 14.125], "texture": "#0"},
+				"east": {"uv": [0, 6, 0.25, 14.125], "texture": "#0"},
+				"south": {"uv": [2, 6, 2.125, 14.125], "texture": "#0"},
+				"west": {"uv": [6, 0, 6.25, 8.125], "texture": "#0"},
+				"up": {"uv": [6.625, 3.75, 6.5, 3.5], "texture": "#0"},
+				"down": {"uv": [6.625, 4, 6.5, 4.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Pontinha",
+			"from": [7.85, 0.35, 10.725],
+			"to": [8.15, 0.85, 11.625],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 0.6, 11.175]},
+			"faces": {
+				"north": {"uv": [4.5, 6.5, 4.625, 6.75], "texture": "#0"},
+				"east": {"uv": [6.5, 0.5, 7, 0.75], "texture": "#0"},
+				"south": {"uv": [6.5, 4.5, 6.625, 4.75], "texture": "#0"},
+				"west": {"uv": [6.5, 1, 7, 1.25], "texture": "#0"},
+				"up": {"uv": [6.625, 2, 6.5, 1.5], "texture": "#0"},
+				"down": {"uv": [6.625, 2, 6.5, 2.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 11.75, -7],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 11.75, -7],
+			"scale": [2.5, 2.5, 2.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [8, 20, 0],
+			"translation": [-1, 5.5, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [8, 20, 0],
+			"translation": [-1, 5.5, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"ground": {
+			"rotation": [-50, 0, 0],
+			"translation": [0, 0.75, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"gui": {
+			"rotation": [-50, 40, 38],
+			"translation": [-0.75, -2.5, 0]
+		},
+		"head": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, 11],
+			"scale": [3.5, 3.5, 3.5]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [-1.5, -0.5, -0.25]
+		}
+	},
+	"groups": [
+		{
+			"name": "Serra",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Lamina",
+					"origin": [7, 15, 9],
+					"color": 0,
+					"children": [0, 1]
+				},
+				{
+					"name": "Cabo",
+					"origin": [8, 0.6, 11.175],
+					"color": 0,
+					"children": [2, 3, 4]
+				}
+			]
+		}
+	]
+}

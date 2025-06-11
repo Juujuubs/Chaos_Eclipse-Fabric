@@ -1,6 +1,6 @@
-// 1.20.1	2025-06-08T15:44:36.3166875	Chaos Eclipse/Tags for minecraft:item
-503770a32549ee2e7879c39335c474cf54931d9f data\minecraft\tags\items\leaves.json
+// 1.20.1	2025-06-10T23:02:08.4339932	Chaos Eclipse/Tags for minecraft:item
 fc341d9a4af50ad6727a56dad41a792a2506315d data\minecraft\tags\items\saplings.json
+503770a32549ee2e7879c39335c474cf54931d9f data\minecraft\tags\items\leaves.json
 c04a75bc8ea566b3d222768d16bb2d4d139055f9 data\minecraft\tags\items\hanging_signs.json
 b684b1f9ac51c1ff657f921efc57c540231d883d data\minecraft\tags\items\stairs.json
 8933df4cf323b90e8224dbb864c76c3173a0bc58 data\minecraft\tags\items\axes.json
@@ -13,15 +13,15 @@ bee8d5c912a2312a766d3fc774eeba92918f6399 data\minecraft\tags\items\signs.json
 d99e5f09df24a84cba41cdc323613b2570c15df2 data\minecraft\tags\items\music_discs.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\items\slabs.json
 4e12e8f6c4468da46c15685a1db6f07af32d4cb5 data\minecraft\tags\items\bookshelf_books.json
-da329615735f3fd696864733c00b3bb011bb7fe7 data\eclipse_do_caos\tags\items\lost_weapons.json
-949f25773c455b81a15146d8ed82ee8e2dfd0ed9 data\minecraft\tags\items\chest_boats.json
+42638e830acb1236d9968a53dd7388108bdd57fc data\eclipse_do_caos\tags\items\lost_weapons.json
 92500fc011172523e282acec6fa11134ad645406 data\eclipse_do_caos\tags\items\ranged_weapons.json
+949f25773c455b81a15146d8ed82ee8e2dfd0ed9 data\minecraft\tags\items\chest_boats.json
 7ad5f73c2953cef28939d44161f3aa0eec79012a data\minecraft\tags\items\planks.json
 49bbcbd8f45efbdb6386011360e678605df5a8e0 data\eclipse_do_caos\tags\items\shields.json
 e86bf12995f596f0bd12b497d05c66ac506fad78 data\minecraft\tags\items\fences.json
 92883465692c0d6e82af137ccd08936d75099d26 data\minecraft\tags\items\tools.json
-d4fa0e3c48d9d144fa85017932f70b9d63226fd4 data\minecraft\tags\items\fishes.json
 1f7991f5fa7df8b53405a7810b17ac0de3a2039d data\minecraft\tags\items\shovels.json
+d4fa0e3c48d9d144fa85017932f70b9d63226fd4 data\minecraft\tags\items\fishes.json
 43db1dfb0a3cef1a856260fe70354fc2ecbc69b9 data\eclipse_do_caos\tags\items\wands.json
 d99e5f09df24a84cba41cdc323613b2570c15df2 data\minecraft\tags\items\creeper_drop_music_discs.json
 894cfe98d793ae2d723217f03bf440f5bb768844 data\minecraft\tags\items\buttons.json
@@ -29,8 +29,8 @@ d99e5f09df24a84cba41cdc323613b2570c15df2 data\minecraft\tags\items\creeper_drop_
 b684b1f9ac51c1ff657f921efc57c540231d883d data\minecraft\tags\items\wooden_stairs.json
 f2511dc3cdb2967d4a95389a1fdebb4d54119115 data\minecraft\tags\items\wooden_doors.json
 b11890fd9f4313d70c31077c300a07358cb5f53d data\minecraft\tags\items\logs_that_burn.json
-b11890fd9f4313d70c31077c300a07358cb5f53d data\minecraft\tags\items\logs.json
 c9a7e59f1efdd7a2f44ff719d739027cef3da6e2 data\eclipse_do_caos\tags\items\not_from_this_world.json
+b11890fd9f4313d70c31077c300a07358cb5f53d data\minecraft\tags\items\logs.json
 1c1cb4843397c2c6028de625e33602d0be441ec4 data\minecraft\tags\items\trapdoors.json
 fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\items\flowers.json
 7aa7a401a50a08b13b050bb9b1875760d5ad91ec data\minecraft\tags\items\wooden_pressure_plates.json
@@ -40,9 +40,9 @@ fb261cb589bd8fa37a0f328cd825b5337b02b752 data\minecraft\tags\items\flowers.json
 2c144d15a203b2f818b1ef59fb1a96d2dca12560 data\eclipse_do_caos\tags\items\grimoires.json
 f2511dc3cdb2967d4a95389a1fdebb4d54119115 data\minecraft\tags\items\doors.json
 8e2d578183374fb8e2504a8162f7a870d49ba09c data\minecraft\tags\items\villager_plantable_seeds.json
-4ae6295df8ac64563eb848e32eb3cd711dd22532 data\minecraft\tags\items\swords.json
+0bdde30c74fd1e8d6559375911f4be046b234946 data\minecraft\tags\items\swords.json
 b37e4cf25bb07b199474d20687252b59c986413d data\minecraft\tags\items\fence_gates.json
 3b07f612956ce62e06374f44b366fe29209d869d data\minecraft\tags\items\piglin_loved.json
 0063a7fd77bb7bf2014c9a36bab6b0bb524b3b9e data\minecraft\tags\items\wooden_slabs.json
-763b0996a38b6a0bbe87998f593077e62b9a7320 data\eclipse_do_caos\tags\items\boss_weapons.json
+aaeb2f8f2639aaba228f1ae788c2f59011b14971 data\eclipse_do_caos\tags\items\boss_weapons.json
 8ead87a1c4022e3146533f88306e8b0edef18629 data\minecraft\tags\items\boats.json

@@ -42,7 +42,7 @@ public class ModItems {
     public static final Item QUARTERSTAFF = registerItem("quarterstaff",
             new QuarterstaffItem(ModToolMaterial.ESSENCE, 6,-2.8f, new FabricItemSettings()));
     public static final Item LADON_DRAGON_GLAIVE = registerItem("ladon_dragon_glaive",
-            new LadonDragonGlaiveItem(ModToolMaterial.ESSENCE, 7,-3.2f, new FabricItemSettings().fireproof()));
+            new LadonDragonGlaiveItem(ModToolMaterial.ESSENCE, 8,-3.2f, new FabricItemSettings().fireproof()));
     public static final Item HELENA_BASEBALL_BAT = registerItem("helena_baseball_bat",
             new HelenaBaseballBatItem(ModToolMaterial.ESSENCE, 4,-2.6f, new FabricItemSettings()));
 
@@ -73,6 +73,8 @@ public class ModItems {
             new SaiItem(ModToolMaterial.ESSENCE, -2,1.5f, new FabricItemSettings().fireproof()));
     public static final Item DIEGO_RAPIER = registerItem("diego_rapier",
             new DiegoRapierItem(ModToolMaterial.ESSENCE, 1,-1f, new FabricItemSettings().fireproof()));
+    public static final Item AGATHA_BONESAW = registerItem("agatha_bonesaw",
+            new AgathaBonesawItem(ModToolMaterial.ESSENCE, 7,-3.1f, new FabricItemSettings().fireproof()));
     public static final Item GRIMOIRE = registerItem("grimoire", new GrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item BELAIOS_WAND = registerItem("belaios_wand", new BelaiosWandItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
     public static final Item OLD_GRIMOIRE = registerItem("old_grimoire", new OldGrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));
@@ -161,6 +163,7 @@ public class ModItems {
         entries.add(ASGORE_GRIMOIRE);
         entries.add(BEANS_SACK);
         entries.add(ARTORIAS_DESPAIR);
+        entries.add(AGATHA_BONESAW);
         entries.add(HELENA_BASEBALL_BAT);
         entries.add(HILDA_SICKLE);
         entries.add(DIEGO_RAPIER);

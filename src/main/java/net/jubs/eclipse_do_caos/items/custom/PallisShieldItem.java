@@ -4,7 +4,6 @@ import net.jubs.eclipse_do_caos.items.ModItems;
 import net.jubs.eclipse_do_caos.sound.ModSounds;
 import net.minecraft.block.DispenserBlock;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -15,7 +14,6 @@ import net.minecraft.item.ShieldItem;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
@@ -64,7 +62,7 @@ public class PallisShieldItem extends ShieldItem {
                 }
 
             } else {
-                user.sendMessage(Text.of("Cooldown remaining: " + useCooldown /2 + " seconds"), true);
+                user.sendMessage(Text.of("§lCooldown remaining§r: " + useCooldown /2 + " seconds"), true);
             }
         }
 

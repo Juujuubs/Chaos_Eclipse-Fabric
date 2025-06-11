@@ -277,5 +277,12 @@ public abstract class ItemRendererMixin {
         }
         return value;
     }
+    @ModifyVariable(method = "renderItem", at = @At(value = "HEAD"), argsOnly = true)
+    public BakedModel useAgathaBonesawModel(BakedModel value, ItemStack stack, ModelTransformationMode renderMode, boolean leftHanded, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light, int overlay) {
+        if (stack.isOf(ModItems.AGATHA_BONESAW) && renderMode != ModelTransformationMode.GUI) {
+            return ((ItemRendererAccessor) this).mccourse$getModels().getModelManager().getModel(new ModelIdentifier((EclipseDoCaos.MOD_ID), "agatha_bonesaw_3d", "inventory"));
+        }
+        return value;
+    }
 }
 

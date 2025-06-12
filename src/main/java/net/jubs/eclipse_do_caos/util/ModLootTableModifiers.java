@@ -350,51 +350,6 @@ public static void modifyLootTables() {
 
                 tableBuilder.pool(poolBuilder.build());
             }
-            if(FISH_ID.equals(id)) {
-                LootPool.Builder poolBuilder = LootPool.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.35f))
-                        .with(ItemEntry.builder(ModItems.TILAPIA))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
-
-                tableBuilder.pool(poolBuilder.build());
-            }
-            if(TREASURE_ID.equals(id)) {
-                LootPool.Builder poolBuilder = LootPool.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.05f))
-                        .with(ItemEntry.builder(ModItems.FROG))
-                        .with(ItemEntry.builder(ModItems.BEANS_SACK))
-                        .with(ItemEntry.builder(ModItems.AGATHA_BONESAW))
-                        .with(ItemEntry.builder(ModItems.ESSENCE))
-                        .with(ItemEntry.builder(ModItems.CATALYST_EMPTY))
-                        .with(ItemEntry.builder(ModItems.TICKET_DELUXE_ARCANUMRAILS))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
-
-                tableBuilder.pool(poolBuilder.build());
-            }
-            if(SNIFFER_DIGGING_ID.equals(id)) {
-                LootPool.Builder poolBuilder = LootPool.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.35f))
-                        .with(ItemEntry.builder(ModBlocks.BROMELIAD))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
-
-                tableBuilder.pool(poolBuilder.build());
-            }
-            if(JUNK_ID.equals(id)) {
-                LootPool.Builder poolBuilder = LootPool.builder()
-                        .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(0.15f))
-                        .with(ItemEntry.builder(ModItems.HUMAN_TOOTH))
-                        .with(ItemEntry.builder(ModItems.DEVIL_HORN))
-                        .with(ItemEntry.builder(ModItems.VOX))
-                        .with(ItemEntry.builder(ModItems.TICKET_ARCANUMRAILS))
-                        .with(ItemEntry.builder(ModItems.BEAN))
-                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
-
-                tableBuilder.pool(poolBuilder.build());
-            }
             if(ANCIENT_CITY_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(6))
@@ -945,8 +900,45 @@ public static void modifyLootTables() {
         if(SUSPICIOUS_SAND_ID.equals(id)) {
             List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
             entries.add(ItemEntry.builder(ModItems.VOX).build());
-            entries.add(ItemEntry.builder(ModItems.CONTRACT).build());
+            entries.add(ItemEntry.builder(ModItems.CONTRACT).conditionally(RandomChanceLootCondition.builder(0.01f)).build());
             entries.add(ItemEntry.builder(ModItems.TICKET_DELUXE_ARCANUMRAILS).build());
+
+            LootPool.Builder pool = LootPool.builder().with(entries);
+            return LootTable.builder().pool(pool).build();
+        }
+        if(SNIFFER_DIGGING_ID.equals(id)) {
+            List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+            entries.add(ItemEntry.builder(ModBlocks.BROMELIAD).build());
+
+            LootPool.Builder pool = LootPool.builder().with(entries);
+            return LootTable.builder().pool(pool).build();
+        }
+        if(FISH_ID.equals(id)) {
+            List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+            entries.add(ItemEntry.builder(ModItems.TILAPIA).weight(35).build());
+
+            LootPool.Builder pool = LootPool.builder().with(entries);
+            return LootTable.builder().pool(pool).build();
+        }
+        if(TREASURE_ID.equals(id)) {
+            List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+            entries.add(ItemEntry.builder(ModItems.FROG).conditionally(RandomChanceLootCondition.builder(0.05f)).build());
+            entries.add(ItemEntry.builder(ModItems.BEANS_SACK).conditionally(RandomChanceLootCondition.builder(0.05f)).build());
+            entries.add(ItemEntry.builder(ModItems.AGATHA_BONESAW).conditionally(RandomChanceLootCondition.builder(0.05f)).build());
+            entries.add(ItemEntry.builder(ModItems.ESSENCE).conditionally(RandomChanceLootCondition.builder(0.05f)).build());
+            entries.add(ItemEntry.builder(ModItems.CATALYST_EMPTY).conditionally(RandomChanceLootCondition.builder(0.05f)).build());
+            entries.add(ItemEntry.builder(ModItems.TICKET_DELUXE_ARCANUMRAILS).conditionally(RandomChanceLootCondition.builder(0.05f)).build());
+
+            LootPool.Builder pool = LootPool.builder().with(entries);
+            return LootTable.builder().pool(pool).build();
+        }
+        if(JUNK_ID.equals(id)) {
+            List<LootPoolEntry> entries = new ArrayList<>(Arrays.asList(original.pools[0].entries));
+            entries.add(ItemEntry.builder(ModItems.HUMAN_TOOTH).conditionally(RandomChanceLootCondition.builder(0.15f)).build());
+            entries.add(ItemEntry.builder(ModItems.DEVIL_HORN).conditionally(RandomChanceLootCondition.builder(0.15f)).build());
+            entries.add(ItemEntry.builder(ModItems.VOX).conditionally(RandomChanceLootCondition.builder(0.15f)).build());
+            entries.add(ItemEntry.builder(ModItems.TICKET_ARCANUMRAILS).conditionally(RandomChanceLootCondition.builder(0.15f)).build());
+            entries.add(ItemEntry.builder(ModItems.BEAN).conditionally(RandomChanceLootCondition.builder(0.15f)).build());
 
             LootPool.Builder pool = LootPool.builder().with(entries);
             return LootTable.builder().pool(pool).build();

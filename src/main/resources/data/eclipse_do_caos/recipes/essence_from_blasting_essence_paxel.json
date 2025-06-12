@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.8,
+  "group": "essence",
+  "ingredient": {
+    "item": "eclipse_do_caos:essence_paxel"
+  },
+  "result": "eclipse_do_caos:essence"
+}

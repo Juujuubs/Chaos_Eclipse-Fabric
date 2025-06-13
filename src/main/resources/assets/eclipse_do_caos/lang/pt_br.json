@@ -53,6 +53,7 @@
     "item.eclipse_do_caos.norr_forr_hammer": "§4Martelo do Norr' Forr'§r",
     "item.eclipse_do_caos.chali_ii_lance": "§4Lança da Chali II§r",
     "item.eclipse_do_caos.agatha_bonesaw": "§6Serra de Osso da Ágata B.§r",
+    "item.eclipse_do_caos.reus_walking_cane": "§5Bengala do Reus§r",
     "item.eclipse_do_caos.poison_bolt": "§2Lampejo Venenoso§r",
     "item.eclipse_do_caos.lightning_strike": "§eRelâmpago§r",
     "item.eclipse_do_caos.cannonball": "Bola de Canhão",
@@ -360,6 +361,15 @@
     "tooltip.eclipse_do_caos.agatha_bonesaweffect8.tooltip": "§cEscuridão (00:20)",
     "tooltip.eclipse_do_caos.agatha_bonesaweffect6.tooltip": "§cFraqueza II (00:10)",
     "tooltip.eclipse_do_caos.agatha_bonesaweffect7.tooltip": "§cExaustão II (00:10)",
+
+    "tooltip.eclipse_do_caos.reus_walking_cane.tooltip": "§oEle traiu seus novos Amigos em nome do Rei,",
+    "tooltip.eclipse_do_caos.reus_walking_caneline2.tooltip": "§oentão sua Patrona teve que matá-lo, ele não era confiável.",
+    "tooltip.eclipse_do_caos.reus_walking_cane2.tooltip": "Clique com o Botão Direito para §lMostrar§r a sua §5§lBrasa",
+    "tooltip.eclipse_do_caos.reus_walking_caneeffect.tooltip": "§9Pressa III (00:15)",
+    "tooltip.eclipse_do_caos.reus_walking_caneeffect2.tooltip": "§9Saturação II (00:20)",
+    "tooltip.eclipse_do_caos.reus_walking_cane3.tooltip": "§oEfeito no Acerto:",
+    "tooltip.eclipse_do_caos.reus_walking_caneentities.tooltip": "§8Alvo, 40% de Chance",
+    "tooltip.eclipse_do_caos.reus_walking_caneeffect3.tooltip": "§cIncendeia o Alvo",
 
 
     "sounds.eclipse_do_caos.dels_found_essence": "Emissor de Som",

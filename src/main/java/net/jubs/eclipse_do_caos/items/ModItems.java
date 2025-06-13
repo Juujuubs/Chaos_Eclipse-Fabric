@@ -73,6 +73,8 @@ public class ModItems {
             new SaiItem(ModToolMaterial.ESSENCE, -2,1.5f, new FabricItemSettings().fireproof()));
     public static final Item DIEGO_RAPIER = registerItem("diego_rapier",
             new DiegoRapierItem(ModToolMaterial.ESSENCE, 1,-1f, new FabricItemSettings().fireproof()));
+    public static final Item REUS_WALKING_CANE = registerItem("reus_walking_cane",
+            new ReusWalkingCaneItem(ModToolMaterial.ESSENCE, 3,-2f, new FabricItemSettings().fireproof()));
     public static final Item AGATHA_BONESAW = registerItem("agatha_bonesaw",
             new AgathaBonesawItem(ModToolMaterial.ESSENCE, 7,-3.1f, new FabricItemSettings().fireproof()));
     public static final Item GRIMOIRE = registerItem("grimoire", new GrimoireItem(new FabricItemSettings().maxCount(1).maxDamage(3000)));

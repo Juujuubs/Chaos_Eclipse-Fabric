@@ -53,6 +53,7 @@
     "item.eclipse_do_caos.norr_forr_hammer": "§4Norr' Forr's Hammer§r",
     "item.eclipse_do_caos.chali_ii_lance": "§4Chali II's Lance§r",
     "item.eclipse_do_caos.agatha_bonesaw": "§6Agatha's Bonesaw§r",
+    "item.eclipse_do_caos.reus_walking_cane": "§5Reus' Walking Cane§r",
     "item.eclipse_do_caos.poison_bolt": "§2Poison Bolt§r",
     "item.eclipse_do_caos.lightning_strike": "§eLightning Strike§r",
     "item.eclipse_do_caos.cannonball": "Cannonball",
@@ -361,6 +362,15 @@
     "tooltip.eclipse_do_caos.agatha_bonesaweffect8.tooltip": "§cDarkness (00:20)",
     "tooltip.eclipse_do_caos.agatha_bonesaweffect6.tooltip": "§cWeakness II (00:10)",
     "tooltip.eclipse_do_caos.agatha_bonesaweffect7.tooltip": "§cMining Fatigue II (00:10)",
+
+    "tooltip.eclipse_do_caos.reus_walking_cane.tooltip": "§oHe betrayed his new Friends in the name of the King,",
+    "tooltip.eclipse_do_caos.reus_walking_caneline2.tooltip": "§oso his Patroness had to Kill him, he wasn't Trustworthy.",
+    "tooltip.eclipse_do_caos.reus_walking_cane2.tooltip": "You can Right Click to §lCall§r your inner §5§lFlames",
+    "tooltip.eclipse_do_caos.reus_walking_caneeffect.tooltip": "§9Haste III (00:15)",
+    "tooltip.eclipse_do_caos.reus_walking_caneeffect2.tooltip": "§9Saturation II (00:20)",
+    "tooltip.eclipse_do_caos.reus_walking_cane3.tooltip": "§oOn Hit Effect:",
+    "tooltip.eclipse_do_caos.reus_walking_caneentities.tooltip": "§8Target, 40% Chance",
+    "tooltip.eclipse_do_caos.reus_walking_caneeffect3.tooltip": "§cSet Target on Fire",
 
     "sounds.eclipse_do_caos.dels_found_essence": "Sound Emitter",
     "sounds.eclipse_do_caos.frog_use": "Frog Dikanza Sounds",

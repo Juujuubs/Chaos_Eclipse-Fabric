@@ -400,6 +400,21 @@
         "name": "eclipse_do_caos:deep_sea"
       }
     ]
+  },
+  "walking_cane_hit": {
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:walking_cane_hit"
+      }
+    ]
+  },
+  "flames": {
+    "subtitle": "sounds.eclipse_do_caos.flames",
+    "sounds": [
+      {
+        "name": "eclipse_do_caos:flames"
+      }
+    ]
   }
 }
 

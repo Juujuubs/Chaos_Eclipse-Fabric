@@ -57,7 +57,7 @@ public class AgathaBonesawItem extends SwordItem {
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 1200, 0));
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 400, 1));
             user.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 600, 0));
-            world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.DEEP_SEA, SoundCategory.PLAYERS, 2F, 1.0F);
+            world.playSound(null, user.getX(), user.getY(), user.getZ(), ModSounds.DEEP_SEA, SoundCategory.PLAYERS, 6F, 1.0F);
             user.getItemCooldownManager().set(this, 1600);
 
 

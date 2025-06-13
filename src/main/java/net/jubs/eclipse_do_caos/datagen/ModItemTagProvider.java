@@ -35,6 +35,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.LADON_DRAGON_GLAIVE)
                 .add(ModItems.CHALI_II_LANCE)
                 .add(ModItems.AGATHA_BONESAW)
+                .add(ModItems.REUS_WALKING_CANE)
                 .add(ModItems.SAI);
 
         getOrCreateTagBuilder(ItemTags.FISHES)
@@ -238,6 +239,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NORR_FORR_HAMMER)
                 .add(ModItems.CHALI_II_LANCE)
                 .add(ModItems.AGATHA_BONESAW)
+                .add(ModItems.REUS_WALKING_CANE)
                 .add(ModItems.ZORA_BOW);
     }
 

@@ -45,7 +45,7 @@ public class SawEaterItem extends SwordItem {
             target.addStatusEffect(new StatusEffectInstance(StatusEffects.WEAKNESS, 20, 1));
             target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 20, 1));
 
-            attacker.getWorld().playSoundFromEntity(null, target, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, SoundCategory.BLOCKS, 1, 1);
+            attacker.getWorld().playSoundFromEntity(null, target, SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, SoundCategory.HOSTILE, 1, 1);
         }
 
         return super.postHit(stack, target, attacker);

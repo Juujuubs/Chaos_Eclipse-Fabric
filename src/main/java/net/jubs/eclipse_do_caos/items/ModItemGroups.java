@@ -87,6 +87,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CHALI_II_LANCE);
                         entries.add(ModItems.AKIRA_KATANA);
                         entries.add(ModItems.DIEGO_RAPIER);
+                        entries.add(ModItems.REUS_WALKING_CANE);
                         entries.add(ModItems.CLAWS);
                         entries.add(ModItems.SAI);
                         entries.add(ModItems.HILDA_SICKLE);

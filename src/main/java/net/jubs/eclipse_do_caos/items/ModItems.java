@@ -186,6 +186,8 @@ public class ModItems {
         entries.add(GAUNTLET);
         entries.add(NORR_FORR_HAMMER);
         entries.add(CHALI_II_LANCE);
+        entries.add(AGATHA_BONESAW);
+        entries.add(REUS_WALKING_CANE);
         entries.add(ESSENCE_PAXEL);
     }
 

@@ -94,6 +94,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.ASGORE_GRIMOIRE)
                 .add(ModItems.OLD_GRIMOIRE)
                 .add(ModItems.CARSON_CANNON)
+                .add(ModItems.REUS_WALKING_CANE)
                 .add(ModItems.ODIN_DAGGER);
 
         getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
